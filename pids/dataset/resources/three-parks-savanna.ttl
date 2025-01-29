@@ -1,0 +1,52 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/three-parks-savanna>
+    a schema:Dataset ;
+    reg:status astatus:stable ;
+    schema:contactPoints <https://catalogue.linked.data.gov.au/user/122> ;
+    schema:creator <https://linked.data.gov.au/org/tern> ;
+    schema:description """This data package comprises fire severity scores from Kakadu in 2014. A total of 220 permanent monitoring plots (40 m x  20 m) were established across three parks (Kakadu, Litchfield and Nitmiluk) in 1994-1995 to monitor biotic change. Of these, 132 plots are located in Kakadu. These sample a variety of landform and vegetation type/habitat conditions. A substantial proportion of plots were positioned deliberately at sites likely to reveal environmental dynamics, especially at ecotones and in patches of fire-sensitive vegetation. For example stands of Callitris, sandstone heaths. As well, many plots are located at, or in the near vicinity of, intensively managed sites such as camp-grounds and other tourist destinations. A synopsis of related data packages which have been collected as part of the Three Park Savanna Fire-effects Plot Network’s full program is provided at [LTERN](http://www.ltern.org.au/index.php/ltern-plot-networks/three-parks-savanna).
+
+More information about the dataset: [TERN Data Discovery Portal](https://portal.tern.org.au/metadata/TERN/2bfb7ff7-5468-41ae-981d-53ad59109359).
+
+The dataset has been transformed into RDF and currently published in <https://ecoplots.tern.org.au>.""" ;
+    schema:location """# Turtle
+RewriteCond %{QUERY_STRING} ^_format=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*)$                    https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle [R=302,L]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*).ttl$                https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle [R=302,L]
+# RDF/XML
+RewriteCond %{QUERY_STRING} ^_format=application/rdf\\+xml$ [OR]
+RewriteCond %{HTTP:Accept} application/rdf\\+xml [NC]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*)$                    https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/rdf+xml [R=302,L]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*).rdf$                https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/rdf+xml [R=302,L]
+# N-Triples
+RewriteCond %{QUERY_STRING} ^_format=application/n-triples$ [OR]
+RewriteCond %{HTTP:Accept} application/n-triples [NC]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*)$                    https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/n-triples [R=302,L]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*).nt$                 https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/n-triples [R=302,L]
+# JSON-LD
+RewriteCond %{QUERY_STRING} ^_format=application/ld\\+json$ [OR]
+RewriteCond %{HTTP:Accept} application/ld\\+json [NC]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*)$                    https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/ld+json [R=302,L]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*).jsonld$             https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/ld+json [R=302,L]
+# Notation3
+RewriteCond %{QUERY_STRING} ^_format=text/n3$ [OR]
+RewriteCond %{HTTP:Accept} text/n3 [NC]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*)$                    https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
+RewriteRule ^\\/dataset\\/three-parks-savanna(.*).n3$                 https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
+# HTML
+RewriteRule ^/dataset/three-parks-savanna(.*)$                      https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
+    schema:name "Three Parks Savanna Dataset" ;
+    schema:publisher <https://linked.data.gov.au/org/tern> ;
+    schema:reviews
+        [
+            a schema:Review ;
+            schema:creator <https://catalogue.linked.data.gov.au/user/6> ;
+            schema:dateCreated "2023-07-15"^^xsd:date ;
+            schema:reviewRating astatus:accepted ;
+        ] ;
+.
