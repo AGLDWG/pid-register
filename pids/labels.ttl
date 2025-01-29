@@ -1,0 +1,117 @@
+ PREFIX schema: <https://schema.org/>
+
+schema:DataCatalog
+    schema:description "A collection of datasets." ;
+    schema:name "DataCatalog" ;
+.
+
+schema:Dataset
+    schema:description "A body of structured information describing some topic(s) of interest." ;
+    schema:name "Dataset" ;
+.
+
+schema:Organization
+    schema:description "An organization such as a school, NGO, corporation, club, etc." ;
+    schema:name "Organization" ;
+.
+
+schema:Review
+    schema:description "A review of an item - for example, of a restaurant, movie, or store." ;
+    schema:name "Review" ;
+.
+
+schema:codeRepository
+    schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)." ;
+    schema:name "codeRepository" ;
+.
+
+schema:contactPoints
+    schema:description "A contact point for a person or organization." ;
+    schema:name "contactPoints" ;
+.
+
+schema:creator
+    schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork." ;
+    schema:name "creator" ;
+.
+
+schema:dateCreated
+    schema:description "The date on which the CreativeWork was created or the item was added to a DataFeed." ;
+    schema:name "dateCreated" ;
+.
+
+schema:dateModified
+    schema:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed." ;
+    schema:name "dateModified" ;
+.
+
+schema:description
+    schema:description "A description of the item." ;
+    schema:name "description" ;
+.
+
+schema:hasPart
+    schema:description "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)." ;
+    schema:name "hasPart" ;
+.
+
+schema:location
+    schema:description "The location of, for example, where an event is happening, where an organization is located, or where an action takes place." ;
+    schema:name "location" ;
+.
+
+schema:name
+    schema:description "The name of the item." ;
+    schema:name "name" ;
+.
+
+schema:publisher
+    schema:description "The publisher of the creative work." ;
+    schema:name "publisher" ;
+.
+
+schema:reviewRating
+    schema:description "The rating given in this review. Note that reviews can themselves be rated. The ```reviewRating``` applies to rating given by the review. The [[aggregateRating]] property applies to the review itself, as a creative work." ;
+    schema:name "reviewRating" ;
+.
+
+schema:reviews
+    schema:description "Review of the item." ;
+    schema:name "reviews" ;
+.
+
+schema:url
+    schema:description "URL of the item." ;
+    schema:name "url" ;
+.
+
+<http://purl.org/linked-data/registry#status> schema:name "status" .
+
+<https://linked.data.gov.au/def/reg-statuses/accepted> schema:name "Accepted" .
+
+<https://linked.data.gov.au/def/reg-statuses/addition> schema:name "Addition" .
+
+<https://linked.data.gov.au/def/reg-statuses/deprecated> schema:name "Deprecated" .
+
+<https://linked.data.gov.au/def/reg-statuses/experimental> schema:name "Experimental" .
+
+<https://linked.data.gov.au/def/reg-statuses/invalid> schema:name "Invalid" .
+
+<https://linked.data.gov.au/def/reg-statuses/notAccepted> schema:name "Not Accepted" .
+
+<https://linked.data.gov.au/def/reg-statuses/original> schema:name "Original" .
+
+<https://linked.data.gov.au/def/reg-statuses/reserved> schema:name "Reserved" .
+
+<https://linked.data.gov.au/def/reg-statuses/retired> schema:name "Retired" .
+
+<https://linked.data.gov.au/def/reg-statuses/stable> schema:name "Stable" .
+
+<https://linked.data.gov.au/def/reg-statuses/submitted> schema:name "Submitted" .
+
+<https://linked.data.gov.au/def/reg-statuses/superseded> schema:name "Superseded" .
+
+<https://linked.data.gov.au/def/reg-statuses/unstable> schema:name "Unstable" .
+
+<https://linked.data.gov.au/def/reg-statuses/valid> schema:name "Valid" .
+
