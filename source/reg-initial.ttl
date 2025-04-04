@@ -1,0 +1,41 @@
+PREFIX schema: <https://schema.org/>
+
+<https://linked.data.gov.au/dataset/>
+    schema:additionalType schema:DataCatalog ;
+    schema:dateCreated "2021-04-15" ;
+    schema:dateModified "2021-04-15" ;
+    schema:datePublished "2021-04-15" ;
+    schema:name "Dataset Register" ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:location "" ;
+.
+
+<https://linked.data.gov.au/def/>
+    schema:additionalType schema:DataCatalog ;
+    schema:dateCreated "2021-04-15" ;
+    schema:dateModified "2021-04-15" ;
+    schema:datePublished "2021-04-15" ;
+    schema:name "Definitions Register" ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:location "" ;
+.
+
+<https://linked.data.gov.au/org/>
+    schema:additionalType schema:DataCatalog ;
+    schema:dateCreated "2021-04-20" ;
+    schema:dateModified "2021-04-20" ;
+    schema:datePublished "2021-04-20" ;
+    schema:name "Organisations Register" ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:location "" ;
+.
+
+<https://linked.data.gov.au/reg/>
+    schema:additionalType schema:DataCatalog ;
+    schema:dateCreated "2021-04-15" ;
+    schema:dateModified "2021-04-15" ;
+    schema:datePublished "2021-04-15" ;
+    schema:name "Top-Level Register" ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:location "" ;
+.

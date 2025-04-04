@@ -1,0 +1,14 @@
+PREFIX schema: <https://schema.org/>
+
+CONSTRUCT {
+    []
+        a schema:DefinedTerm ;
+        schema:description ?l ;
+        schema:about ?dt ;
+    .
+}
+WHERE {
+    ?dt
+        schema:location ?l ;
+    .
+}
