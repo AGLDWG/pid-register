@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/policy>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/cjorquera> ;
+    schema:dateCreated "2023-02-23"^^xsd:date ;
+    schema:dateIssued "2023-03-01"^^xsd:date ;
+    schema:dateModified "2024-03-29"^^xsd:date ;
+    schema:name "Public Policy Taxonomy" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/apo> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.

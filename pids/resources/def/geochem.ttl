@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/geochem>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/Steven.Bowden> ;
+    schema:dateCreated "2023-11-02"^^xsd:date ;
+    schema:dateIssued "2023-11-01"^^xsd:date ;
+    schema:dateModified "2023-11-02"^^xsd:date ;
+    schema:name "Geochemistry Data Model" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+.

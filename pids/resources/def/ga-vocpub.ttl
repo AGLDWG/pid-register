@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/ga-vocpub>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/william.francis> ;
+    schema:dateCreated "2020-10-15"^^xsd:date ;
+    schema:dateIssued "2021-04-11"^^xsd:date ;
+    schema:dateModified "2021-04-11"^^xsd:date ;
+    schema:name "GA VocPub Profile" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.

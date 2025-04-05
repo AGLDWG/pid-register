@@ -1,0 +1,12 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/loci-geometry/>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/jonathan.yu> ;
+    schema:dateCreated "2019-12-17"^^xsd:date ;
+    schema:dateModified "2022-05-20"^^xsd:date ;
+    schema:name "Loc-I Geometry Data Service" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/invalid> ;
+.

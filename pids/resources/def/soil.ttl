@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/soil>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/mr.wong> ;
+    schema:dateCreated "2024-03-19"^^xsd:date ;
+    schema:dateIssued "2024-03-28"^^xsd:date ;
+    schema:dateModified "2024-03-28"^^xsd:date ;
+    schema:name "Ontology for the Australian National Soil Information System (ANSIS)" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+.

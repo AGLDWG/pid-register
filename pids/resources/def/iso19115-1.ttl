@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/iso19115-1>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
+    schema:dateCreated "2019-09-19"^^xsd:date ;
+    schema:dateIssued "2020-02-27"^^xsd:date ;
+    schema:dateModified "2024-03-29"^^xsd:date ;
+    schema:name "ISO19115-1 codelists" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/retired> ;
+.

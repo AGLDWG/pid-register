@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/australian-network-of-hydrologic-reference-stations-glossary>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
+    schema:dateCreated "2024-04-18"^^xsd:date ;
+    schema:dateIssued "2024-05-15"^^xsd:date ;
+    schema:dateModified "2024-08-14"^^xsd:date ;
+    schema:name "Australian Network of Hydrologic Reference Stations glossary" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.

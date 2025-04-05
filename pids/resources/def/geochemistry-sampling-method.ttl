@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/geochemistry-sampling-method>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/david.crosswell> ;
+    schema:dateCreated "2019-04-26"^^xsd:date ;
+    schema:dateIssued "2019-05-15"^^xsd:date ;
+    schema:dateModified "2019-05-15"^^xsd:date ;
+    schema:name "Geochemistry Sampling Method" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.

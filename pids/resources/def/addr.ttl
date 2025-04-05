@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/addr>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/anne.goldsack> ;
+    schema:dateCreated "2022-06-15"^^xsd:date ;
+    schema:dateIssued "2023-04-26"^^xsd:date ;
+    schema:dateModified "2023-04-26"^^xsd:date ;
+    schema:name "National Address Model" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.

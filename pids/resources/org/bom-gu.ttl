@@ -1,0 +1,12 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/org/bom-gu>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/> ;
+    schema:dateCreated "2024-04-10"^^xsd:date ;
+    schema:dateModified "2024-04-10"^^xsd:date ;
+    schema:name "BoM Groundwater Unit" ;
+    schema:ownedFrom <https://linked.data.gov.au> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/> ;
+.
