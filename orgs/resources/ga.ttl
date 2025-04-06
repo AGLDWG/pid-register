@@ -11,4 +11,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "https://ror.org/04ge02x20"^^<https://linked.data.gov.au/org/rorId> ;
     schema:name "Geoscience Australia" ;
     schema:url "http://www.ga.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/irina.bastrakova> ;
+    schema:member <https://linked.data.gov.au/person/william.francis> ;
 .

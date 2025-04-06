@@ -29,4 +29,6 @@ Arts
 	grow Queensland’s cultural reputation and cultural tourism offering.""" ;
     schema:name "Department of Environment and Science, Queensland Government" ;
     schema:url "https://www.des.qld.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/ScottLutwycheDES> ;
+    schema:member <https://linked.data.gov.au/person/daniel.brough> ;
 .

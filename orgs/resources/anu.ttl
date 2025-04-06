@@ -10,4 +10,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "https://ror.org/019wvm592"^^<https://linked.data.gov.au/org/rorId> ;
     schema:name "Australian National University" ;
     schema:url "https://www.anu.edu.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/armin.haller> ;
+    schema:member <https://linked.data.gov.au/person/leonard.smith> ;
+    schema:member <https://linked.data.gov.au/person/nicholas.car> ;
 .

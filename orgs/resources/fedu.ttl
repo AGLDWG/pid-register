@@ -7,4 +7,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:identifier "https://ror.org/05qbzwv83"^^<https://linked.data.gov.au/org/rorId> ;
     schema:name "Federation University" ;
     schema:url "https://federation.edu.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/mr.wong> ;
 .

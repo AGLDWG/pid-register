@@ -7,4 +7,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:isPartOf <https://linked.data.gov.au/org/qld-resources> ;
     schema:name "Queensland Spatial Information" ;
     schema:url "https://qldspatial.information.qld.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/anne.goldsack> ;
+    schema:member <https://linked.data.gov.au/person/garry.thomson> ;
 .

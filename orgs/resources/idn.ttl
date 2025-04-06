@@ -6,4 +6,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "The Indigenous Data Network of Australia." ;
     schema:name "Indigenous Data Network" ;
     schema:url "https://www.idnau.org"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/sandra.silcot> ;
 .

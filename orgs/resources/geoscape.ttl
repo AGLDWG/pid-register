@@ -9,4 +9,5 @@ They deliver spatial data to enable economic, social and environmental outcomes 
 &nbsp;""" ;
     schema:name "Geoscape" ;
     schema:url "https://geoscape.com.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/joseph.abhayaratna> ;
 .

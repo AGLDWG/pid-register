@@ -9,4 +9,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "CA-8550"^^<https://linked.data.gov.au/org/crsId> ;
     schema:name "National Archives of Australia" ;
     schema:url "http://naa.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/tatiana.antsoupova> ;
 .

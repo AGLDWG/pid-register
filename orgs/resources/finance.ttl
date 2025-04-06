@@ -7,4 +7,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:identifier "O-000850"^^<https://linked.data.gov.au/org/agorId> ;
     schema:name "Department of Finance" ;
     schema:url "https://www.finance.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/john.machin> ;
 .

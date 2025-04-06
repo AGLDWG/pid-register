@@ -9,4 +9,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "CO 1776"^^<https://linked.data.gov.au/org/crsId> ;
     schema:name "Australian Bureau of Statistics" ;
     schema:url "https://www.abs.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/laurent.lefort> ;
+    schema:member <https://linked.data.gov.au/person/sally.clement> ;
 .

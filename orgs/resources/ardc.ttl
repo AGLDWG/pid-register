@@ -7,4 +7,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:identifier "https://ror.org/038sjwq14"^^<https://linked.data.gov.au/org/rorId> ;
     schema:name "Australian Research Data Commons" ;
     schema:url "https://ardc.edu.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/richard.walker> ;
 .

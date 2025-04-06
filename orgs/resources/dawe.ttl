@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 A large and diverse portfolio that includes agencies, statutory and non-statutory bodies, independent advisors and industry representatives.""" ;
     schema:name "Department of Agriculture, Water and the Environment" ;
     schema:url "https://www.awe.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/kevin.thiele> ;
 .

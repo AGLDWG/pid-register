@@ -7,4 +7,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:isPartOf <https://linked.data.gov.au/org/dem> ;
     schema:name "Geological Survey of South Australia" ;
     schema:url "https://www.energymining.sa.gov.au/industry/geological-survey"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/alex.zou>
 .

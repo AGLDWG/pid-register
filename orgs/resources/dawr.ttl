@@ -7,4 +7,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:identifier "O-000769"^^<https://linked.data.gov.au/org/agorId> ;
     schema:name "Department of Agriculture and Water Resources" ;
     schema:url "http://agriculture.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/Stephen.Pratt>
 .

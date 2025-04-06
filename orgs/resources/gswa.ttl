@@ -4,4 +4,5 @@ PREFIX schema: <https://schema.org/>
     a schema:Organization ;
     schema:description "The Geological Survey of WA within the Department of Mines, Industry Regulation &amp; Safety." ;
     schema:name "Geological Survey of Western Australia" ;
+    schema:member <https://linked.data.gov.au/person/chee.ng>
 .

@@ -6,4 +6,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "The informal Australian government Working Group charged with assisting any government with matters relating to Linked Data." ;
     schema:name "Australian Government Linked Data Working Group" ;
     schema:url "http://www.linked.data.gov.au"^^xsd:anyURI ;
+    schema:member <https://linked.data.gov.au/person/armin.haller> ;
+    schema:member <https://linked.data.gov.au/person/nicholas.car> ;
 .
