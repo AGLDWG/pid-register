@@ -14,19 +14,25 @@ ORGS_HOME = Path("/Users/nick/work/agldwg/pid-proxy/conf/linked.data.gov.au/org"
 pattern_iri = None
 pattern_text = ""
 i = 0
+last_file_path = None
 for f in sorted(ORGS_HOME.rglob("*.conf")):
     for line in f.read_text().splitlines():
         if line.startswith("# https://linked.data.gov.au"):
             if pattern_iri is not None:
-                print(line)
+                print(pattern_iri)
+                print(last_file_path)
+                print(pattern_text)
 
                 org_name = str(f.name).replace(".conf", "")
-                file_name = line.replace("# https://linked.data.gov.au/", "")
+                file_name = line.replace("# https://linked.data.gov.au/", "") + ".ttl"
+                file_path = Path(__file__).parent.parent / "resources" / f"{file_name}"
 
-                x = Graph().parse(Path(__file__).parent.parent / "resources" / f"{file_name}.ttl")
+                x = Graph().parse(file_path)
                 x.add((pattern_iri, SDO.location, Literal(pattern_text.strip())))
                 x.add((pattern_iri, SDO.ownedThrough, ORG[org_name]))
-                print(x.serialize(format="longturtle"))
+                # x.serialize(destination=file_path, format="longturtle")
+
+                last_file_path = file_path
 
             pattern_text = ""
             pattern_iri = URIRef(line.split("# ")[1])
