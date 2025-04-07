@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/sandgate>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
+    schema:dateCreated "2022"^^xsd:gYear ;
+    schema:dateIssued "2022"^^xsd:gYear ;
+    schema:dateModified "2022"^^xsd:gYear ;
+    schema:name "Sandgate Demonstration Spatial Dataset" ;
+    schema:ownedFrom <https://linked.data.gov.au/org/agldwg> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+.
