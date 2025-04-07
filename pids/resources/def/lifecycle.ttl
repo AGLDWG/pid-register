@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2023-05-26"^^xsd:date ;
     schema:dateIssued "2023-05-26"^^xsd:date ;
     schema:dateModified "2023-05-26"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/lifecycle(.*)$                 https://agldwg.github.io/lifecycle-model/lifecycle.ttl? [R=302,L]
+RewriteRule ^/def/lifecycle(.*).ttl$             https://agldwg.github.io/lifecycle-model/lifecycle.ttl [R=302,L]
+RewriteRule ^/def/lifecycle(.*)$                 https://agldwg.github.io/lifecycle-model/lifecycle.html$1 [R=302,L]""" ;
     schema:name "Cadastre Model" ;
     schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

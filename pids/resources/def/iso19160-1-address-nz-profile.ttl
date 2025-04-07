@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2019-04-15"^^xsd:date ;
     schema:dateIssued "2018-09-27"^^xsd:date ;
     schema:dateModified "2019-08-13"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/iso19160-1-address-nz-profile(.*)$      https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl? [R=302,L]
+RewriteRule ^/def/iso19160-1-address-nz-profile(.*).ttl$  https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl [R=302,L]
+RewriteRule ^/def/iso19160-1-address-nz-profile(.*)$      https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.html$1 [R=302,L]""" ;
     schema:name "ISO19160-1:2015 Address ontology - NZ Profile" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -12,6 +12,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .
 
+<https://linked.data.gov.au/def/fsdf-supermodel>
+    schema:location "RewriteRule /def/fsdf-supermodel(.*)            https://geoscienceaustralia.github.io/fsdf-supermodel/supermodel.html$1 [R=302,L]" ;
+    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
+.
+
 <https://linked.data.gov.au/def/fsdf/network>
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]

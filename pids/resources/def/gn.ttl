@@ -1,0 +1,9 @@
+PREFIX schema: <https://schema.org/>
+
+<https://linked.data.gov.au/def/gn>
+    schema:location """RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/gn($|/.*)             https://raw.githubusercontent.com/Spatial-Information-QLD/geographical-names-model/main/model.ttl [R=302,L]
+RewriteRule ^/def/gn.ttl                https://raw.githubusercontent.com/Spatial-Information-QLD/geographical-names-model/main/model.ttl [R=302,L]
+RewriteRule ^/def/gn($|/.*)             https://spatial-information-qld.github.io/geographical-names-model/model.html [R=302,L]""" ;
+    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
+.

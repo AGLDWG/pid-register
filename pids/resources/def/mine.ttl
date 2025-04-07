@@ -1,0 +1,10 @@
+PREFIX schema: <https://schema.org/>
+
+<https://linked.data.gov.au/def/mine>
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/mine$                         https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mine.ttl [R=302,L]
+RewriteRule ^/def/mine.ttl$                     https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mine.ttl [R=302,L]
+RewriteRule ^/def/mine$                         https://kurrawong.github.io/gswa-supermodel/components/mine/ [R=302,L]""" ;
+    schema:ownedThrough <https://linked.data.gov.au/org/gswa> ;
+.

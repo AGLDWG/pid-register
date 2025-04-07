@@ -7,7 +7,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2023-04-26"^^xsd:date ;
     schema:dateIssued "2023-04-26"^^xsd:date ;
     schema:dateModified "2023-04-26"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/qsi-supermodel        https://raw.githubusercontent.com/Spatial-Information-QLD/supermodel/main/supermodel.ttl [R=302,L]
+RewriteRule ^/def/qsi-supermodel.ttl    https://raw.githubusercontent.com/Spatial-Information-QLD/supermodel/main/supermodel.ttl [R=302,L]
+RewriteRule ^/def/qsi-supermodel        https://spatial-information-qld.github.io/supermodel/supermodel.html [R=302,L]""" ;
     schema:name "Queensland Spatial Information Supermodel" ;
     schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/qsi> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

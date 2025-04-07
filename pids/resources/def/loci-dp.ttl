@@ -7,7 +7,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2020-05-11"^^xsd:date ;
     schema:dateIssued "2020-06-15"^^xsd:date ;
     schema:dateModified "2021-07-13"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/loci-dp$                              https://raw.githack.com/surroundaustralia/loci-data-profile/master/profile.ttl [R=302,L]
+RewriteRule ^/def/loci-dp.ttl$                          https://raw.githack.com/surroundaustralia/loci-data-profile/master/profile.ttl [R=302,L]
+RewriteRule ^/def/loci-dp$                              https://raw.githack.com/surroundaustralia/loci-data-profile/master/profile.html [R=302,L]
+RewriteRule ^/def/loci-dp/spec$                         https://raw.githack.com/surroundaustralia/loci-data-profile/master/specification.html [R=302,L]
+RewriteRule ^/def/loci-dp/guidance$			https://github.com/surroundaustralia/loci-data-profile/blob/master/README.md [R=302,L]
+RewriteRule ^/def/loci-dp/validator/(.*)$		https://raw.githack.com/surroundaustralia/loci-data-profile/master/validators/$1.ttl [R=302,L]
+RewriteRule ^/def/loci-dp/example/(.*)$                 https://raw.githack.com/surroundaustralia/loci-data-profile/master/examples/$1.ttl [R=302,L]
+RewriteRule ^/def/loci-dp/repo				https://github.com/surroundaustralia/loci-data-profile [R=302,L]""" ;
     schema:name "Loc-I Data Profile" ;
     schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

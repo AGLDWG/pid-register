@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2023-11-02"^^xsd:date ;
     schema:dateIssued "2023-11-03"^^xsd:date ;
     schema:dateModified "2024-02-08"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/metamorphic-stage($|/.*)$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/metamorphic-stage.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/metamorphic-stage($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage$1" [R=302,NE,L]""" ;
     schema:name "Metamorphic stage" ;
     schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

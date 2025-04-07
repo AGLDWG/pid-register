@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2022-06-15"^^xsd:date ;
     schema:dateIssued "2023-04-26"^^xsd:date ;
     schema:dateModified "2023-04-26"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/addr$         https://icsm-au.github.io/addr-model/model.ttl [R=302,L]
+RewriteRule ^/def/addr.ttl$     https://icsm-au.github.io/addr-model/model.ttl [R=302,L]
+RewriteRule ^/def/addr$         https://icsm-au.github.io/addr-model/model.html [R=302,L]""" ;
     schema:name "National Address Model" ;
     schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

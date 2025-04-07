@@ -7,7 +7,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2019-04-15"^^xsd:date ;
     schema:dateIssued "2019-01-15"^^xsd:date ;
     schema:dateModified "2019-08-23"^^xsd:date ;
+    schema:location "RewriteRule ^/dataset/asgs2011(.*)                        https://linked.data.gov.au/static/broken.html\\?iri=https://linked.data.gov.au/dataset/asgs2011$1 [L]" ;
     schema:name "ASGS 2011 Dataset" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -7,7 +7,29 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2023-11-28"^^xsd:date ;
     schema:dateIssued "2023-12-15"^^xsd:date ;
     schema:dateModified "2023-12-15"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_format=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*)$                               https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle [R=302,L]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*).ttl$                           https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle [R=302,L]
+RewriteCond %{QUERY_STRING} ^_format=application/rdf\\+xml$ [OR]
+RewriteCond %{HTTP:Accept} application/rdf\\+xml [NC]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*)$                               https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/rdf+xml [R=302,L]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*).rdf$                           https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/rdf+xml [R=302,L]
+RewriteCond %{QUERY_STRING} ^_format=application/n-triples$ [OR]
+RewriteCond %{HTTP:Accept} application/n-triples [NC]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*)$                               https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/n-triples [R=302,L]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*).nt$                            https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/n-triples [R=302,L]
+RewriteCond %{QUERY_STRING} ^_format=application/ld\\+json$ [OR]
+RewriteCond %{HTTP:Accept} application/ld\\+json [NC]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*)$                               https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/ld+json [R=302,L]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*).jsonld$                        https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=application/ld+json [R=302,L]
+RewriteCond %{QUERY_STRING} ^_format=text/n3$ [OR]
+RewriteCond %{HTTP:Accept} text/n3 [NC]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*)$                               https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
+RewriteRule ^\\/dataset\\/nsw-fmip(.*).n3$                            https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
+RewriteRule ^/dataset/nsw-fmip(.*)$                                 https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/nsw-fmip$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "New South Wales Forest Monitoring and improvement Program (NSW-FMIP)" ;
     schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

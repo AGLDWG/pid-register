@@ -7,7 +7,49 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2022"^^xsd:gYear ;
     schema:dateIssued "2022"^^xsd:gYear ;
     schema:dateModified "2022"^^xsd:gYear ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/electrical-infrastructure$                         https://linked.fsdf.org.au/dataset/electrical-infrastructure?_profile=dcat&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure.ttl$                     https://linked.fsdf.org.au/dataset/electrical-infrastructure?_profile=dcat&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure$                         https://linked.fsdf.org.au/dataset/electrical-infrastructure [R=302,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/electrical-infrastructure/power-stations$           https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PS?_profile=geo&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-stations.ttl$       https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PS?_profile=geo&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-stations$           https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PS [R=302,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/electrical-infrastructure/power-station/(.*)$      https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PS/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-station/(.*).ttl$  https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PS/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-station/(.*)$      https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PS/items/$1 [R=302,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/electrical-infrastructure/power-substations$          https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PSUB?_profile=geo&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-substations.ttl$      https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PSUB?_profile=geo&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-substations$          https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PSUB [R=302,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/electrical-infrastructure/power-substation/(.*)$     https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PSUB/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-substation/(.*).ttl$ https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PSUB/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/power-substation/(.*)$     https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/PSUB/items/$1 [R=302,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/electrical-infrastructure/transmission-lines$        https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL?_profile=geo&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/transmission-lines.ttl$    https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL?_profile=geo&_mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/transmission-lines$        https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL [R=302,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*)$     https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*).ttl$ https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
+RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*)$     https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL/items/$1 [R=302,L]""" ;
     schema:name "FSDF Electrical Infrastructure" ;
     schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

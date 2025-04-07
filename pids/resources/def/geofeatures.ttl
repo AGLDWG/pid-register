@@ -1,0 +1,76 @@
+PREFIX schema: <https://schema.org/>
+
+<https://linked.data.gov.au/def/geofeatures>
+    schema:location
+        """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/geofeatures($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures$1" [R=302,NE,L]""" ,
+        """RewriteCond %{QUERY_STRING} _profile=alt
+RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
+RewriteCond %{QUERY_STRING} _profile=http://www.w3.org/ns/dx/conneg/altr
+RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
+RewriteCond %{HTTP:Accept-Profile} \\<http://www.w3.org/ns/dx/conneg/altr\\> [NC]
+RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
+RewriteCond %{QUERY_STRING} _profile=alt
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
+RewriteCond %{QUERY_STRING} _profile=http://www.w3.org/ns/dx/conneg/altr
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
+RewriteCond %{HTTP:Accept-Profile} \\<http://www.w3.org/ns/dx/conneg/altr\\> [NC]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
+
+RewriteCond %{QUERY_STRING} _profile=alt [OR]
+RewriteCond %{QUERY_STRING} _profile=http://www.w3.org/ns/dx/conneg/altr [OR]
+RewriteCond %{HTTP:Accept-Profile} \\<http://www.w3.org/ns/dx/conneg/altr\\> [NC]
+RewriteRule ^/def/geofeatures.ttl(.*)$                  https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
+
+RewriteCond %{QUERY_STRING} _profile=alt [OR]
+RewriteCond %{QUERY_STRING} _profile=http://www.w3.org/ns/dx/conneg/altr [OR]
+RewriteCond %{HTTP:Accept-Profile} \\<http://www.w3.org/ns/dx/conneg/altr\\> [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://github.com/geological-survey-of-queensland/geofeatures-ont/blob/master/profiles.md? [R=302,L]
+
+RewriteCond %{QUERY_STRING} _profile=skos
+RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/geofeatures(.*)$                      https://vocabs.gsq.digital/vocabulary/geofeatures?_profile=skos\\&_mediatype=text/turtle [R=302,L]
+RewriteCond %{QUERY_STRING} _profile=https://www.w3.org/TR/skos-reference/
+RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/geofeatures(.*)$                      https://vocabs.gsq.digital/vocabulary/geofeatures?_profile=skos\\&_mediatype=text/turtle [R=302,L]
+RewriteCond %{HTTP:Accept-Profile} \\<https://www.w3.org/TR/skos-reference/\\> [NC]
+RewriteCond %{QUERY_STRING} _mediatype=text/turtle
+RewriteRule ^/def/geofeatures(.*)$                      https://vocabs.gsq.digital/vocabulary/geofeatures?_profile=skos\\&_mediatype=text/turtle [R=302,L]
+RewriteCond %{QUERY_STRING} _profile=skos
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://vocabs.gsq.digital/vocabulary/geofeatures?_profile=skos\\&_mediatype=text/turtle [R=302,L]
+RewriteCond %{QUERY_STRING} _profile=https://www.w3.org/TR/skos-reference/
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://vocabs.gsq.digital/vocabulary/geofeatures?_profile=skos\\&_mediatype=text/turtle [R=302,L]
+RewriteCond %{HTTP:Accept-Profile} \\<https://www.w3.org/TR/skos-reference/\\> [NC]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://vocabs.gsq.digital/vocabulary/geofeatures?_profile=skos\\&_mediatype=text/turtle [R=302,L]
+
+RewriteCond %{QUERY_STRING} _profile=skos [OR]
+RewriteCond %{QUERY_STRING} _profile=https://www.w3.org/TR/skos-reference/ [OR]
+RewriteCond %{HTTP:Accept-Profile} \\<https://www.w3.org/TR/skos-reference/\\> [NC]
+RewriteRule ^/def/geofeatures.ttl(.*)$                 https://vocabs.gsq.digital/vocabulary/geofeatures?_profile=skos\\&_mediatype=text/turtle [R=302,L]
+
+RewriteCond %{QUERY_STRING} _profile=skos [OR]
+RewriteCond %{QUERY_STRING} _profile=https://www.w3.org/TR/skos-reference/ [OR]
+RewriteCond %{HTTP:Accept-Profile} \\<https://www.w3.org/TR/skos-reference/\\> [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://vocabs.gsq.digital/vocabulary/geofeatures? [R=302,L]
+
+RewriteCond %{QUERY_STRING} _mediatype=text/turtle [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.ttl? [R=302,L]
+RewriteRule ^/def/geofeatures.ttl(.*)$                  https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.ttl? [R=302,L]
+
+RewriteMap lc int:tolower
+RewriteRule ^/def/geofeatures/(.*)$                     https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html#${lc:$1} [R=302,L,NE]
+RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html$1 [R=302,L]""" ;
+    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
+.

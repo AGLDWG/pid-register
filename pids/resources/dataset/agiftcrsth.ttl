@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2021-04-15"^^xsd:date ;
     schema:dateIssued "2019-07-12"^^xsd:date ;
     schema:dateModified "2021-04-15"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/agiftcrsth(.*)$                   https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl? [R=302,L]
+RewriteRule ^/dataset/agiftcrsth(.*).ttl$               https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl [R=302,L]
+RewriteRule ^/dataset/agiftcrsth                        https://github.com/CSIRO-enviro-informatics/agiftcrsth-linkset [L,R=302]""" ;
     schema:name "AGIFT / CRS Thesaurus Linkset" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

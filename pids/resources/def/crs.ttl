@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2019-08-13"^^xsd:date ;
     schema:dateIssued "2019-07-15"^^xsd:date ;
     schema:dateModified "2019-08-13"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/crs(.*)$                              https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl? [R=302,L]
+RewriteRule ^/def/crs(.*).ttl$                          https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl [R=302,L]
+RewriteRule ^/def/crs(.*)$                              https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/html/crs.html$1 [R=302,L]""" ;
     schema:name "CRS Ontology" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

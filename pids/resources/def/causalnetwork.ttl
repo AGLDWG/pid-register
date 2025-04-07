@@ -7,7 +7,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2024-02-16"^^xsd:date ;
     schema:dateIssued "2024-02-28"^^xsd:date ;
     schema:dateModified "2024-03-07"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{QUERY_STRING} ^_format=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/causalnetwork/?$                      https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl [R=302,QSA,L]
+RewriteRule ^/def/causalnetwork(.ttl|/.*\\.ttl)$         https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl [R=302,QSA,L]
+RewriteCond %{QUERY_STRING} ^_mediatype=application/rdf\\+xml$ [OR]
+RewriteCond %{QUERY_STRING} ^_format=application/rdf\\+xml$ [OR]
+RewriteCond %{HTTP:Accept} application/rdf\\+xml [NC]
+RewriteRule ^/def/causalnetwork/?$                      https://causalnetworks.azurewebsites.net/def/causalnetwork.rdf [R=302,QSA,L]
+RewriteRule ^/def/causalnetwork(.rdf|/.*\\.rdf)$         https://causalnetworks.azurewebsites.net/def/causalnetwork.rdf [R=302,QSA,L]
+RewriteCond %{QUERY_STRING} ^_mediatype=application/ld\\+json$ [OR]
+RewriteCond %{QUERY_STRING} ^_format=application/ld\\+json$ [OR]
+RewriteCond %{HTTP:Accept} application/ld\\+json [NC]
+RewriteRule ^/def/causalnetwork/?$                      https://causalnetworks.azurewebsites.net/def/causalnetwork.jsonld [R=302,QSA,L]
+RewriteRule ^/def/causalnetwork(.jsonld|/.*\\.jsonld)$   https://causalnetworks.azurewebsites.net/def/causalnetwork.jsonld [R=302,QSA,L]
+RewriteRule ^/def/causalnetwork(.json|/.*\\.json)$       https://causalnetworks.azurewebsites.net/def/causalnetwork.json [R=302,QSA,L]
+RewriteRule ^/def/causalnetwork($|/.*)$                 https://causalnetworks.azurewebsites.net/def/causalnetwork$1 [R=302,QSA,L]""" ;
     schema:name "CSIRO Causal Networks" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

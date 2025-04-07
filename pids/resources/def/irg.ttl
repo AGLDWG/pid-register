@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2021-07-06"^^xsd:date ;
     schema:dateIssued "2021-05-14"^^xsd:date ;
     schema:dateModified "2021-07-06"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/irg(.*)$                              https://raw.githack.com/AGLDWG/iri-registry-ont/master/irg.ttl? [R=302,L]
+RewriteRule ^/def/irg(.*).ttl$                          https://raw.githack.com/AGLDWG/iri-registry-ont/master/irg.ttl$1 [R=302,L]
+RewriteRule ^/def/irg(.*)$                              https://raw.githack.com/AGLDWG/iri-registry-ont/master/irg.html$1 [R=302,L]""" ;
     schema:name "IRI Registry Ontology" ;
     schema:ownedFrom <https://linked.data.gov.au/org/agldwg> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -1,0 +1,9 @@
+PREFIX schema: <https://schema.org/>
+
+<https://linked.data.gov.au/def/report-status>
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/report-status($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=report-status&uri=https://linked.data.gov.au/def/report-status$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/report-status($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=report-status&uri=https://linked.data.gov.au/def/report-status$1" [R=302,NE,L]""" ;
+    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
+.

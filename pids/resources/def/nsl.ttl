@@ -7,7 +7,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2024-01-13"^^xsd:date ;
     schema:dateIssued "2024-01-13"^^xsd:date ;
     schema:dateModified "2024-01-13"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/nsl$                                  https://kurrawong.github.io/nsl-model/profile.ttl [R=302,L]
+RewriteRule ^/def/nsl.ttl$                              https://kurrawong.github.io/nsl-model/profile.ttl [R=302,L]
+RewriteRule ^/def/nsl$                                  https://kurrawong.github.io/nsl-model/spec.html [R=302,NE,L]
+
+RewriteRule ^/def/nsl/validator$                        https://kurrawong.github.io/nsl-model/validator.ttl [R=302,L]
+RewriteRule ^/def/nsl/context.json$                     https://kurrawong.github.io/nsl-model/context.json [R=302,L]""" ;
     schema:name "National Species List Data Model" ;
     schema:ownedFrom <https://linked.data.gov.au/org/abrs> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

@@ -27,10 +27,13 @@ for f in sorted(ORGS_HOME.rglob("*.conf")):
                 file_name = line.replace("# https://linked.data.gov.au/", "") + ".ttl"
                 file_path = Path(__file__).parent.parent / "resources" / f"{file_name}"
 
-                x = Graph().parse(file_path)
+                if last_file_path is None:
+                    last_file_path = Path("/Users/nick/work/agldwg/pid-register/pids/resources/def/alum.ttl")
+
+                x = Graph().parse(last_file_path)
                 x.add((pattern_iri, SDO.location, Literal(pattern_text.strip())))
                 x.add((pattern_iri, SDO.ownedThrough, ORG[org_name]))
-                # x.serialize(destination=file_path, format="longturtle")
+                x.serialize(destination=last_file_path, format="longturtle")
 
                 last_file_path = file_path
 

@@ -11,3 +11,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .
+
+<https://linked.data.gov.au/def/scm-scma-2011>
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/scm-scma-2011($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource.ttl?uri=http://anzsoil.org/def/au/scm/scma-2011$1 [R=302,L]
+RewriteRule ^/def/scm-scma-2011.ttl$                    https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource.ttl?uri=http://anzsoil.org/def/au/scm/scma-2011 [R=302,L]
+RewriteRule ^/def/scm-scma-2011($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource?uri=http://anzsoil.org/def/au/scm/scma-2011$1 [R=302,L]""" ;
+    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+.

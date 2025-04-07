@@ -7,7 +7,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2021-03-17"^^xsd:date ;
     schema:dateIssued "2021-03-15"^^xsd:date ;
     schema:dateModified "2021-07-19"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/auspix$ "https://fsdf.org.au/dataset/auspix/index.ttl" [R=302,L]
+RewriteRule ^/dataset/auspix.ttl$ "https://fsdf.org.au/dataset/auspix/index.ttl" [R=302,L]
+RewriteRule ^/dataset/auspix$ https://fsdf.org.au/dataset/auspix$1 [R=302,L]
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/auspix/(.*) "https://fsdf.org.au/dataset/auspix/collections/auspix/items/$1?_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/dataset/auspix/(.*) "https://fsdf.org.au/dataset/auspix/collections/auspix/items/$1" [R=302,L]""" ;
     schema:name "AusPIX dataset" ;
     schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

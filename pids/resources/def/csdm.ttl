@@ -7,7 +7,54 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2023-04-27"^^xsd:date ;
     schema:dateIssued "2024-01-15"^^xsd:date ;
     schema:dateModified "2024-08-14"^^xsd:date ;
+    schema:location """RewriteRule ^/def/csdm$ "https://icsm-au.github.io/3d-csdm/docs/" [R=302,L]
+
+RewriteRule ^/def/csdm/2022$ "https://icsm-au.github.io/3d-csdm-design/2022/spec.html" [R=302,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/csdm/commonpatterns$ "https://icsm-au.github.io/3d-csdm/commonpatterns.ttl" [R=302,L]
+RewriteRule ^/def/csdm/commonpatterns.ttl$ "https://icsm-au.github.io/3d-csdm/commonpatterns.ttl" [R=302,L]
+RewriteRule ^/def/csdm/commonpatterns$ "https://icsm-au.github.io/3d-csdm/commonpatterns.html" [R=302,NE,L]
+RewriteRule ^/def/csdm/commonpatterns$ "https://icsm-au.github.io/3d-csdm/commonpatterns.html" [R=302,NE,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/csdm/container$ "https://icsm-au.github.io/3d-csdm/container.ttl" [R=302,L]
+RewriteRule ^/def/csdm/container.ttl$ "https://icsm-au.github.io/3d-csdm/container.ttl" [R=302,L]
+RewriteRule ^/def/csdm/container$ "https://icsm-au.github.io/3d-csdm/container.html" [R=302,NE,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/csdm/geometryprim$ "https://icsm-au.github.io/3d-csdm/geometryprim.ttl" [R=302,L]
+RewriteRule ^/def/csdm/geometryprim.ttl$ "https://icsm-au.github.io/3d-csdm/geometryprim.ttl" [R=302,L]
+RewriteRule ^/def/csdm/geometryprim$ "https://icsm-au.github.io/3d-csdm/geometryprim.html" [R=302,NE,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/csdm/parcels$ "https://icsm-au.github.io/3d-csdm/parcels.ttl" [R=302,L]
+RewriteRule ^/def/csdm/parcels.ttl$ "https://icsm-au.github.io/3d-csdm/parcels.ttl" [R=302,L]
+RewriteRule ^/def/csdm/parcels$ "https://icsm-au.github.io/3d-csdm/parcels.html" [R=302,NE,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/csdm/surveyfeatures$ "https://icsm-au.github.io/3d-csdm/surveyfeats.ttl" [R=302,L]
+RewriteRule ^/def/csdm/surveyfeatures.ttl$ "https://icsm-au.github.io/3d-csdm/surveyfeats.ttl" [R=302,L]
+RewriteRule ^/def/csdm/surveyfeatures$ "https://icsm-au.github.io/3d-csdm/surveyfeats.html" [R=302,NE,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/csdm/surveyprov$ "https://icsm-au.github.io/3d-csdm/surveyprov.ttl" [R=302,L]
+RewriteRule ^/def/csdm/surveyprov.ttl$ "https://icsm-au.github.io/3d-csdm/surveyprov.ttl" [R=302,L]
+RewriteRule ^/def/csdm/surveyprov$ "https://icsm-au.github.io/3d-csdm/surveyprov.html" [R=302,NE,L]
+
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/csdm/surveyobs$ "https://icsm-au.github.io/3d-csdm/surveyobs.ttl" [R=302,L]
+RewriteRule ^/def/csdm/surveyobs.ttl$ "https://icsm-au.github.io/3d-csdm/surveyobs.ttl" [R=302,L]
+RewriteRule ^/def/csdm/surveyobs$ "https://icsm-au.github.io/3d-csdm/surveyobs.html" [R=302,NE,L]""" ;
     schema:name "Cadastral Survey Dataset Submissions Model" ;
     schema:ownedFrom <https://linked.data.gov.au/org/icsm> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

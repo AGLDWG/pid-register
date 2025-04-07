@@ -7,7 +7,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2019-04-26"^^xsd:date ;
     schema:dateIssued "2019-05-15"^^xsd:date ;
     schema:dateModified "2019-05-15"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/borehole-status($|/(.*)$) "https://vocabs.gsq.digital/object?vocab_id=borehole-status&uri=https://linked.data.gov.au/def/borehole-status$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/borehole-status($|/(.*)$) "https://vocabs.gsq.digital/object?vocab_id=borehole-status&uri=https://linked.data.gov.au/def/borehole-status$1" [R=302,NE,L]""" ;
     schema:name "Borehole Status" ;
     schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

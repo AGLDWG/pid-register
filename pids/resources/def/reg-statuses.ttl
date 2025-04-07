@@ -7,7 +7,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2019-04-15"^^xsd:date ;
     schema:dateIssued "2018-08-14"^^xsd:date ;
     schema:dateModified "2021-11-09"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/reg-statuses$                         https://agldwg.github.io/reg-statuses/vocabulary.ttl? [R=302,L]
+RewriteRule ^/def/reg-statuses.ttl$                     https://agldwg.github.io/reg-statuses/vocabulary.ttl? [R=302,L]
+RewriteRule ^/def/reg-statuses$                         https://agldwg.github.io/reg-statuses/ [R=302,L]
+RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/reg-statuses/(.+)$                    https://agldwg.github.io/reg-statuses/$1.ttl? [R=302,L]
+RewriteRule ^/def/reg-statuses/(.+).ttl$                https://agldwg.github.io/reg-statuses/$1.ttl? [R=302,L]
+RewriteRule ^/def/reg-statuses/(.+)$                    https://agldwg.github.io/reg-statuses/$1 [R=302,L]""" ;
     schema:name "Registry Ontology's Status Vocabulary" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

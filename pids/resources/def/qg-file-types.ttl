@@ -7,7 +7,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2021-01-19"^^xsd:date ;
     schema:dateIssued "2021-04-11"^^xsd:date ;
     schema:dateModified "2024-08-14"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/def/qg-file-types($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/qg-file-types(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/qg-file-types($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types$1" [R=302,NE,L]""" ;
     schema:name "Queensland Government File types" ;
     schema:ownedFrom <https://linked.data.gov.au/org/des> ;
+    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/unstable> ;
 .
