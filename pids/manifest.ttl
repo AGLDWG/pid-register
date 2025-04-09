@@ -1,4 +1,6 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
+PREFIX pid: <https://linked.data.gov.au/def/pid/>
 PREFIX prez: <https://prez.dev/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX schema: <https://schema.org/>
@@ -9,33 +11,19 @@ PREFIX schema: <https://schema.org/>
         [
             prof:hasArtifact "catalogue.ttl" ;
             prof:hasRole mrr:CatalogueData ;
-            schema:description "The definition of, and medata for, the container which here is a dcat:Catalog object" ;
+            schema:description "The definition of, and metadata for, the catalogue object" ;
             schema:name "Catalogue Definition"
         ] ,
         [
-            # prof:hasArtifact [
-            #    schema:contentLocation "resources/three-parks-savanna.ttl" ;
-            #    schema:mainEntity <https://linked.data.gov.au/dataset/three-parks-savanna> ;
-            # ] ;
             prof:hasArtifact "resources/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:description "skos:ConceptScheme objects in RDF (Turtle) files in the vocabs/ folder" ;
-            schema:name "Resource Data"
+            schema:description "The individual resources - one per RDF (Turtle) file - in the resources/ folder and subfolders of it" ;
+            schema:name "Resource Data" ;
+            dcterms:conformsTo "validator-pid.ttl" ;
+            schema:additionalType pid:PID ;
         ] ,
         [
-            prof:hasArtifact "https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl" ;
-            prof:hasRole mrr:CatalogueAndResourceModel ;
-            schema:description "The default Prez profile for Records API" ;
-            schema:name "Profile Definition"
-        ] ,
-        [
-            prof:hasArtifact "../org/resources/*.ttl" ;
-            prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
-            schema:description "Another catalogue containing labels for all the Organisations referenced in this catalogue" ;
-            schema:name "Organisation Labels" ;
-        ] ,
-        [
-            prof:hasArtifact "../labels.ttl" ;
+            prof:hasArtifact "labels.ttl" ;
             prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
             schema:description "An RDF file containing all the labels for ontology elements - predicates & classes - in this catalogue" ;
             schema:name "Ontology Labels" ;

@@ -50,6 +50,6 @@ RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*).ttl$ htt
 RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*)$     https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL/items/$1 [R=302,L]""" ;
     schema:name "FSDF Electrical Infrastructure" ;
     schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
+    schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

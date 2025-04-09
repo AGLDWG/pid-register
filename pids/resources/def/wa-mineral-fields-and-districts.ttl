@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2023-09-21"^^xsd:date ;
-    schema:dateIssued "2023-09-29"^^xsd:date ;
     schema:dateModified "2023-10-21"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/wa-mineral-fields-and-districts.ttl$ "https://vocabulary.gswa.
 RewriteRule ^/def/wa-mineral-fields-and-districts($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts$1" [R=302,NE,L]""" ;
     schema:name "Western Australian mineral fields and districts" ;
     schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/icsm> ;
+    schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

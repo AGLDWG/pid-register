@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/simon.cox> ;
     schema:dateCreated "2020-05-19"^^xsd:date ;
-    schema:dateIssued "2020-05-20"^^xsd:date ;
     schema:dateModified "2020-06-02"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/auspix(.*).ttl$                         https://geoscienceaust
 RewriteRule ^/def/auspix(.*)$                             https://geoscienceaustralia.github.io/AusPIX-DGGS-ontology/auspix.html$1 [R=302,L]""" ;
     schema:name "AusPix DGGS ontology" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
+    schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

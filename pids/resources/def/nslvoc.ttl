@@ -4,8 +4,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/def/nslvoc>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/endymion.cooper> ;
-    schema:dateCreated "20223"^^xsd:gYear ;
-    schema:dateIssued "2022"^^xsd:gYear ;
+    schema:dateCreated "2023"^^xsd:gYear ;
     schema:dateModified "2022"^^xsd:gYear ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/nslvoc.ttl$                           https://biodiversity.org
 RewriteRule ^/def/nslvoc($|/.*)$                        https://biodiversity.org.au/voc/aunsl.html [R=302,NE,L]""" ;
     schema:name "Australian National Species List Vocabulary" ;
     schema:ownedFrom <https://linked.data.gov.au/org/abrs> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/finance> ;
+    schema:sponsor <https://linked.data.gov.au/org/finance> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

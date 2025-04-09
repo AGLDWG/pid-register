@@ -6,7 +6,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/person/> ;
     schema:dateCreated "2019-10-22"^^xsd:date ;
     schema:dateModified "2019-10-23"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/org/ror($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/ror$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/org/ror(.*).ttl$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/ror$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/org/ror($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/ror$1" [R=302,NE,L]""" ;
     schema:name "Research Organization Registry Community" ;
-    schema:ownedFrom <https://linked.data.gov.au> ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/> ;
+    schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

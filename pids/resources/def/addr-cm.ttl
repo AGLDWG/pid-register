@@ -2,5 +2,5 @@ PREFIX schema: <https://schema.org/>
 
 <https://linked.data.gov.au/def/addr-cm>
     schema:location "RewriteRule ^/def/addr-cm$      https://icsm-au.github.io/addr-creation-maintenance/doc.html [R=302,L]" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/icsm> ;
+    schema:sponsor <https://linked.data.gov.au/org/icsm> ;
 .

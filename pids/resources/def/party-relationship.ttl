@@ -5,5 +5,5 @@ PREFIX schema: <https://schema.org/>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/party-relationship($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=party-relationship&uri=https://linked.data.gov.au/def/party-relationship$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/party-relationship($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=party-relationship&uri=https://linked.data.gov.au/def/party-relationship$1" [R=302,NE,L]""" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
+    schema:sponsor <https://linked.data.gov.au/org/gsq> ;
 .

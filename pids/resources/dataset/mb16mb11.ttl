@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/paul.j.box> ;
     schema:dateCreated "2021-04-15"^^xsd:date ;
-    schema:dateIssued "2019-06-14"^^xsd:date ;
     schema:dateModified "2021-04-15"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -13,6 +12,6 @@ RewriteRule ^/dataset/mb16mb11				  https://raw.githack.com/CSIRO-enviro-informa
 RewriteRule ^/dataset/mb16mb11				  https://github.com/CSIRO-enviro-informatics/mb16mb11-linkset [L,R=302]""" ;
     schema:name "ASGS 2011 Mesh Blocks to ASGS 2016 Mesh Blocks Linkset" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+    schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

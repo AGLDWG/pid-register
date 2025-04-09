@@ -6,5 +6,5 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/exem                https://kurrawong.github.io/exem-ont/exem.ttl [R=302,L]
 RewriteRule ^/def/exem.ttl$           https://kurrawong.github.io/exem-ont/exem.ttl [R=302,L]
 RewriteRule ^/def/exem$               https://kurrawong.github.io/exem-ont/exem.html [R=302,L]""" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/icsm> ;
+    schema:sponsor <https://linked.data.gov.au/org/icsm> ;
 .

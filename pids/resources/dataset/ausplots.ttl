@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/e.chuc> ;
     schema:dateCreated "2020-10-08"^^xsd:date ;
-    schema:dateIssued "2021-04-15"^^xsd:date ;
     schema:dateModified "2021-07-19"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -30,6 +29,6 @@ RewriteRule ^\\/dataset\\/ausplots(.*).n3$                     https://linkeddat
 RewriteRule ^/dataset/ausplots(.*)$                          https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/ausplots$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "AusPlots" ;
     schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
+    schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

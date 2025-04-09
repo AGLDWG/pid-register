@@ -3,5 +3,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset/energy>
 
-    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+    schema:sponsor <https://linked.data.gov.au/org/csiro> ;
 .

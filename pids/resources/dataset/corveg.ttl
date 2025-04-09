@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/e.chuc> ;
     schema:dateCreated "2019-07-16"^^xsd:date ;
-    schema:dateIssued "2019-10-15"^^xsd:date ;
     schema:dateModified "2021-07-01"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -30,6 +29,6 @@ RewriteRule ^\\/dataset\\/corveg(.*).n3$                              https://li
 RewriteRule ^\\/dataset\\/corveg(.*)$                                 https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/corveg$1\\&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "CORVEG Dataset" ;
     schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
+    schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/paul.j.box> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
-    schema:dateIssued "2018-08-16"^^xsd:date ;
     schema:dateModified "2019-08-23"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -49,6 +48,6 @@ RewriteRule ^/dataset/gnaf/(addressSite|locality|streetLocality)/(.+).ttl$ "http
 RewriteRule ^/dataset/gnaf/(addressSite|locality|streetLocality)/(.+)$ "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/$1/items/$2" [R=302,L]""" ;
     schema:name "GNAF Current Dataset" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
+    schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

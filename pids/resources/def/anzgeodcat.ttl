@@ -15,5 +15,5 @@ RewriteRule ^/def/anzgeodcat/iso19115$		https://kurrawong.github.io/anzgeodcat/p
 RewriteRule ^/def/anzgeodcat/iso19115.py    https://kurrawong.github.io/anzgeodcat/profile/resources/mappings/iso19115.py [R=302,L]
 RewriteRule ^/def/anzgeodcat/sdo$			https://kurrawong.github.io/anzgeodcat/profile/resources/mappings/sdo.html [R=302,L]
 RewriteRule ^/def/anzgeodcat/sdo.ttl		https://kurrawong.github.io/anzgeodcat/profile/resources/mappings/sdo.ttl [R=302,L]""" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/icsm> ;
+    schema:sponsor <https://linked.data.gov.au/org/icsm> ;
 .

@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
-    schema:dateIssued "2018-10-25"^^xsd:date ;
     schema:dateModified "2020-02-04"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -22,6 +21,6 @@ RewriteRule ^/def/loci(.*).jsonld$                      https://csiro-enviro-inf
 RewriteRule ^/def/loci(.*)$                             https://csiro-enviro-informatics.github.io/loci-ont/loci.html$1 [R=302,L]""" ;
     schema:name "Loc-I Ontology" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+    schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

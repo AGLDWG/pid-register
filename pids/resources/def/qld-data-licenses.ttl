@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/daniel.brough> ;
     schema:dateCreated "2020-12-08"^^xsd:date ;
-    schema:dateIssued "2021-04-11"^^xsd:date ;
     schema:dateModified "2024-03-29"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/qld-data-licenses(.*).ttl$ "https://vocabs.gsq.digital/object?
 RewriteRule ^/def/qld-data-licenses($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=qld-data-licenses&uri=https://linked.data.gov.au/def/qld-data-licenses$1" [R=302,NE,L]""" ;
     schema:name "Qld Data Licenses" ;
     schema:ownedFrom <https://linked.data.gov.au/org/des> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
+    schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -50,6 +50,6 @@ RewriteRule ^/dataset/facilities/medical/(.*).ttl$                  https://link
 RewriteRule ^/dataset/facilities/medical/(.*)$                      https://linked.fsdf.org.au/dataset/facilities/collections/medfacil/items/$1 [R=302,L]""" ;
     schema:name "FSDF Facilities" ;
     schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
+    schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/stephen.lndsay> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
-    schema:dateIssued "2019-02-18"^^xsd:date ;
     schema:dateModified "2019-08-23"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -16,6 +15,6 @@ RewriteRule ^/dataset/energy/$                          https://near.csiro.au/as
 RewriteRule ^/dataset/energy/(.*)$                      https://near.csiro.au/assets/$1 [R=302,L]""" ;
     schema:name "NEAR Catalogue" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+    schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

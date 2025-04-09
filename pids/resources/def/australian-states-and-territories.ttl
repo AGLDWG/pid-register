@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/david.crosswell> ;
     schema:dateCreated "2020-05-07"^^xsd:date ;
-    schema:dateIssued "2020-05-07"^^xsd:date ;
     schema:dateModified "2024-03-29"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -13,6 +12,6 @@ RewriteRule ^/def/australian-states-and-territories($|/.*)$ "https://vocabs.gsq.
 RewriteRule ^/def/australian-states-and-territories($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=australian-states-and-territories&uri=https://linked.data.gov.au/def/australian-states-and-territories$1" [R=302,NE,L]""" ;
     schema:name "Australian States and Territories" ;
     schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
+    schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

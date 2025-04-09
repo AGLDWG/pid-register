@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
-    schema:dateIssued "2019-09-27"^^xsd:date ;
     schema:dateModified "2019-08-13"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -15,6 +14,6 @@ RewriteRule ^/def/iso19160-1-address/Address/code/(.*)$   https://raw.githack.co
 RewriteRule ^/def/iso19160-1-address(.*)$                 https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html$1 [R=302,L]""" ;
     schema:name "ISO19160-1:2015 Address ontology" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
+    schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

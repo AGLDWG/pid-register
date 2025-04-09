@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/sandra.silcot> ;
     schema:dateCreated "2022-04-12"^^xsd:date ;
-    schema:dateIssued "2022-04-13"^^xsd:date ;
     schema:dateModified "2022-04-14"^^xsd:date ;
     schema:location """RewriteRule ^/def/supermodel$                           https://nicholascar.com/supermodel/ [R=303,L]
 RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
@@ -14,6 +13,6 @@ RewriteRule ^/def/supermodel/terms(.*)$                 https://agldwg.github.io
 RewriteRule ^/def/supermodel/terms(.*)$                 https://agldwg.github.io/supermodel-terms-vocab$1 [R=302,NE,L]""" ;
     schema:name "Organisational Supermodel" ;
     schema:ownedFrom <https://linked.data.gov.au/org/idn> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
+    schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

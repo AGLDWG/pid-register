@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/irina.bastrakova> ;
     schema:dateCreated "2024-03-29"^^xsd:date ;
-    schema:dateIssued "2020-11-11"^^xsd:date ;
     schema:dateModified "2024-03-29"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/su.ttl$                                 https://raw.githack.co
 RewriteRule ^/def/su$                                     https://raw.githack.com/surroundaustralia/su-ont/master/su.html [R=303,L]""" ;
     schema:name "Stratigraphic Units Ontology" ;
     schema:ownedFrom <https://linked.data.gov.au/org/surround> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
+    schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

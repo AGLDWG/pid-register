@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/javiersan18> ;
     schema:dateCreated "2024-10-09"^^xsd:date ;
-    schema:dateIssued "2024-10-17"^^xsd:date ;
     schema:dateModified "2024-10-17"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -31,6 +30,6 @@ RewriteRule ^/dataset/ausnrm2023$                              https://linkeddat
 RewriteRule ^/dataset/ausnrm2023(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023$1 [R=302,L]""" ;
     schema:name "Natural Resource Management Regions of Australia 2023 " ;
     schema:ownedFrom <https://linked.data.gov.au/org/dcceew> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
+    schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

@@ -6,5 +6,5 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/idn-role-codes(.*)$                  https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.ttl [R=302,L]
 RewriteRule ^/def/idn-role-codes(.*).ttl$              https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.ttl [R=302,L]
 RewriteRule ^/def/idn-role-codes(.*)$                  https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.html$1 [R=302,L]""" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/idn> ;
+    schema:sponsor <https://linked.data.gov.au/org/idn> ;
 .

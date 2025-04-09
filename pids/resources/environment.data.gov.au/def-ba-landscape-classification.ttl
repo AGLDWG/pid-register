@@ -5,8 +5,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/simon.cox> ;
     schema:dateCreated "2021-03-29"^^xsd:date ;
-    schema:dateModified "2021-03-29"^^xsd:date ;
-    schema:name "env: Bioregional Assessments Programme landscape classification " ;
+    schema:dateModified "2025-04-09"^^xsd:date ;
+    schema:name "Bioregional Assessments Programme landscape classification " ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/deprecated> ;
 .

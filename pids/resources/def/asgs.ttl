@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/laurent.lefort> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
-    schema:dateIssued "2018-11-27"^^xsd:date ;
     schema:dateModified "2019-11-20"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -48,6 +47,6 @@ RewriteRule ^/def/asgs/cat(.*)$                         https://raw.githack.com/
 RewriteRule ^/def/asgs/id(.*)$                          https://raw.githack.com/AGLDWG/asgs-ont/master/asgs-id.html$1 [R=302,L]""" ;
     schema:name "ASGS Ontology" ;
     schema:ownedFrom <https://linked.data.gov.au/org/abs> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
+    schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

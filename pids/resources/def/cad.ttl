@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/garry.thomson> ;
     schema:dateCreated "2023-04-26"^^xsd:date ;
-    schema:dateIssued "2023-04-26"^^xsd:date ;
     schema:dateModified "2023-04-26"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} _mediatype=text/turtle
 RewriteRule ^/def/cad                   https://raw.githubusercontent.com/Spatial-Information-QLD/cadastre-model/main/model.ttl [R=302,L]
@@ -13,6 +12,6 @@ RewriteRule ^/def/cad.ttl               https://raw.githubusercontent.com/Spatia
 RewriteRule ^/def/cad                   https://spatial-information-qld.github.io/cadastre-model/model.html [R=302,L]""" ;
     schema:name "Cadastre Model" ;
     schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/qsi> ;
+    schema:sponsor <https://linked.data.gov.au/org/qsi> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

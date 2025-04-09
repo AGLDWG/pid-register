@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/david.crosswell> ;
     schema:dateCreated "2019-06-04"^^xsd:date ;
-    schema:dateIssued "2019-06-12"^^xsd:date ;
     schema:dateModified "2019-08-13"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -13,6 +12,6 @@ RewriteRule ^/def/earth-science-data-category($|/.*)$ "https://vocabs.gsq.digita
 RewriteRule ^/def/earth-science-data-category($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/earth-science-data-category$1" [R=302,NE,L]""" ;
     schema:name "Earth Science Data Category" ;
     schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/gsq> ;
+    schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

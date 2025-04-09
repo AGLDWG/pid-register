@@ -5,10 +5,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2022-12-10"^^xsd:date ;
-    schema:dateIssued "2022-12-10"^^xsd:date ;
     schema:dateModified "2022-12-10"^^xsd:date ;
     schema:location
-        "" ,
         """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/vocdermods$                            https://agldwg.github.io/vocdermods/vocabulary.ttl? [R=302,L]
@@ -21,8 +19,6 @@ RewriteRule ^/def/vocdermods/(.+).ttl$                   https://agldwg.github.i
 RewriteRule ^/def/vocdermods/(.+)$                       https://agldwg.github.io/vocdermods/$1 [R=302,L]""" ;
     schema:name "Vocabulary Derivation Modes" ;
     schema:ownedFrom <https://linked.data.gov.au/org/agldwg> ;
-    schema:ownedThrough
-        <https://linked.data.gov.au/org/apo> ,
-        <https://linked.data.gov.au/org/gssa> ;
+    schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;
-    schema:dateIssued "2024-05-15"^^xsd:date ;
     schema:dateModified "2024-08-14"^^xsd:date ;
     schema:location """RewriteRule ^/def/cloud-cover-observation-measurements(|/.+)\\.ttl$		https://vocabs.ardc.edu.au/repository/api/lda/neii/cloud-cover-observation-measurements/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/cloud-cover-observation-measurements$1 [R=302,QSA,L]
 RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
@@ -41,6 +40,6 @@ RewriteRule ^/def/cloud-cover-observation-measurements(|/.+)\\.html$		https://vo
 RewriteRule ^/def/cloud-cover-observation-measurements/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/cloud-cover-observation-measurements/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/cloud-cover-observation-measurements$1 [R=302,QSA,L]""" ;
     schema:name "Cloud Cover Observation Measurements" ;
     schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/neii> ;
+    schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

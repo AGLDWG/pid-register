@@ -10,5 +10,5 @@ RewriteRule ^/def/idncp/spec                https://idn-au.github.io/idn-catalog
 RewriteRule ^/def/idncp/validator           https://idn-au.github.io/idn-catalogue-profile/validator.shacl.ttl [R=302,L]
 RewriteRule ^/def/idncp/validator-compounded           https://idn-au.github.io/idn-catalogue-profile/validator-compounded.shacl.ttl [R=302,L]
 RewriteRule ^/def/idncp/repo                https://github.com/idn-au/idn-catalogue-profile/ [R=302,L]""" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/idn> ;
+    schema:sponsor <https://linked.data.gov.au/org/idn> ;
 .

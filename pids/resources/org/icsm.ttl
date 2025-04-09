@@ -6,7 +6,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/person/> ;
     schema:dateCreated "2023-04-27"^^xsd:date ;
     schema:dateModified "2023-04-27"^^xsd:date ;
+    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/org/icsm($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/org/icsm(.*).ttl$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/org/icsm($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm$1" [R=302,NE,L]""" ;
     schema:name "Intergovernmental Committee on Surveying and Mapping" ;
-    schema:ownedFrom <https://linked.data.gov.au> ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/> ;
+    schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

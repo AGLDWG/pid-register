@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/mr.wong> ;
     schema:dateCreated "2024-11-15"^^xsd:date ;
-    schema:dateIssued "2024-11-15"^^xsd:date ;
     schema:dateModified "2024-11-15"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/asls-substrate.ttl$                  https://vocabs.ardc.edu.a
 RewriteRule ^/def/asls-substrate($|/.+)$               https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-substrate-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/substrate$1 [R=302,L]""" ;
     schema:name "The Australian Soil Classification" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+    schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

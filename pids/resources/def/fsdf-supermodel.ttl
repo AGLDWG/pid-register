@@ -1,27 +1,13 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/fsdf>
-    a <https://linked.data.gov.au/def/pid/PID> ;
-    schema:creator <https://linked.data.gov.au/person/irina.bastrakova> ;
-    schema:dateCreated "2022-03-24"^^xsd:date ;
-    schema:dateIssued "2022-03-24"^^xsd:date ;
-    schema:dateModified "2022-03-24"^^xsd:date ;
-    schema:name "Foundational Spatial Data Framework (FSDF) Supermodel" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
-.
 
 <https://linked.data.gov.au/def/fsdf-supermodel>
+    a <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/irina.bastrakova> ;
+    schema:dateCreated "2022-08-10"^^xsd:date ;
+    schema:dateModified "2022-09-10"^^xsd:date ;
     schema:location "RewriteRule /def/fsdf-supermodel(.*)            https://geoscienceaustralia.github.io/fsdf-supermodel/supermodel.html$1 [R=302,L]" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
-.
-
-<https://linked.data.gov.au/def/fsdf/network>
-    schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
-RewriteCond %{HTTP:Accept} text/turtle [NC]
-RewriteRule ^/def/fsdf/network/?(.*)$                          https://raw.githubusercontent.com/GeoscienceAustralia/FSDF-KG/master/edg/ontologies/network.ttl [R=302,L]
-RewriteRule ^/def/fsdf/network/?(.*).ttl$                      https://raw.githubusercontent.com/GeoscienceAustralia/FSDF-KG/master/edg/ontologies/network.ttl [R=302,L]
-RewriteRule ^/def/fsdf/network/?(.*)$                          https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/network.html#$1 [R=302,L,NE]""" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
+    schema:sponsor <https://linked.data.gov.au/org/ga> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/simon.cox> ;
     schema:dateCreated "2019-10-01"^^xsd:date ;
-    schema:dateIssued "2019-10-15"^^xsd:date ;
     schema:dateModified "2020-02-04"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -22,6 +21,6 @@ RewriteRule ^/def/geox(.*).jsonld$                      https://csiro-enviro-inf
 RewriteRule ^/def/geox(.*)$                             https://csiro-enviro-informatics.github.io/geosparql-ext-ont/geox.html$1 [R=302,L]""" ;
     schema:name "GeoSPARQL extensions" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+    schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

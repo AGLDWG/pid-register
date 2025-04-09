@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2025-02-06"^^xsd:date ;
-    schema:dateIssued "2025-02-26"^^xsd:date ;
     schema:dateModified "2025-02-26"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/borehole-status-wa.ttl$ "https://vocabulary.gswa.kurrawong.ai/
 RewriteRule ^/def/borehole-status-wa($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-status-wa$1" [R=302,NE,L]""" ;
     schema:name "Borehole status" ;
     schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/gswa> ;
+    schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/Stephen.Pratt> ;
     schema:dateCreated "2020-05-07"^^xsd:date ;
-    schema:dateIssued "2020-11-07"^^xsd:date ;
     schema:dateModified "2020-05-08"^^xsd:date ;
     schema:location """RewriteRule ^/def/phs/voc(.*)$				http://dawe.surroundaustralia.com/object?uri=https://linked.data.gov.au/def/phs/voc$1 [QSA,L,R=302]
 
@@ -27,6 +26,6 @@ RewriteRule ^/def/phs(.*).ttl$				https://raw.githack.com/AGLDWG/phs-ont/master/
 RewriteRule ^/def/phs(.*)$				    https://raw.githack.com/AGLDWG/phs-ont/master/phs.html$1 [R=302,L]""" ;
     schema:name "Plant Health Surveillance" ;
     schema:ownedFrom <https://linked.data.gov.au/org/dawr> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/dcceew> ;
+    schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

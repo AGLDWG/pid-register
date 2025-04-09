@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/simon.cox> ;
     schema:dateCreated "2024-07-31"^^xsd:date ;
-    schema:dateIssued "2024-08-02"^^xsd:date ;
     schema:dateModified "2024-10-02"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP_ACCEPT} text/turtle [NC]
@@ -13,6 +12,6 @@ RewriteRule ^/def/alum($|/.*)$ "https://vocabs.ardc.edu.au/repository/api/lda/ab
 RewriteRule ^/def/alum($|/.*)$ "https://vocabs.ardc.edu.au/repository/api/lda/abares/australian-land-use-and-management-classification/version-8-with-pids/resource?uri=https://linked.data.gov.au/def/alum$1" [R=302,NE,L]""" ;
     schema:name "Australian Land Use and Management Classification Version 8" ;
     schema:ownedFrom <https://linked.data.gov.au/org/abares> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/abs> ;
+    schema:sponsor <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

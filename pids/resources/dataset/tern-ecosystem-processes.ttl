@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/javiersan18> ;
     schema:dateCreated "2023-05-30"^^xsd:date ;
-    schema:dateIssued "2023-06-13"^^xsd:date ;
     schema:dateModified "2023-06-22"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -30,6 +29,6 @@ RewriteRule ^\\/dataset\\/tern-ecosystem-processes(.*).n3$            https://li
 RewriteRule ^/dataset/tern-ecosystem-processes(.*)$                 https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/tern-ecosystem-processes$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "TERN Ecosystem Processes" ;
     schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
+    schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

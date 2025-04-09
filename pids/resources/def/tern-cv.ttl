@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/e.chuc> ;
     schema:dateCreated "2019-11-12"^^xsd:date ;
-    schema:dateIssued "2020-02-26"^^xsd:date ;
     schema:dateModified "2020-02-27"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -31,6 +30,6 @@ RewriteRule ^/def/tern-cv$                              https://linkeddata.tern.
 RewriteRule ^/def/tern-cv(.*)$                          https://linkeddata.tern.org.au/viewer/tern/id/https://linked.data.gov.au/def/tern-cv$1 [R=302,L]""" ;
     schema:name "TERN Vocabularies" ;
     schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
+    schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

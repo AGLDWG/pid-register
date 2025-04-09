@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/william.francis> ;
     schema:dateCreated "2020-10-15"^^xsd:date ;
-    schema:dateIssued "2021-04-11"^^xsd:date ;
     schema:dateModified "2021-04-11"^^xsd:date ;
     schema:location """RewriteRule /def/ga-vocpub/invalid.1.ttl	        https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/examples/invalid.1.ttl [R=302,L]
 RewriteRule /def/ga-vocpub/invalid.2.ttl	        https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/examples/invalid.2.ttl [R=302,L]
@@ -19,6 +18,6 @@ RewriteRule /def/ga-vocpub.ttl$                         https://raw.githack.com/
 RewriteRule /def/ga-vocpub$				https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.html [R=302,L]""" ;
     schema:name "GA VocPub Profile" ;
     schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/ga> ;
+    schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

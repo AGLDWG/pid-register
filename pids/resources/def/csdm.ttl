@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2023-04-27"^^xsd:date ;
-    schema:dateIssued "2024-01-15"^^xsd:date ;
     schema:dateModified "2024-08-14"^^xsd:date ;
     schema:location """RewriteRule ^/def/csdm$ "https://icsm-au.github.io/3d-csdm/docs/" [R=302,L]
 
@@ -55,6 +54,6 @@ RewriteRule ^/def/csdm/surveyobs.ttl$ "https://icsm-au.github.io/3d-csdm/surveyo
 RewriteRule ^/def/csdm/surveyobs$ "https://icsm-au.github.io/3d-csdm/surveyobs.html" [R=302,NE,L]""" ;
     schema:name "Cadastral Survey Dataset Submissions Model" ;
     schema:ownedFrom <https://linked.data.gov.au/org/icsm> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/icsm> ;
+    schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

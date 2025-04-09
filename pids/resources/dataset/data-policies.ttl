@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
-    schema:dateIssued "2018-10-23"^^xsd:date ;
     schema:dateModified "2019-04-15"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -24,6 +23,6 @@ RewriteRule ^/dataset/data-policies/(.*)/(.*).ttl$      http://licences.csiro.au
 RewriteRule ^/dataset/data-policies/(.*)/(.*)           http://licences.csiro.au/$1/?uri=https://linked.data.gov.au$0 [R=302,L]""" ;
     schema:name "Data Policies Dataset" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/csiro> ;
+    schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

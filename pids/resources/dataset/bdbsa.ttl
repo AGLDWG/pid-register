@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/e.chuc> ;
     schema:dateCreated "2022-09-06"^^xsd:date ;
-    schema:dateIssued "2022-09-07"^^xsd:date ;
     schema:dateModified "2022-09-07"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -30,6 +29,6 @@ RewriteRule ^\\/dataset\\/bdbsa(.*).n3$                               https://li
 RewriteRule ^/dataset/bdbsa(.*)$                                    https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/bdbsa$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "Biological Databases of South Australia (BDBSA)" ;
     schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/tern> ;
+    schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

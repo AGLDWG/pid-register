@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/endymion.cooper> ;
     schema:dateCreated "2024-01-13"^^xsd:date ;
-    schema:dateIssued "2024-01-13"^^xsd:date ;
     schema:dateModified "2024-01-13"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -17,6 +16,6 @@ RewriteRule ^/def/nsl/validator$                        https://kurrawong.github
 RewriteRule ^/def/nsl/context.json$                     https://kurrawong.github.io/nsl-model/context.json [R=302,L]""" ;
     schema:name "National Species List Data Model" ;
     schema:ownedFrom <https://linked.data.gov.au/org/abrs> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/dcceew> ;
+    schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

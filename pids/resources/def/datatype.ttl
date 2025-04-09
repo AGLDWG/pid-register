@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/simon.cox> ;
     schema:dateCreated "2019-06-11"^^xsd:date ;
-    schema:dateIssued "2019-10-02"^^xsd:date ;
     schema:dateModified "2019-10-03"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
@@ -14,6 +13,6 @@ RewriteRule ^/def/datatype(.*).ttl$                     https://raw.githack.com/
 RewriteRule ^/def/datatype(.*)$                         https://raw.githack.com/AGLDWG/datatype-ont/master/html/datatype.html$1 [R=302,L]""" ;
     schema:name "Data types" ;
     schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/agldwg> ;
+    schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

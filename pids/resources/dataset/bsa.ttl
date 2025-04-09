@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/leonard.smith> ;
     schema:dateCreated "2024-03-08"^^xsd:date ;
-    schema:dateIssued "2024-06-19"^^xsd:date ;
     schema:dateModified "2024-06-19"^^xsd:date ;
     schema:name "The Briscoe-Smith Archive" ;
     schema:ownedFrom <https://linked.data.gov.au/org/anu> ;

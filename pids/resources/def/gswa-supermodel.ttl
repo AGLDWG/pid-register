@@ -6,5 +6,5 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/gswa-supermodel$ https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/profile.ttl [R=302,L]
 RewriteRule ^/def/gswa-supermodel.ttl$ https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/profile.ttl [R=302,L]
 RewriteRule ^/def/gswa-supermodel$ https://kurrawong.github.io/gswa-supermodel/ [R=302,L]""" ;
-    schema:ownedThrough <https://linked.data.gov.au/org/gswa> ;
+    schema:sponsor <https://linked.data.gov.au/org/gswa> ;
 .

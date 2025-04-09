@@ -5,7 +5,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;
-    schema:dateIssued "2024-05-15"^^xsd:date ;
     schema:dateModified "2024-08-14"^^xsd:date ;
     schema:location """RewriteRule ^/def/temperature-definitions(|/.+)\\.ttl$		https://vocabs.ardc.edu.au/repository/api/lda/neii/temperature-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/temperature-definitions$1 [R=302,QSA,L]
 RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
@@ -41,6 +40,6 @@ RewriteRule ^/def/temperature-definitions(|/.+)\\.html$		https://vocabs.ardc.edu
 RewriteRule ^/def/temperature-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/temperature-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/temperature-definitions$1 [R=302,QSA,L]""" ;
     schema:name "Temperature Definitions" ;
     schema:ownedFrom <https://linked.data.gov.au/org/bom-cs> ;
-    schema:ownedThrough <https://linked.data.gov.au/org/neii> ;
+    schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .
