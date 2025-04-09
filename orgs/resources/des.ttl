@@ -3,30 +3,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/des>
     a schema:Organization ;
-    schema:description """Environment
-
-
-	protect and manage our parks, forests and the Great Barrier Reef for current and future generations
-	enhance Queensland’s ecosystems
-	protect significant heritage places
-	avoid, minimise or mitigate impacts to the environment.
-
-
-Science
-
-
-	lead the development of science strategy for government
-	deliver scientific expertise to protect and manage our environment and natural resource base
-	support the development of Queensland’s science sector.
-
-
-Arts
-
-
-	foster a community of the arts and facilitate growth of the arts and cultural sector
-	support arts and cultural growth through partnerships, programs and events
-	invest in all levels of the arts and cultural sector
-	grow Queensland’s cultural reputation and cultural tourism offering.""" ;
+    schema:description """DES recognises the enormous value a clean environment, innovative society and visitor economy, and vibrant culture contributes to our lives. The department brings together key areas of work to achieve our objectives for a better Queensland.""" ;
     schema:name "Department of Environment and Science, Queensland Government" ;
     schema:url "https://www.des.qld.gov.au"^^xsd:anyURI ;
     schema:member <https://linked.data.gov.au/person/ScottLutwycheDES> ;
