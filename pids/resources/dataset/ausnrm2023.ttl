@@ -32,7 +32,6 @@ RewriteRule ^/dataset/ausnrm2023(.*).n3$                       https://linkeddat
 RewriteRule ^/dataset/ausnrm2023$                              https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023 [R=302,L]
 RewriteRule ^/dataset/ausnrm2023(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023$1 [R=302,L]""" ;
     schema:name "Natural Resource Management Regions of Australia 2023 " ;
-    schema:ownedFrom <https://linked.data.gov.au/org/dcceew> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

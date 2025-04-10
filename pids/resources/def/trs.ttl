@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/trs($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=trs&uri=https://linked.data.gov.au/def/trs$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/trs($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=trs&uri=https://linked.data.gov.au/def/trs$1" [R=302,NE,L]""" ;
     schema:name "Temporal Reference Systems" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

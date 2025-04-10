@@ -31,7 +31,6 @@ RewriteRule ^\\/dataset\\/corveg(.*)$                                 https://li
 RewriteRule ^\\/dataset\\/corveg(.*).n3$                              https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/corveg$1\\&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
 RewriteRule ^\\/dataset\\/corveg(.*)$                                 https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/corveg$1\\&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "CORVEG Dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

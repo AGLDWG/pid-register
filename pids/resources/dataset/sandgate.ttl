@@ -28,7 +28,6 @@ RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*)$       
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*).ttl$                https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*)$                    https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2 [R=302,L]""" ;
     schema:name "Sandgate Demonstration Spatial Dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/agldwg> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -11,7 +11,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2019-08-23"^^xsd:date ;
     schema:location "RewriteRule ^/dataset/asgs2016(.*)                        https://linked.data.gov.au/static/broken.html\\?iri=https://linked.data.gov.au/dataset/asgs2016$1 [L]" ;
     schema:name "ASGS 2016 Dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/abs> ;
     schema:sponsor <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

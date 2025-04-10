@@ -15,6 +15,5 @@ RewriteRule ^/def/scm-swcm-1992($|/.+)$                 https://vocabs.ardc.edu.
 RewriteRule ^/def/scm-swcm-1992.ttl$                    https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource.ttl?uri=http://anzsoil.org/def/au/scm/swcm-1992 [R=302,L]
 RewriteRule ^/def/scm-swcm-1992($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource?uri=http://anzsoil.org/def/au/scm/swcm-1992$1 [R=302,L]""" ;
     schema:name "The Australian Soil Classification" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/unstable> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/levels-of-measurement($|/.*)$        https://agldwg.github.io/
 RewriteRule ^/def/levels-of-measurement.ttl$           https://agldwg.github.io/levels-of-measurement/vocabulary.ttl [R=302,L]
 RewriteRule ^/def/levels-of-measurement($|/.*)$        https://agldwg.github.io/levels-of-measurement$1 [R=302,NE,L]""" ;
     schema:name "Levels of Measurement" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/dcceew> ;
     schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/JORC-Code($|/.*)$ "https://vocabulary.gswa.kurrawong.ai/object
 RewriteRule ^/def/JORC-Code.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/JORC-Code$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/JORC-Code($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/JORC-Code$1" [R=302,NE,L]""" ;
     schema:name "JORC Code" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

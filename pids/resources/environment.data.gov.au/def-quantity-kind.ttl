@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2021-03-29"^^xsd:date ;
     schema:dateModified "2025-04-09"^^xsd:date ;
     schema:name "quantity kinds" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/deprecated> ;
 .

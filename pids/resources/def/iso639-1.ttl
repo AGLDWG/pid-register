@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/iso639-1($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/iso639-1($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1$1" [R=302,NE,L]""" ;
     schema:name "ISO639-1: Codes for the Representation of Names of Languages" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/des> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -42,7 +42,6 @@ RewriteRule ^/def/australian-landscape-water-balance/?(|/.+)$		https://vocabs.ar
 RewriteRule ^/def/australian-landscape-water-balance(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-landscape-water-balance/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-landscape-water-balance$1 [R=302,QSA,L]
 RewriteRule ^/def/australian-landscape-water-balance/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-landscape-water-balance/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-landscape-water-balance$1 [R=302,QSA,L]""" ;
     schema:name "Australian Landscape Water Balance" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

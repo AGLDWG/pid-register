@@ -16,7 +16,6 @@ RewriteRule ^/def/geofabric.ttl$                        https://csiro-enviro-inf
 RewriteRule ^/def/geofabric$                            https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html$1? [R=302,L]
 RewriteRule ^/def/geofabric/(.*)                        https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html\\#$1 [R=302,L,NE]""" ;
     schema:name "Geofabric Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/resource-stockpile-purpose($|/.*)$ "https://vocabs.gsq.digital
 RewriteRule ^/def/resource-stockpile-purpose(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/resource-stockpile-purpose$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/resource-stockpile-purpose($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/resource-stockpile-purpose$1" [R=302,NE,L]""" ;
     schema:name "Resource stockpile purpose" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -14,7 +14,6 @@ RewriteRule ^/def/roads                 https://raw.githubusercontent.com/Spatia
 RewriteRule ^/def/roads.ttl             https://raw.githubusercontent.com/Spatial-Information-QLD/roads-model/main/model.ttl [R=302,L]
 RewriteRule ^/def/roads                 https://spatial-information-qld.github.io/roads-model/model.html [R=302,L]""" ;
     schema:name "Roads Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
     schema:sponsor <https://linked.data.gov.au/org/qsi> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

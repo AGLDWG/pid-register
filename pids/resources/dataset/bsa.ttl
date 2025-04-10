@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2024-03-08"^^xsd:date ;
     schema:dateModified "2024-06-19"^^xsd:date ;
     schema:name "The Briscoe-Smith Archive" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/anu> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

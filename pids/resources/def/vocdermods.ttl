@@ -21,7 +21,6 @@ RewriteRule ^/def/vocdermods/(.+)$                       https://agldwg.github.i
 RewriteRule ^/def/vocdermods/(.+).ttl$                   https://agldwg.github.io/vocdermods/$1.ttl? [R=302,L]
 RewriteRule ^/def/vocdermods/(.+)$                       https://agldwg.github.io/vocdermods/$1 [R=302,L]""" ;
     schema:name "Vocabulary Derivation Modes" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/agldwg> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -14,7 +14,6 @@ RewriteRule ^/def/cad                   https://raw.githubusercontent.com/Spatia
 RewriteRule ^/def/cad.ttl               https://raw.githubusercontent.com/Spatial-Information-QLD/cadastre-model/main/model.ttl [R=302,L]
 RewriteRule ^/def/cad                   https://spatial-information-qld.github.io/cadastre-model/model.html [R=302,L]""" ;
     schema:name "Cadastre Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
     schema:sponsor <https://linked.data.gov.au/org/qsi> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

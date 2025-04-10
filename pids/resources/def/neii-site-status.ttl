@@ -42,7 +42,6 @@ RewriteRule ^/def/neii-site-status/?(|/.+)$		https://vocabs.ardc.edu.au/reposito
 RewriteRule ^/def/neii-site-status(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status$1 [R=302,QSA,L]
 RewriteRule ^/def/neii-site-status/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-site-status$1 [R=302,QSA,L]""" ;
     schema:name "NEII Site Status" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

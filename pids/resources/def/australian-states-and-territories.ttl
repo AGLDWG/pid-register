@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/australian-states-and-territories($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=australian-states-and-territories&uri=https://linked.data.gov.au/def/australian-states-and-territories$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/australian-states-and-territories($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=australian-states-and-territories&uri=https://linked.data.gov.au/def/australian-states-and-territories$1" [R=302,NE,L]""" ;
     schema:name "Australian States and Territories" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

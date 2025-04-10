@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/georesource-report($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=georesource-report&uri=https://linked.data.gov.au/def/georesource-report$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/georesource-report($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=georesource-report&uri=https://linked.data.gov.au/def/georesource-report$1" [R=302,NE,L]""" ;
     schema:name "Georesource Report Types" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

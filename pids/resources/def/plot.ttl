@@ -16,6 +16,5 @@ RewriteRule ^/def/vocdermods/($|/.*)$                       https://ternaustrali
 RewriteRule ^/def/vocdermods/($|/.*).ttl$                   https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl? [R=302,L]
 RewriteRule ^/def/vocdermods/($|/.*)$                       https://ternaustralia.github.io/ontology_tern-plot/$1 [R=302,L]""" ;
     schema:name "Plot Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/crs-th(.*)$                           https://raw.githubuserco
 RewriteRule ^/def/crs-th(.*).ttl$                       https://raw.githubusercontent.com/CSIRO-enviro-informatics/crs-th/master/crs-th.ttl [R=302,L]
 RewriteRule ^/def/crs-th(.*)$                           https://github.com/CSIRO-enviro-informatics/crs-th [R=302,L]""" ;
     schema:name "CRS Thesaurus" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/naa> ;
     schema:sponsor <https://linked.data.gov.au/org/naa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

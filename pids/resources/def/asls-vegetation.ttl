@@ -15,7 +15,6 @@ RewriteRule ^/def/asls-vegetation($|/.+)$              https://vocabs.ardc.edu.a
 RewriteRule ^/def/asls-vegetation.ttl$                 https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/vegetation [R=302,L]
 RewriteRule ^/def/asls-vegetation($|/.+)$              https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/vegetation$1 [R=302,L]""" ;
     schema:name "The Australian Soil Classification" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

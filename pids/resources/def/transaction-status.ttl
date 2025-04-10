@@ -15,7 +15,6 @@ RewriteRule ^/def/transaction-status($|/.*)$ "https://vocabs.gsq.digital/object?
 RewriteRule ^/def/transaction-status(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/transaction-status$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/transaction-status($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/transaction-status$1" [R=302,NE,L]""" ;
     schema:name "Transaction status" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

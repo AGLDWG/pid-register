@@ -25,7 +25,6 @@ RewriteRule ^/dataset/data-policies/(.*)/(.*)$          http://licences.csiro.au
 RewriteRule ^/dataset/data-policies/(.*)/(.*).ttl$      http://licences.csiro.au/$1/?uri=https://linked.data.gov.au/dataset/data-policies/$1/$2&_mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/data-policies/(.*)/(.*)           http://licences.csiro.au/$1/?uri=https://linked.data.gov.au$0 [R=302,L]""" ;
     schema:name "Data Policies Dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

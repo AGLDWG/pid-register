@@ -20,7 +20,6 @@ RewriteRule ^/def/loci-dp/validator/(.*)$		https://raw.githack.com/surroundaustr
 RewriteRule ^/def/loci-dp/example/(.*)$                 https://raw.githack.com/surroundaustralia/loci-data-profile/master/examples/$1.ttl [R=302,L]
 RewriteRule ^/def/loci-dp/repo				https://github.com/surroundaustralia/loci-data-profile [R=302,L]""" ;
     schema:name "Loc-I Data Profile" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

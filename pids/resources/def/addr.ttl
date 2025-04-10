@@ -15,7 +15,6 @@ RewriteRule ^/def/addr$         https://icsm-au.github.io/addr-model/model.ttl [
 RewriteRule ^/def/addr.ttl$     https://icsm-au.github.io/addr-model/model.ttl [R=302,L]
 RewriteRule ^/def/addr$         https://icsm-au.github.io/addr-model/model.html [R=302,L]""" ;
     schema:name "National Address Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

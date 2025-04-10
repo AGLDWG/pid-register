@@ -42,7 +42,6 @@ RewriteRule ^/def/tidal-terminology/?(|/.+)$		https://vocabs.ardc.edu.au/reposit
 RewriteRule ^/def/tidal-terminology(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/tidal-terminology/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/tidal-terminology$1 [R=302,QSA,L]
 RewriteRule ^/def/tidal-terminology/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/tidal-terminology/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/tidal-terminology$1 [R=302,QSA,L]""" ;
     schema:name "Tidal Terminology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

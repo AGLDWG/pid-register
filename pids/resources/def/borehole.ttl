@@ -15,7 +15,6 @@ RewriteRule ^/def/borehole$                         https://raw.githack.com/geol
 RewriteRule ^/def/borehole.ttl$                     https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/model/borehole.ttl [R=302,L]
 RewriteRule ^/def/borehole$                         https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.html [R=302,L]""" ;
     schema:name "Borehole Profile" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

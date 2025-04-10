@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/mb16cc				    https://raw.githack.com/CSIRO-enviro-informatics/mb16cc-linkset/master/header.ttl [L,R=302]
 RewriteRule ^/dataset/mb16cc				    https://github.com/CSIRO-enviro-informatics/mb16cc-linkset [L,R=302]""" ;
     schema:name "ASGS 2016 Mesh Blocks to Geofabric Contracted Catchments Linkset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

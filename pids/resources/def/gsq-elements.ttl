@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2019-05-29"^^xsd:date ;
     schema:dateModified "2019-10-09"^^xsd:date ;
     schema:name "Chemical Elements" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/superseded> ;
 .

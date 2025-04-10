@@ -42,7 +42,6 @@ RewriteRule ^/def/groundwater-dependent-ecosystems-atlas/?(|/.+)$		https://vocab
 RewriteRule ^/def/groundwater-dependent-ecosystems-atlas(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/bom/groundwater-dependent-ecosystems-atlas/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/groundwater-dependent-ecosystems-atlas$1 [R=302,QSA,L]
 RewriteRule ^/def/groundwater-dependent-ecosystems-atlas/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/bom/groundwater-dependent-ecosystems-atlas/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/groundwater-dependent-ecosystems-atlas$1 [R=302,QSA,L]""" ;
     schema:name "Groundwater Dependent Ecosystems Atlas" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/bom-gu> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

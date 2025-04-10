@@ -15,7 +15,6 @@ RewriteRule ^/def/crs(.*)$                              https://raw.githack.com/
 RewriteRule ^/def/crs(.*).ttl$                          https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl [R=302,L]
 RewriteRule ^/def/crs(.*)$                              https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/html/crs.html$1 [R=302,L]""" ;
     schema:name "CRS Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

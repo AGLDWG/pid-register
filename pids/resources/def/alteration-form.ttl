@@ -15,7 +15,6 @@ RewriteRule ^/def/alteration-form($|/.*)$ "https://vocabulary.gswa.kurrawong.ai/
 RewriteRule ^/def/alteration-form.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/alteration-form($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form$1" [R=302,NE,L]""" ;
     schema:name "Alteration form" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

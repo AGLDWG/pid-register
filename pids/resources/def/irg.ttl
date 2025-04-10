@@ -15,7 +15,6 @@ RewriteRule ^/def/irg(.*)$                              https://raw.githack.com/
 RewriteRule ^/def/irg(.*).ttl$                          https://raw.githack.com/AGLDWG/iri-registry-ont/master/irg.ttl$1 [R=302,L]
 RewriteRule ^/def/irg(.*)$                              https://raw.githack.com/AGLDWG/iri-registry-ont/master/irg.html$1 [R=302,L]""" ;
     schema:name "IRI Registry Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/agldwg> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

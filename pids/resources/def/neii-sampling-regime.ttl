@@ -42,7 +42,6 @@ RewriteRule ^/def/neii-sampling-regime/?(|/.+)$		https://vocabs.ardc.edu.au/repo
 RewriteRule ^/def/neii-sampling-regime(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-sampling-regime/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-sampling-regime$1 [R=302,QSA,L]
 RewriteRule ^/def/neii-sampling-regime/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-sampling-regime/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-sampling-regime$1 [R=302,QSA,L]""" ;
     schema:name "NEII Sampling Regime" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

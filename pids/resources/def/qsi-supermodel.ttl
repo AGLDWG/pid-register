@@ -14,7 +14,6 @@ RewriteRule ^/def/qsi-supermodel        https://raw.githubusercontent.com/Spatia
 RewriteRule ^/def/qsi-supermodel.ttl    https://raw.githubusercontent.com/Spatial-Information-QLD/supermodel/main/supermodel.ttl [R=302,L]
 RewriteRule ^/def/qsi-supermodel        https://spatial-information-qld.github.io/supermodel/supermodel.html [R=302,L]""" ;
     schema:name "Queensland Spatial Information Supermodel" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
     schema:sponsor <https://linked.data.gov.au/org/qsi> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

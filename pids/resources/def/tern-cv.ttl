@@ -32,7 +32,6 @@ RewriteRule ^/def/tern-cv(.*).n3$                       https://linkeddata.tern.
 RewriteRule ^/def/tern-cv$                              https://linkeddata.tern.org.au/prez/tern-cv/v/ [R=302,L]
 RewriteRule ^/def/tern-cv(.*)$                          https://linkeddata.tern.org.au/viewer/tern/id/https://linked.data.gov.au/def/tern-cv$1 [R=302,L]""" ;
     schema:name "TERN Vocabularies" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

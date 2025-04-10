@@ -15,7 +15,6 @@ RewriteRule ^/def/qg-sites($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=q
 RewriteRule ^/def/qg-sites(.*).ttl$ "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/qg-sites($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites$1" [R=302,NE,L]""" ;
     schema:name "Queensland Government Sites" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/des> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

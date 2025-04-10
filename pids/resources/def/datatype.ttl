@@ -15,7 +15,6 @@ RewriteRule ^/def/datatype(.*)$                         https://raw.githack.com/
 RewriteRule ^/def/datatype(.*).ttl$                     https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl [R=302,L]
 RewriteRule ^/def/datatype(.*)$                         https://raw.githack.com/AGLDWG/datatype-ont/master/html/datatype.html$1 [R=302,L]""" ;
     schema:name "Data types" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

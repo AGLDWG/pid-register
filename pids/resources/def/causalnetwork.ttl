@@ -27,7 +27,6 @@ RewriteRule ^/def/causalnetwork(.jsonld|/.*\\.jsonld)$   https://causalnetworks.
 RewriteRule ^/def/causalnetwork(.json|/.*\\.json)$       https://causalnetworks.azurewebsites.net/def/causalnetwork.json [R=302,QSA,L]
 RewriteRule ^/def/causalnetwork($|/.*)$                 https://causalnetworks.azurewebsites.net/def/causalnetwork$1 [R=302,QSA,L]""" ;
     schema:name "CSIRO Causal Networks" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

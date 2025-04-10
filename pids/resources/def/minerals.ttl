@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/minerals($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=minerals&uri=https://linked.data.gov.au/def/minerals$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/minerals($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=minerals&uri=https://linked.data.gov.au/def/minerals$1" [R=302,NE,L]""" ;
     schema:name "Minerals" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

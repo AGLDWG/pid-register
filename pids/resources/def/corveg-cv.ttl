@@ -32,7 +32,6 @@ RewriteRule ^/def/corveg-cv(.*).n3$                       https://linkeddata.ter
 RewriteRule ^/def/corveg-cv$                              https://linkeddata.tern.org.au/prez/corveg-cv/v/ [R=302,L]
 RewriteRule ^/def/corveg-cv(.*)$                          https://linkeddata.tern.org.au/viewer/corveg/id/https://linked.data.gov.au/def/corveg-cv$1 [R=302,L]""" ;
     schema:name "CORVEG vocabulary" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

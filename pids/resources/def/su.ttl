@@ -15,7 +15,6 @@ RewriteRule ^/def/su$                                     https://raw.githack.co
 RewriteRule ^/def/su.ttl$                                 https://raw.githack.com/surroundaustralia/su-ont/master/su.ttl [R=303,L]
 RewriteRule ^/def/su$                                     https://raw.githack.com/surroundaustralia/su-ont/master/su.html [R=303,L]""" ;
     schema:name "Stratigraphic Units Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/surround> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

@@ -20,7 +20,6 @@ RewriteRule /def/ga-vocpub$                             https://raw.githack.com/
 RewriteRule /def/ga-vocpub.ttl$                         https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.ttl [R=302,L]
 RewriteRule /def/ga-vocpub$				https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.html [R=302,L]""" ;
     schema:name "GA VocPub Profile" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

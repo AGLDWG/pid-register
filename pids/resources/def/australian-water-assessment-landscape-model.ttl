@@ -42,7 +42,6 @@ RewriteRule ^/def/australian-water-assessment-landscape-model/?(|/.+)$		https://
 RewriteRule ^/def/australian-water-assessment-landscape-model(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/bom/australian-water-assessment-landscape-model/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-water-assessment-landscape-model$1 [R=302,QSA,L]
 RewriteRule ^/def/australian-water-assessment-landscape-model/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/bom/australian-water-assessment-landscape-model/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-water-assessment-landscape-model$1 [R=302,QSA,L]""" ;
     schema:name "Australian Water Assessment Landscape Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

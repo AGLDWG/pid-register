@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2023-10-04"^^xsd:date ;
     schema:dateModified "2023-10-04"^^xsd:date ;
     schema:name "VocPub Profile" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/anu> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

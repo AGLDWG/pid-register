@@ -42,7 +42,6 @@ RewriteRule ^/def/water-market-reports/?(|/.+)$		https://vocabs.ardc.edu.au/repo
 RewriteRule ^/def/water-market-reports(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports$1 [R=302,QSA,L]
 RewriteRule ^/def/water-market-reports/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-market-reports$1 [R=302,QSA,L]""" ;
     schema:name "Water Market Reports glossary" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

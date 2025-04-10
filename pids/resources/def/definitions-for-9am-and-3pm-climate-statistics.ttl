@@ -42,7 +42,6 @@ RewriteRule ^/def/definitions-for-9am-and-3pm-climate-statistics/?(|/.+)$		https
 RewriteRule ^/def/definitions-for-9am-and-3pm-climate-statistics(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics$1 [R=302,QSA,L]
 RewriteRule ^/def/definitions-for-9am-and-3pm-climate-statistics/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics$1 [R=302,QSA,L]""" ;
     schema:name "Definitions for 9am and 3pm Climate Statistics" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

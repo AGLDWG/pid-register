@@ -42,7 +42,6 @@ RewriteRule ^/def/national-groundwater-information-system/?(|/.+)$		https://voca
 RewriteRule ^/def/national-groundwater-information-system(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/bom/national-groundwater-information-system/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/national-groundwater-information-system$1 [R=302,QSA,L]
 RewriteRule ^/def/national-groundwater-information-system/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/bom/national-groundwater-information-system/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/national-groundwater-information-system$1 [R=302,QSA,L]""" ;
     schema:name "National Groundwater Information System" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/bom-gu> ;
     schema:sponsor <https://linked.data.gov.au/org/qsi> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/sample-condition($|/.*)$ "https://vocabulary.gswa.kurrawong.ai
 RewriteRule ^/def/sample-condition.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/sample-condition($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition$1" [R=302,NE,L]""" ;
     schema:name "Sample/Specimen condition" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/auspix(.*)$                             https://geoscienceaust
 RewriteRule ^/def/auspix(.*).ttl$                         https://geoscienceaustralia.github.io/AusPIX-DGGS-ontology/auspix.ttl [R=302,L]
 RewriteRule ^/def/auspix(.*)$                             https://geoscienceaustralia.github.io/AusPIX-DGGS-ontology/auspix.html$1 [R=302,L]""" ;
     schema:name "AusPix DGGS ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

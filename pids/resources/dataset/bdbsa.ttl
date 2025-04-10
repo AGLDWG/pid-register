@@ -31,7 +31,6 @@ RewriteRule ^\\/dataset\\/bdbsa(.*)$                                  https://li
 RewriteRule ^\\/dataset\\/bdbsa(.*).n3$                               https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/bdbsa$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
 RewriteRule ^/dataset/bdbsa(.*)$                                    https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/bdbsa$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "Biological Databases of South Australia (BDBSA)" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/dataset($|/.*)                        https://raw.githack.com/
 RewriteRule ^/def/dataset(|/.*).ttl$                    https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl [R=302,L]
 RewriteRule ^/def/dataset($|(/.*))                      https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html$2 [R=302,L]""" ;
     schema:name "Dataset Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/agldwg> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

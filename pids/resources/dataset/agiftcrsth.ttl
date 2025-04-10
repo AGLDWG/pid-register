@@ -15,7 +15,6 @@ RewriteRule ^/dataset/agiftcrsth(.*)$                   https://raw.githubuserco
 RewriteRule ^/dataset/agiftcrsth(.*).ttl$               https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl [R=302,L]
 RewriteRule ^/dataset/agiftcrsth                        https://github.com/CSIRO-enviro-informatics/agiftcrsth-linkset [L,R=302]""" ;
     schema:name "AGIFT / CRS Thesaurus Linkset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -42,7 +42,6 @@ RewriteRule ^/def/australian-hydrological-geospatial-fabric/?(|/.+)$		https://vo
 RewriteRule ^/def/australian-hydrological-geospatial-fabric(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric$1 [R=302,QSA,L]
 RewriteRule ^/def/australian-hydrological-geospatial-fabric/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric$1 [R=302,QSA,L]""" ;
     schema:name "Australian Hydrological Geospatial Fabric (Geofabric)" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

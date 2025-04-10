@@ -14,7 +14,6 @@ RewriteRule ^/def/cn($|/(.*))                           https://raw.githubuserco
 RewriteRule ^/def/cn.ttl                                https://raw.githubusercontent.com/AGLDWG/compound-naming-model/main/model.ttl [R=302,L]
 RewriteRule ^/def/cn($|/(.*))                           https://agldwg.github.io/compound-naming-model/model.html [R=302,L]""" ;
     schema:name "Cadastre Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

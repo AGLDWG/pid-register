@@ -15,7 +15,6 @@ RewriteRule ^/def/bore$                         https://kurrawong.github.io/bore
 RewriteRule ^/def/bore.ttl$                     https://kurrawong.github.io/bore-model/model.ttl [R=302,L]
 RewriteRule ^/def/bore$                         https://kurrawong.github.io/bore-model/model.html [R=302,L]""" ;
     schema:name "Bores Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

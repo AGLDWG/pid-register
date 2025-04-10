@@ -19,7 +19,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/auspix/(.*) "https://fsdf.org.au/dataset/auspix/collections/auspix/items/$1?_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/dataset/auspix/(.*) "https://fsdf.org.au/dataset/auspix/collections/auspix/items/$1" [R=302,L]""" ;
     schema:name "AusPIX dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

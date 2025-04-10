@@ -16,7 +16,6 @@ RewriteRule ^/def/geochem$				                https://kurrawong.github.io/gsq-ge
 RewriteRule ^/def/geochem/spec$                         https://kurrawong.github.io/gsq-geochem/spec.html [R=302,L]
 RewriteRule ^/def/geochem/overview$                     https://kurrawong.github.io/gsq-geochem/overview.html [R=302,L]""" ;
     schema:name "Geochemistry Data Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gssa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

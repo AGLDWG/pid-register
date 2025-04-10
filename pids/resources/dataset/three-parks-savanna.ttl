@@ -31,7 +31,6 @@ RewriteRule ^\\/dataset\\/three-parks-savanna(.*)$                    https://li
 RewriteRule ^\\/dataset\\/three-parks-savanna(.*).n3$                 https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
 RewriteRule ^/dataset/three-parks-savanna(.*)$                      https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/three-parks-savanna$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "Three Parks Savanna Fire-effects Plot Network" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -42,7 +42,6 @@ RewriteRule ^/def/rainfall-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repo
 RewriteRule ^/def/rainfall-definitions(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/rainfall-definitions$1 [R=302,QSA,L]
 RewriteRule ^/def/rainfall-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/rainfall-definitions$1 [R=302,QSA,L]""" ;
     schema:name "Rainfall definitions" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

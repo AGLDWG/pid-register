@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2020-02-27"^^xsd:date ;
     schema:dateModified "2020-02-27"^^xsd:date ;
     schema:name "Natural Resource Management Regions 2017" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/dawr> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/submitted> ;
 .

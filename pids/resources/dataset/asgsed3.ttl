@@ -25,7 +25,6 @@ RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf
 RewriteRule ^/dataset/asgsed3/(.*)/(.*).ttl$            https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2 [R=302,L]""" ;
     schema:name "ASGS Edition 3 Dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/abs> ;
     schema:sponsor <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

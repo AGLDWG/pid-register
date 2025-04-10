@@ -32,7 +32,6 @@ RewriteRule ^/def/nrm(.*).n3$                       https://linkeddata.tern.org.
 RewriteRule ^/def/nrm$                              https://linkeddata.tern.org.au/prez/dawe-cv/v/ [R=302,L]
 RewriteRule ^/def/nrm(.*)$                          https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm$1 [R=302,L]""" ;
     schema:name "Natural Resource Management Controlled Vocabularies" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

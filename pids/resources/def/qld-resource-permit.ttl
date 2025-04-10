@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/qld-resource-permit($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=qld-resource-permit&uri=https://linked.data.gov.au/def/qld-resource-permit$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/qld-resource-permit($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=qld-resource-permit&uri=https://linked.data.gov.au/def/qld-resource-permit$1" [R=302,NE,L]""" ;
     schema:name "Queensland Resource Permits" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gsq> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

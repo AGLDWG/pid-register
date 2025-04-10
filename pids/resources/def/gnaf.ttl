@@ -15,7 +15,6 @@ RewriteRule ^/def/gnaf(.*)$                             https://agldwg.github.io
 RewriteRule ^/def/gnaf(.*).ttl$                         https://agldwg.github.io/gnaf-ont/gnaf.ttl [R=302,L]
 RewriteRule ^/def/gnaf(.*)$                             https://agldwg.github.io/gnaf-ont/gnaf.html$1 [R=302,L]""" ;
     schema:name "G-NAF Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

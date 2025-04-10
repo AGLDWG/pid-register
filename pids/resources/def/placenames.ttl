@@ -17,7 +17,6 @@ RewriteRule ^/def/placenames/?$                         https://geoscienceaustra
 RewriteMap tolower int:tolower
 RewriteRule ^/def/placenames/(.*)$                      https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.html\\#${tolower:$1} [R=302,L,NE]""" ;
     schema:name "Place Names Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/ga> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

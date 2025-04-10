@@ -42,7 +42,6 @@ RewriteRule ^/def/australian-groundwater-insight/?(|/.+)$		https://vocabs.ardc.e
 RewriteRule ^/def/australian-groundwater-insight(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/bom/australian-groundwater-insight/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-groundwater-insight$1 [R=302,QSA,L]
 RewriteRule ^/def/australian-groundwater-insight/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/bom/australian-groundwater-insight/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-groundwater-insight$1 [R=302,QSA,L]""" ;
     schema:name "Australian Groundwater Insight" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/bom-gu> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

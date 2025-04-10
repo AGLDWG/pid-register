@@ -49,7 +49,6 @@ RewriteRule ^/def/asgs(.*)$                             https://raw.githack.com/
 RewriteRule ^/def/asgs/cat(.*)$                         https://raw.githack.com/AGLDWG/asgs-ont/master/asgs-cat.html$1 [R=302,L]
 RewriteRule ^/def/asgs/id(.*)$                          https://raw.githack.com/AGLDWG/asgs-ont/master/asgs-id.html$1 [R=302,L]""" ;
     schema:name "ASGS Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/abs> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

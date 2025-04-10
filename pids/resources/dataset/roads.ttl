@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2023-06-21"^^xsd:date ;
     schema:dateModified "2023-06-21"^^xsd:date ;
     schema:name "National Roads" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/geoscape> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/submitted> ;
 .

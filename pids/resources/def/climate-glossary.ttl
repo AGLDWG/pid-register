@@ -42,7 +42,6 @@ RewriteRule ^/def/climate-glossary/?(|/.+)$		https://vocabs.ardc.edu.au/reposito
 RewriteRule ^/def/climate-glossary(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/climate-glossary$1 [R=302,QSA,L]
 RewriteRule ^/def/climate-glossary/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/climate-glossary$1 [R=302,QSA,L]""" ;
     schema:name "Climate Glossary" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

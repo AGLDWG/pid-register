@@ -15,7 +15,6 @@ RewriteRule ^/def/agrif(.*)$                            https://raw.githack.com/
 RewriteRule ^/def/agrif(.*).ttl$                        https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl [R=302,L]
 RewriteRule ^/def/agrif(.*)$                            https://raw.githack.com/agldwg/agrif-ont/master/agrif.html$1 [R=302,L]""" ;
     schema:name "AGRIF Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/finance> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

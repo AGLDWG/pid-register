@@ -32,7 +32,6 @@ RewriteRule ^/dataset/ibra7(.*).n3$                       https://linkeddata.ter
 RewriteRule ^/dataset/ibra7$                              https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7 [R=302,L]
 RewriteRule ^/dataset/ibra7(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7$1 [R=302,L]""" ;
     schema:name "Interim Biogeographic Regionalisation for Australia (IBRA) Codes 7 " ;
-    schema:ownedFrom <https://linked.data.gov.au/org/bap> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

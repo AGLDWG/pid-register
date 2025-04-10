@@ -15,7 +15,6 @@ RewriteRule ^/def/metamorphic-thermal-regime($|/.*)$ "https://vocabulary.gswa.ku
 RewriteRule ^/def/metamorphic-thermal-regime.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/metamorphic-thermal-regime($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime$1" [R=302,NE,L]""" ;
     schema:name "Metamorphic thermal regime style" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

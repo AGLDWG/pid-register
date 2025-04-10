@@ -16,7 +16,6 @@ RewriteRule ^/dataset/causalnetwork/id/(.*)$            https://causalnetworks.a
 RewriteRule ^/dataset/causalnetwork/id/(.*)$            https://causalnetworks.azurewebsites.net/causalnetwork/id/$1 [R=302,QSA,L]
 RewriteRule ^/dataset/causalnetwork($|/.*)$             https://causalnetworks.azurewebsites.net/causalnetwork$1 [R=302,QSA,L]""" ;
     schema:name "CSIRO Causal Networks" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/australian-physiographic-units($|/.*)$ "https://vocabulary.gsw
 RewriteRule ^/def/australian-physiographic-units.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/australian-physiographic-units$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/australian-physiographic-units($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/australian-physiographic-units$1" [R=302,NE,L]""" ;
     schema:name "Australian physiographic units" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

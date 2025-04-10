@@ -20,7 +20,6 @@ RewriteRule ^/def/reg-statuses/(.+)$                    https://agldwg.github.io
 RewriteRule ^/def/reg-statuses/(.+).ttl$                https://agldwg.github.io/reg-statuses/$1.ttl? [R=302,L]
 RewriteRule ^/def/reg-statuses/(.+)$                    https://agldwg.github.io/reg-statuses/$1 [R=302,L]""" ;
     schema:name "Registry Ontology's Status Vocabulary" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

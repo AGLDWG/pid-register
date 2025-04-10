@@ -15,7 +15,6 @@ RewriteRule ^/def/lifecycle(.*)$                 https://agldwg.github.io/lifecy
 RewriteRule ^/def/lifecycle(.*).ttl$             https://agldwg.github.io/lifecycle-model/lifecycle.ttl [R=302,L]
 RewriteRule ^/def/lifecycle(.*)$                 https://agldwg.github.io/lifecycle-model/lifecycle.html$1 [R=302,L]""" ;
     schema:name "Cadastre Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/qsi> ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

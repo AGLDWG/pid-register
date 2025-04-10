@@ -32,7 +32,6 @@ RewriteRule ^/def/bdbsa-cv(.*).n3$                       https://linkeddata.tern
 RewriteRule ^/def/bdbsa-cv$                              https://linkeddata.tern.org.au/prez/bdbsa-cv/v/ [R=302,L]
 RewriteRule ^/def/bdbsa-cv(.*)$                          https://linkeddata.tern.org.au/viewer/bdbsa/id/https://linked.data.gov.au/def/bdbsa-cv$1 [R=302,L]""" ;
     schema:name "BDBSA vocabularies (Biological Databases of South Australia)" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

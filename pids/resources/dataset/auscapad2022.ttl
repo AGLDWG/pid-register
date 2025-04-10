@@ -32,7 +32,6 @@ RewriteRule ^/dataset/auscapad2022(.*).n3$                       https://linkedd
 RewriteRule ^/dataset/auscapad2022$                              https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/auscapad2022 [R=302,L]
 RewriteRule ^/dataset/auscapad2022(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/auscapad2022$1 [R=302,L]""" ;
     schema:name "CAPAD 2022 - Terrestrial" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/dawr> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

@@ -15,7 +15,6 @@ RewriteRule ^/def/metamorphic-stage($|/.*)$ "https://vocabulary.gswa.kurrawong.a
 RewriteRule ^/def/metamorphic-stage.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/metamorphic-stage($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage$1" [R=302,NE,L]""" ;
     schema:name "Metamorphic stage" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gswa> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

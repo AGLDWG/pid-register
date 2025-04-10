@@ -42,7 +42,6 @@ RewriteRule ^/def/tsunami-glossary-of-terms/?(|/.+)$		https://vocabs.ardc.edu.au
 RewriteRule ^/def/tsunami-glossary-of-terms(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/tsunami-glossary-of-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/tsunami-glossary-of-terms$1 [R=302,QSA,L]
 RewriteRule ^/def/tsunami-glossary-of-terms/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/tsunami-glossary-of-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/tsunami-glossary-of-terms$1 [R=302,QSA,L]""" ;
     schema:name "Tsunami Glossary of Terms" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

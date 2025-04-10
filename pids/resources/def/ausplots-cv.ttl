@@ -32,7 +32,6 @@ RewriteRule ^/def/ausplots-cv(.*).n3$                       https://linkeddata.t
 RewriteRule ^/def/ausplots-cv$                              https://linkeddata.tern.org.au/prez/ausplots-cv/v/ [R=302,L]
 RewriteRule ^/def/ausplots-cv(.*)$                          https://linkeddata.tern.org.au/viewer/ausplots/id/https://linked.data.gov.au/def/ausplots-cv$1 [R=302,L]""" ;
     schema:name "TERN AusPlots Vocabulary" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

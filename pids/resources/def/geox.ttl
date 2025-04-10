@@ -23,7 +23,6 @@ RewriteRule ^/def/geox                                  https://csiro-enviro-inf
 RewriteRule ^/def/geox(.*).jsonld$                      https://csiro-enviro-informatics.github.io/geosparql-ext-ont/geox.jsonld [R=302,L]
 RewriteRule ^/def/geox(.*)$                             https://csiro-enviro-informatics.github.io/geosparql-ext-ont/geox.html$1 [R=302,L]""" ;
     schema:name "GeoSPARQL extensions" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

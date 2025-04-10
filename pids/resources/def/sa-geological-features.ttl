@@ -14,7 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/sa-geological-features($|/.*)$ "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-geological-features$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/sa-geological-features($|/.*)$ "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-geological-features$1" [R=302,NE,L]""" ;
     schema:name "SA Geological Features" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/gssa> ;
     schema:sponsor <https://linked.data.gov.au/org/gssa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

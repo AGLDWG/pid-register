@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2021-12-01"^^xsd:date ;
     schema:dateModified "2024-03-29"^^xsd:date ;
     schema:name "TERN's RDF data" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/notAccepted> ;
 .

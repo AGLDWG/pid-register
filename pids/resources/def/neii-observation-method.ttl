@@ -42,7 +42,6 @@ RewriteRule ^/def/neii-observation-method/?(|/.+)$		https://vocabs.ardc.edu.au/r
 RewriteRule ^/def/neii-observation-method(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-observation-method/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-observation-method$1 [R=302,QSA,L]
 RewriteRule ^/def/neii-observation-method/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-observation-method/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-observation-method$1 [R=302,QSA,L]""" ;
     schema:name "NEII Observation Method" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

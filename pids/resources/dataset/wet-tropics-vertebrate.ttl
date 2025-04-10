@@ -31,7 +31,6 @@ RewriteRule ^\\/dataset\\/wet-tropics-vertebrate(.*)$                 https://li
 RewriteRule ^\\/dataset\\/wet-tropics-vertebrate(.*).n3$              https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/wet-tropics-vertebrate$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
 RewriteRule ^/dataset/wet-tropics-vertebrate(.*)$                   https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/wet-tropics-vertebrate$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
     schema:name "Williams Wet Tropics Vertebrate database" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/tern> ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -17,7 +17,6 @@ RewriteRule ^/dataset/energy$                           https://raw.githack.com/
 RewriteRule ^/dataset/energy/$                          https://near.csiro.au/assets/ [R=302,L]
 RewriteRule ^/dataset/energy/(.*)$                      https://near.csiro.au/assets/$1 [R=302,L]""" ;
     schema:name "NEAR Catalogue" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

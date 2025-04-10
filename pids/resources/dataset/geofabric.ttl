@@ -25,7 +25,6 @@ RewriteRule ^/dataset/geofabric/hydroid/(.*)$ "https://geofabric.linked.fsdf.org
 RewriteRule ^/dataset/geofabric/hydroid/(.*).ttl$ "https://geofabric.linked.fsdf.org.au/object?uri=https://%{HTTP_HOST}/dataset/geofabric/hydroid/$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/dataset/geofabric/hydroid/(.*)$ "https://geofabric.linked.fsdf.org.au/object?uri=https://%{HTTP_HOST}%{REQUEST_URI}" [R=302,L]""" ;
     schema:name "Geofabric Dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

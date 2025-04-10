@@ -10,6 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2020-03-02"^^xsd:date ;
     schema:dateModified "2024-03-29"^^xsd:date ;
     schema:name "CAPAD 2018 - Terrestrial" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/dawr> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/invalid> ;
 .

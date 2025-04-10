@@ -56,7 +56,6 @@ RewriteRule ^/def/csdm/surveyobs$ "https://icsm-au.github.io/3d-csdm/surveyobs.t
 RewriteRule ^/def/csdm/surveyobs.ttl$ "https://icsm-au.github.io/3d-csdm/surveyobs.ttl" [R=302,L]
 RewriteRule ^/def/csdm/surveyobs$ "https://icsm-au.github.io/3d-csdm/surveyobs.html" [R=302,NE,L]""" ;
     schema:name "Cadastral Survey Dataset Submissions Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/icsm> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

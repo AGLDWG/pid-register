@@ -23,7 +23,6 @@ RewriteRule ^/def/loci                                  https://csiro-enviro-inf
 RewriteRule ^/def/loci(.*).jsonld$                      https://csiro-enviro-informatics.github.io/loci-ont/loci.jsonld [R=302,L]
 RewriteRule ^/def/loci(.*)$                             https://csiro-enviro-informatics.github.io/loci-ont/loci.html$1 [R=302,L]""" ;
     schema:name "Loc-I Ontology" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

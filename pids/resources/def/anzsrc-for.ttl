@@ -18,7 +18,6 @@ RewriteCond %{HTTP_ACCEPT} text/turtle [NC]
 RewriteRule ^/def/anzsrc-for/2020/(.+)$ "https://vocabs.ardc.edu.au/repository/api/lda/anzsrc-2020-for/resource.ttl?uri=https://linked.data.gov.au/def/anzsrc-for/2020/$1" [R=302,L]
 RewriteRule ^/def/anzsrc-for/2020/(.+)$ "https://vocabs.ardc.edu.au/repository/api/lda/anzsrc-2020-for/resource?uri=https://linked.data.gov.au/def/anzsrc-for/2020/$1" [R=302,NE,L]""" ;
     schema:name "ANZSRC 2020 Fields of Research" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/abs> ;
     schema:sponsor <https://linked.data.gov.au/org/ardc> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

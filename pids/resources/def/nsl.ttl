@@ -18,7 +18,6 @@ RewriteRule ^/def/nsl$                                  https://kurrawong.github
 RewriteRule ^/def/nsl/validator$                        https://kurrawong.github.io/nsl-model/validator.ttl [R=302,L]
 RewriteRule ^/def/nsl/context.json$                     https://kurrawong.github.io/nsl-model/context.json [R=302,L]""" ;
     schema:name "National Species List Data Model" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/abrs> ;
     schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

@@ -11,7 +11,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2024-08-14"^^xsd:date ;
     schema:location "RewriteRule ^/dataset/bdr($|/.*?$)                      https://linked.bdr.gov.au/dataset/bdr$1?_host=linked.data.gov.au [R=307,QSA,L]" ;
     schema:name "Biodiversity Data Repository dataset" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/dawe> ;
     schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

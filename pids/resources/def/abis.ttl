@@ -39,7 +39,6 @@ RewriteRule ^/def/abis/bdr$                             https://ausbigg.github.i
 RewriteRule ^/def/abis/bdr.ttl$                         https://ausbigg.github.io/abis/bdr.ttl [R=302,L]
 RewriteRule ^/def/abis/bdr                              https://ausbigg.github.io/abis/specification.html#profile-bdr  [R=302,L]""" ;
     schema:name "Australian Biodiversity Information Standard" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/dawe> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

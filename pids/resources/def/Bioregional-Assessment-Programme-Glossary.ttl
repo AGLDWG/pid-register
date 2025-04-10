@@ -42,7 +42,6 @@ RewriteRule ^/def/Bioregional-Assessment-Programme-Glossary/?(|/.+)$		https://vo
 RewriteRule ^/def/Bioregional-Assessment-Programme-Glossary(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary$1 [R=302,QSA,L]
 RewriteRule ^/def/Bioregional-Assessment-Programme-Glossary/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary$1 [R=302,QSA,L]""" ;
     schema:name "Bioregional Assessment Programme Glossary" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

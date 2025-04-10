@@ -42,7 +42,6 @@ RewriteRule ^/def/wave-sea-and-swell-terms/?(|/.+)$		https://vocabs.ardc.edu.au/
 RewriteRule ^/def/wave-sea-and-swell-terms(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/wave-sea-and-swell-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/wave-sea-and-swell-terms$1 [R=302,QSA,L]
 RewriteRule ^/def/wave-sea-and-swell-terms/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/wave-sea-and-swell-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/wave-sea-and-swell-terms$1 [R=302,QSA,L]""" ;
     schema:name "Wave, sea and swell terms" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

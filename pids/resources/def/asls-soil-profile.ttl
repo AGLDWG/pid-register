@@ -15,7 +15,6 @@ RewriteRule ^/def/asls-soil-profile($|/.+)$            https://vocabs.ardc.edu.a
 RewriteRule ^/def/asls-soil-profile.ttl$               https://vocabs.ardc.edu.au/repository/api/lda/csiro/soil-profile-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/soil-profile [R=302,L]
 RewriteRule ^/def/asls-soil-profile($|/.+)$            https://vocabs.ardc.edu.au/repository/api/lda/csiro/soil-profile-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/soil-profile$1 [R=302,L]""" ;
     schema:name "ASLS Soil Profile classifiers" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/csiro> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
 .

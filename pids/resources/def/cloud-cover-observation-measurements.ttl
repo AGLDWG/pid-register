@@ -42,7 +42,6 @@ RewriteRule ^/def/cloud-cover-observation-measurements/?(|/.+)$		https://vocabs.
 RewriteRule ^/def/cloud-cover-observation-measurements(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/cloud-cover-observation-measurements/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/cloud-cover-observation-measurements$1 [R=302,QSA,L]
 RewriteRule ^/def/cloud-cover-observation-measurements/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/cloud-cover-observation-measurements/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/cloud-cover-observation-measurements$1 [R=302,QSA,L]""" ;
     schema:name "Cloud Cover Observation Measurements" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/neii> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

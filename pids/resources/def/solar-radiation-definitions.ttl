@@ -42,7 +42,6 @@ RewriteRule ^/def/solar-radiation-definitions/?(|/.+)$		https://vocabs.ardc.edu.
 RewriteRule ^/def/solar-radiation-definitions(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/solar-radiation-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/solar-radiation-definitions$1 [R=302,QSA,L]
 RewriteRule ^/def/solar-radiation-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/solar-radiation-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/solar-radiation-definitions$1 [R=302,QSA,L]""" ;
     schema:name "Solar Radiation Definitions" ;
-    schema:ownedFrom <https://linked.data.gov.au/org/bom-cs> ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .
