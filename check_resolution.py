@@ -26,12 +26,12 @@ for s in g.subjects(RDF.type, [SDO.DefinedTermSet, SDO.Dataset]):
 
 print(len(resolving), len(not_resolving))
 
-with open("resolving.csv", "w") as f:
+with open("source/resolving.csv", "w") as f:
     writer = csv.writer(f)
     for x in resolving:
         writer.writerow(x)
 
-with open("not_resolving.csv", "w") as f:
+with open("source/not_resolving.csv", "w") as f:
     writer = csv.writer(f)
     for x in not_resolving:
         writer.writerow(x)
