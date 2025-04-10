@@ -1,12 +1,11 @@
-PREFIX : <https://linked.data.gov.au/dataset/>
-PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
-PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/dataset>
-    a schema:DataCatalog ;
-    schema:hasPart
+    a dcat:Catalog ;
+    dcterms:hasPart
         <https://linked.data.gov.au/dataset/addr1605mb11> ,
         <https://linked.data.gov.au/dataset/addr1605mb16> ,
         <https://linked.data.gov.au/dataset/addrcatch> ,
@@ -468,5 +467,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "The register of linked.data.gov.au/dataset/ PIDs " ;
     schema:name "linked.data.gov.au PIDs" ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
-    reg:status astatus:stable ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

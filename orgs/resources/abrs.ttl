@@ -1,7 +1,10 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 
 <https://linked.data.gov.au/org/abrs>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "An organisational subunit of the federal department responsible for the Environment that manages, among other things, the National Species List." ;
     schema:isPartOf <https://linked.data.gov.au/org/dcceew> ;
     schema:name "Australian Biological Resources Study" ;

@@ -1,7 +1,10 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 
 <https://linked.data.gov.au/org/atsb>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "The Australian Transport Safety Bureau (ATSB) is Australia's national transport safety investigator." ;
     schema:name "Australian Transport Safety Bureau" ;
 .

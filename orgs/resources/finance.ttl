@@ -1,8 +1,11 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/finance>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "As a central agency of the Australian Government, the Department of Finance (Finance) plays an important role in assisting government across a wide range of policy areas to ensure its outcomes are met. Finance supports the government’s ongoing priorities through the Budget process and fosters leading practice through the public sector resource management, governance and accountability frameworks." ;
     schema:identifier "O-000850"^^<https://linked.data.gov.au/org/agorId> ;
     schema:name "Department of Finance" ;

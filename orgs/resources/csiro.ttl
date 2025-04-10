@@ -1,8 +1,11 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/csiro>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "Australia's national science research agency." ;
     schema:identifier
         "O-000886"^^<https://linked.data.gov.au/org/agorId> ,
@@ -17,5 +20,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:member <https://linked.data.gov.au/person/paul.j.box> ;
     schema:member <https://linked.data.gov.au/person/sally.tetreault-campbell> ;
     schema:member <https://linked.data.gov.au/person/simon.cox> ;
-    schema:member <https://linked.data.gov.au/person/stephen.lndsay> ;
+    schema:member <https://linked.data.gov.au/person/stephen.lindsay> ;
 .

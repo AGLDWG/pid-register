@@ -1,10 +1,19 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/def/record-access>
+    a
+        dcat:Resource ,
+        <https://linked.data.gov.au/def/pid/PID> ;
+    schema:creator <https://linked.data.gov.au/person/vance.kelly> ;
+    schema:dateCreated "2020-04-30"^^xsd:date ;
+    schema:dateModified "2020-04-30"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/record-access($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/record-access(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/record-access($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access$1" [R=302,NE,L]""" ;
-    schema:sponsor <https://linked.data.gov.au/org/icsm> ;
+    schema:sponsor: <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

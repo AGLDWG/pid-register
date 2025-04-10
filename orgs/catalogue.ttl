@@ -1,15 +1,17 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org>
-    a schema:DataCatalog ;
+    a dcat:Catalog ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
     schema:codeRepository "https://github.com/AGLDWG/pid-register" ;
     schema:creator <https://linked.data.gov.au/org/agldwg> ;
     schema:dateCreated "2018"^^xsd:gYear ;
     schema:dateModified "2025-04-04"^^xsd:date ;
     schema:description "The Australian Government Linked Data Working Group's catalogue of organisations" ;
-    schema:hasPart
+    dcterms:hasPart
         <https://linked.data.gov.au/org/abares> ,
         <https://linked.data.gov.au/org/abrs> ,
         <https://linked.data.gov.au/org/abs> ,

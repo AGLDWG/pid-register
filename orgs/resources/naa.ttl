@@ -1,8 +1,11 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/naa>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "The National Archives of Australia can best be described as the memory of our nation – collecting and preserving Australian Government records that reflect our history and identity." ;
     schema:identifier
         "O-000790"^^<https://linked.data.gov.au/org/agorId> ,

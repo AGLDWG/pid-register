@@ -1,7 +1,10 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 
 <https://linked.data.gov.au/org/nsl>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "Holder of authorititive species data for Australia." ;
     schema:isPartOf <https://linked.data.gov.au/org/abrs> ;
     schema:name "National Species List" ;

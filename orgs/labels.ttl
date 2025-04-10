@@ -105,6 +105,11 @@ schema:isPartOf
     schema:name "isPartOf" ;
 .
 
+schema:member
+    schema:description "A member of an Organization or a ProgramMembership. Organizations can be members of organizations; ProgramMembership is typically for individuals." ;
+    schema:name "member" ;
+.
+
 schema:name
     schema:description "The name of the item" ;
     schema:name "name" ;
@@ -125,3 +130,42 @@ schema:url
     schema:name "url" ;
 .
 
+
+
+
+<https://linked.data.gov.au/person/ScottLutwycheDES> schema:name "Scott Lutwyche" .
+<https://linked.data.gov.au/person/Stephen.Pratt> schema:name "Stephen Pratt" .
+<https://linked.data.gov.au/person/Steven.Bowden> schema:name "Steven Bowden" .
+<https://linked.data.gov.au/person/alex.zou> schema:name "Alex Zou" .
+<https://linked.data.gov.au/person/anne.goldsack> schema:name "Anne Goldsack" .
+<https://linked.data.gov.au/person/armin.haller> schema:name "Armin Haller" .
+<https://linked.data.gov.au/person/ashley.sommer> schema:name "Ashley Sommer" .
+<https://linked.data.gov.au/person/chee.ng> schema:name "Chee Ng" .
+<https://linked.data.gov.au/person/cjorquera> schema:name "Camilo Jorquera" .
+<https://linked.data.gov.au/person/daniel.brough> schema:name "Daniel Brough" .
+<https://linked.data.gov.au/person/david.crosswell> schema:name "David Crosswell" .
+<https://linked.data.gov.au/person/e.chuc> schema:name "Edmond Chuc" .
+<https://linked.data.gov.au/person/endymion.cooper> schema:name "Endymion Cooper" .
+<https://linked.data.gov.au/person/garry.thomson> schema:name "Garry Thomson" .
+<https://linked.data.gov.au/person/irina.bastrakova> schema:name "Irina Bastrakova" .
+<https://linked.data.gov.au/person/javiersan18> schema:name "Javier Gonzalez" .
+<https://linked.data.gov.au/person/john.machin> schema:name "John Machin" .
+<https://linked.data.gov.au/person/jonathan.yu> schema:name "Jonathan Yu" .
+<https://linked.data.gov.au/person/joseph.abhayaratna> schema:name "Joseph Abhayaratna" .
+<https://linked.data.gov.au/person/kevin.thiele> schema:name "Kevin Thiele" .
+<https://linked.data.gov.au/person/laurent.lefort> schema:name "Laurent Lefort" .
+<https://linked.data.gov.au/person/leonard.smith> schema:name "Len Smith" .
+<https://linked.data.gov.au/person/mr.wong> schema:name "Megan Wong" .
+<https://linked.data.gov.au/person/michael.elliot-smith> schema:name "Michael Elliot-Smith" .
+<https://linked.data.gov.au/person/nicholas.car> schema:name "Nicholas Car" .
+<https://linked.data.gov.au/person/paul.j.box> schema:name "Paul Box" .
+<https://linked.data.gov.au/person/richard.walker> schema:name "Richard Walker" .
+<https://linked.data.gov.au/person/sally.clement> schema:name "Sally Clement" .
+<https://linked.data.gov.au/person/sally.tetreault-campbell> schema:name "Sally Tetreault-Campbell" .
+<https://linked.data.gov.au/person/sandra.silcot> schema:name "Sandra Silcot" .
+<https://linked.data.gov.au/person/simon.cox> schema:name "Simon Cox" .
+<https://linked.data.gov.au/person/stephen.lindsay> schema:name "Stephen lindsay" .
+<https://linked.data.gov.au/person/tatiana.antsoupova> schema:name "Tatiana Antsoupova" .
+<https://linked.data.gov.au/person/vkelly> schema:name "Vance Kelly" .
+<https://linked.data.gov.au/person/vance.kelly> schema:name "Vance Kelly" .
+<https://linked.data.gov.au/person/william.francis> schema:name "William Francis" .

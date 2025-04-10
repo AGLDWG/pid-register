@@ -1,8 +1,11 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/icsm-addr>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "The permanent Working Group within ICSM charged with addressing issues." ;
     schema:isPartOf <https://linked.data.gov.au/org/icsm> ;
     schema:name "ICSM Addressing Working Group" ;

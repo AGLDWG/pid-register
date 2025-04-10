@@ -1,8 +1,11 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/anu>
-    a schema:Organization ;
+    a
+        dcat:Resource ,
+        schema:Organization ;
     schema:description "ANU is a world-leading university in Australia’s capital. Excellence is embedded in our approach to research and education." ;
     schema:identifier
         "O-000827"^^<https://linked.data.gov.au/org/agorId> ,
