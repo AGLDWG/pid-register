@@ -27,13 +27,11 @@ The Organisations catalogue maintains information about organisations and people
 
 Organisations can be added to the catalogue by request - directly to the AGLDWG. All organisations involved with PIDs will also be added to the catalogue.
 
-
 ## License
 
 All the content of this repository is licensed with the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license with the following copyright notice:
 
 &copy; Commonwealth of Australia (Australian Government Linked Data Working Group), 2025
-
 
 ## Contact
 
@@ -42,3 +40,28 @@ For all matters relating to this repository and the registry that it supports, p
 **Australian Government Linked Data Working Group**  
 <linkeddatairi@ardc.edu.au>  
 <https://www.linked.data.gov.au>  
+
+
+## Operating Instructions
+
+Many of the operational tasks required to maintain the PID Register are coded into Docker and Python scripts that can be run via the "Task" task runner / build tool.
+
+All the tasks available are listed in Taskfile.yml, e.g. `rdf2conf`, `aup` & `adown`.
+
+They are run simply by typing `task aup` etc. on the (Linux-like) command line.
+
+### Adding a new PID
+
+### Testing a new PID
+
+1. Run the RDF-to-conf script
+
+```bash
+task rdf2conf
+```
+
+2. Start the test server container
+
+```bash
+task aup
+```

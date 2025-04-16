@@ -1,0 +1,14 @@
+services:
+  redirect:
+    image: httpd:2.4-alpine
+    container_name: redirector
+    ports:
+      - 8081:80
+    volumes:
+      - ./www:/usr/local/apache2/htdocs/
+      - type: bind
+        source: ./conf/httpd.conf
+        target: /usr/local/apache2/conf/httpd.conf
+      - type: bind
+        source: ./conf/pids.conf
+        target: /usr/local/apache2/conf/pids.conf

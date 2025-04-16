@@ -1,0 +1,13 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  rdf2conf:
+    cmd: python scripts/rdf2conf.py
+
+  aup:
+    cmd: docker compose -f tests/apache/docker-compose.yml up -d
+
+  adown:
+    cmd: docker compose -f tests/apache/docker-compose.yml down
