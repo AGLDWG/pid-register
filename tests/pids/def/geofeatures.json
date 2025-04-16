@@ -1,0 +1,16 @@
+[
+    {
+        "label": "geofeatures HTML",
+        "from": "https://linked.data.gov.au/def/geofeatures",
+        "to": "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures",
+        "headers": {}
+    },
+    {
+        "label": "geofeatures RDF",
+        "from": "https://linked.data.gov.au/def/geofeatures",
+        "to": "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures&_mediatype=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

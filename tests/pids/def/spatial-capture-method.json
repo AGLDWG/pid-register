@@ -1,0 +1,16 @@
+[
+    {
+        "label": "spatial-capture-method HTML",
+        "from": "https://linked.data.gov.au/def/spatial-capture-method",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/spatial-capture-method",
+        "headers": {}
+    },
+    {
+        "label": "spatial-capture-method RDF",
+        "from": "https://linked.data.gov.au/def/spatial-capture-method",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/spatial-capture-method&_mediatype=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

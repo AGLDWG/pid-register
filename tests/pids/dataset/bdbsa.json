@@ -1,0 +1,16 @@
+[
+    {
+        "label": "BDBSA Dataset Metadata - one vocab HTML",
+        "from": "https://linked.data.gov.au/dataset/bdbsa",
+        "to": "https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+        "headers": {}
+    },
+    {
+        "label": "BDBSA Dataset Metadata - one vocab TURTLE",
+        "from": "https://linked.data.gov.au/dataset/bdbsa",
+        "to": "https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

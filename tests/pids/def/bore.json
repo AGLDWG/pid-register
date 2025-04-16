@@ -1,0 +1,16 @@
+[
+    {
+        "label": "bore HTML",
+        "from": "https://linked.data.gov.au/def/bore",
+        "to": "https://kurrawong.github.io/bore-model/model.html",
+        "headers": {}
+    },
+    {
+        "label": "bore RDF",
+        "from": "https://linked.data.gov.au/def/bore",
+        "to": "https://kurrawong.github.io/bore-model/model.ttl",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

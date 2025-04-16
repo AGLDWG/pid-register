@@ -1,0 +1,16 @@
+[
+    {
+        "label": "road-maintainer HTML",
+        "from": "https://linked.data.gov.au/def/road-maintainer",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-maintainer",
+        "headers": {}
+    },
+    {
+        "label": "road-maintainer RDF",
+        "from": "https://linked.data.gov.au/def/road-maintainer",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-maintainer&_mediatype=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

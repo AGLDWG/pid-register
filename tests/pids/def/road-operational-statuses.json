@@ -1,0 +1,16 @@
+[
+    {
+        "label": "road-operational-statuses HTML",
+        "from": "https://linked.data.gov.au/def/road-operational-statuses",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-operational-statuses",
+        "headers": {}
+    },
+    {
+        "label": "road-operational-statuses RDF",
+        "from": "https://linked.data.gov.au/def/road-operational-statuses",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-operational-statuses&_mediatype=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

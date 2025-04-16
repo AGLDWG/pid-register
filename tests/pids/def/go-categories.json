@@ -1,0 +1,16 @@
+[
+    {
+        "label": "go-categories HTML",
+        "from": "https://linked.data.gov.au/def/go-categories",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/go-categories",
+        "headers": {}
+    },
+    {
+        "label": "go-categories RDF",
+        "from": "https://linked.data.gov.au/def/go-categories",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/go-categories&_mediatype=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

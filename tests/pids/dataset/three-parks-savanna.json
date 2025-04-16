@@ -1,0 +1,16 @@
+[
+    {
+        "label": "Three Parks Savanna Dataset Metadata - one vocab HTML",
+        "from": "https://linked.data.gov.au/dataset/three-parks-savanna",
+        "to": "https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/three-parks-savanna&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+        "headers": {}
+    },
+    {
+        "label": "Three Parks Savanna Dataset Metadata - one vocab TURTLE",
+        "from": "https://linked.data.gov.au/dataset/three-parks-savanna",
+        "to": "https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/three-parks-savanna&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

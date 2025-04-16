@@ -1,0 +1,8 @@
+[
+    {
+        "label": "/def/abis/context.json",
+        "from": "https://linked.data.gov.au/def/abis/context.json",
+        "to": "https://ausbigg.github.io/abis/context.json",
+        "headers": {}
+    }
+]

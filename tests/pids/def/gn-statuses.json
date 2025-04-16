@@ -1,0 +1,16 @@
+[
+    {
+        "label": "gn-statuses HTML",
+        "from": "https://linked.data.gov.au/def/gn-statuses",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/gn-statuses",
+        "headers": {}
+    },
+    {
+        "label": "gn-statuses RDF",
+        "from": "https://linked.data.gov.au/def/gn-statuses",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/gn-statuses&_mediatype=text/turtle",
+        "headers": {
+            "Accept": "text/turtle"
+        }
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "label": "Sampling Method HTML",
+        "from": "https://linked.data.gov.au/def/sampling-method",
+        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/sampling-method",
+        "headers": {}
+    }
+]

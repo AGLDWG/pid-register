@@ -1,0 +1,8 @@
+[
+    {
+        "label": "CSDM Container HTML",
+        "from": "https://linked.data.gov.au/def/csdm/container",
+        "to": "https://icsm-au.github.io/3d-csdm/container.html",
+        "headers": {}
+    }
+]
