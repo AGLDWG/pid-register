@@ -10,8 +10,6 @@ g = Graph()
 for f in sorted(PIDS_DIR.rglob("*.ttl")):
     g += Graph().parse(f)
 
-conf_file = ""
-
 
 def iri_2_path(iri):
     fn = str(iri).replace("https://linked.data.gov.au/", "")
@@ -26,6 +24,7 @@ for iri, redir in g.subject_objects(SDO.location):
     pids += 1
     if iri_2_path(iri).is_file():
         tests += 1
+    else:
         notests.append(str(iri))
 
 print(f"Test coverage is {round((tests / pids) * 100)}%")
