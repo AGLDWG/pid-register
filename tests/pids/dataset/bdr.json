@@ -34,13 +34,13 @@
     {
         "label": "BDR Dataset vocab datatypes HTML",
         "from": "https://linked.data.gov.au/dataset/bdr/datatypes",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/datatypes?_host=linked.data.gov.au",
         "headers": {}
     },
     {
         "label": "BDR Dataset vocab datatypes RDF",
         "from": "https://linked.data.gov.au/dataset/bdr/datatypes",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes&_mediatype=text/turtle",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/datatypes?_host=linked.data.gov.au",
         "headers": {
             "Accept": "text/turtle"
         }
@@ -48,13 +48,13 @@
     {
         "label": "BDR Dataset vocab op HTML",
         "from": "https://linked.data.gov.au/dataset/bdr/op",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/op?_host=linked.data.gov.au",
         "headers": {}
     },
     {
         "label": "BDR Dataset vocab op RDF",
         "from": "https://linked.data.gov.au/dataset/bdr/op",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op&_mediatype=text/turtle",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/op?_host=linked.data.gov.au",
         "headers": {
             "Accept": "text/turtle"
         }
@@ -62,13 +62,13 @@
     {
         "label": "BDR Dataset vocab orgs HTML",
         "from": "https://linked.data.gov.au/dataset/bdr/orgs",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/orgs?_host=linked.data.gov.au",
         "headers": {}
     },
     {
         "label": "BDR Dataset vocab orgs RDF",
         "from": "https://linked.data.gov.au/dataset/bdr/orgs",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs&_mediatype=text/turtle",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/orgs?_host=linked.data.gov.au",
         "headers": {
             "Accept": "text/turtle"
         }
@@ -76,13 +76,13 @@
     {
         "label": "BDR Dataset vocab sma HTML",
         "from": "https://linked.data.gov.au/dataset/bdr/sma",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/sma?_host=linked.data.gov.au",
         "headers": {}
     },
     {
         "label": "BDR Dataset vocab sma RDF",
         "from": "https://linked.data.gov.au/dataset/bdr/sma",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma&_mediatype=text/turtle",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/sma?_host=linked.data.gov.au",
         "headers": {
             "Accept": "text/turtle"
         }
@@ -90,13 +90,13 @@
     {
         "label": "BDR Dataset vocab smrr HTML",
         "from": "https://linked.data.gov.au/dataset/bdr/smrr",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/smrr?_host=linked.data.gov.au",
         "headers": {}
     },
     {
         "label": "BDR Dataset vocab smrr RDF",
         "from": "https://linked.data.gov.au/dataset/bdr/smrr",
-        "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr&_mediatype=text/turtle",
+        "to": "https://linked.bdr.gov.au/dataset/bdr/smrr?_host=linked.data.gov.au",
         "headers": {
             "Accept": "text/turtle"
         }

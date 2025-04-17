@@ -65,5 +65,28 @@ def test_redirects():
             assert actual == expected, err
 
 
+def test_one_redirect(iri):
+    test_file = iri_2_path(iri)
+    print(test_file)
+    if test_file.is_file():
+        for t in json.load(open(test_file)):
+            label = t['label']
+            local_from = iri_2_local(t['from'])
+            expected = t['to']
+
+            r = httpx.get(local_from, headers=t['headers'])
+            actual = r.next_request.url
+
+            err = f"""{label}:
+            {iri_2_local(t['from'])} did not redirect to 
+            {expected} but 
+            {actual}"""
+
+            assert actual == expected, err
+    else:
+        raise ValueError(f"No test file for IRI {iri}")
+
+
 if __name__ == "__main__":
     test_redirects()
+    # test_one_redirect("https://linked.data.gov.au/def/plot")
