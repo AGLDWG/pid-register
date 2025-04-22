@@ -2,7 +2,7 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/iso19160-1-address>
+<https://linked.data.gov.au/pid/def/iso19160-1-address>
     a
         dcat:Resource ,
         <https://linked.data.gov.au/def/pid/PID> ;

@@ -2,7 +2,7 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/org/bdr-team>
+<https://linked.data.gov.au/pid/org/bdr-team>
     a
         dcat:Resource ,
         <https://linked.data.gov.au/def/pid/PID> ;

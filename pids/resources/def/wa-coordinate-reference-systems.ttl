@@ -2,7 +2,7 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/wa-coordinate-reference-systems>
+<https://linked.data.gov.au/pid/def/wa-coordinate-reference-systems>
     a
         dcat:Resource ,
         <https://linked.data.gov.au/def/pid/PID> ;

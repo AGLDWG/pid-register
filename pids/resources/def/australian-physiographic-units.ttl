@@ -2,7 +2,7 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/australian-physiographic-units>
+<https://linked.data.gov.au/pid/def/australian-physiographic-units>
     a
         dcat:Resource ,
         <https://linked.data.gov.au/def/pid/PID> ;
