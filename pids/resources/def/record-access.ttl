@@ -14,6 +14,6 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/record-access($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/record-access(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/record-access($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
-    schema:sponsor: <https://linked.data.gov.au/org/icsm> ;
+    schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

@@ -76,6 +76,6 @@ RewriteRule ^/def/geofeatures.ttl(.*)$                  https://raw.githack.com/
 RewriteMap lc int:tolower
 RewriteRule ^/def/geofeatures/(.*)$                     https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html#${lc:$1} [R=302,L,NE]
 RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
-    schema:sponsor: <https://linked.data.gov.au/org/gsq> ;
+    schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

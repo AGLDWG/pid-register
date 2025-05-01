@@ -62,7 +62,7 @@ pid-sh:req-02
                     sh:minCount 1 ;
                     sh:maxCount 1 ;
                     sh:message "If a PID indicates a value of stable for the schema:location predicate, it MUST then also indicate a literal string value for schema:location" ;
-                    sh:datatype xsd:string ;
+                    sh:datatype <https://linked.data.gov.au/def/pid/apacheRedirect> ;
                 ]
             )
         ]
