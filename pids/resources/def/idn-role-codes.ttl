@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/idn-role-codes(.*)$                  https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.ttl [R=302,L]
 RewriteRule ^/def/idn-role-codes(.*).ttl$              https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.ttl [R=302,L]
-RewriteRule ^/def/idn-role-codes(.*)$                  https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.html$1 [R=302,L]""" ;
+RewriteRule ^/def/idn-role-codes(.*)$                  https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor: <https://linked.data.gov.au/org/idn> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

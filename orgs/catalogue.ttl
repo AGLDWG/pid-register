@@ -120,7 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/org/unsw> ,
         <https://linked.data.gov.au/org/uom> ,
         <https://linked.data.gov.au/org/uts> ,
-        <https://linked.data.gov.au/org/vic-bionet> ,
+        <https://linked.data.gov.au/org/vic-atlas> ,
         <https://linked.data.gov.au/org/vic-deeca> ,
         <https://linked.data.gov.au/org/wa-bio> ,
         <https://linked.data.gov.au/org/wa-dbca> ;

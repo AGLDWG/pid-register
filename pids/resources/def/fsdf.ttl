@@ -31,7 +31,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/fsdf$                                  https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl [R=302,L,QSD]
 RewriteRule ^/def/fsdf.ttl$                              https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl [R=302,L]
-RewriteRule ^/def/fsdf$                                  https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html [R=302,L,NE]""" ;
+RewriteRule ^/def/fsdf$                                  https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html [R=302,L,NE]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Foundational Spatial Data Framework (FSDF) Ontology and Vocabularies" ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

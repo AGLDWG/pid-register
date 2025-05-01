@@ -14,7 +14,7 @@ RewriteCond %{QUERY_STRING} ^_format=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/causalnetwork/id/(.*)$            https://causalnetworks.azurewebsites.net/causalnetwork/id/$1.ttl [R=302,QSA,L]
 RewriteRule ^/dataset/causalnetwork/id/(.*)$            https://causalnetworks.azurewebsites.net/causalnetwork/id/$1 [R=302,QSA,L]
-RewriteRule ^/dataset/causalnetwork($|/.*)$             https://causalnetworks.azurewebsites.net/causalnetwork$1 [R=302,QSA,L]""" ;
+RewriteRule ^/dataset/causalnetwork($|/.*)$             https://causalnetworks.azurewebsites.net/causalnetwork$1 [R=302,QSA,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "CSIRO Causal Networks" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

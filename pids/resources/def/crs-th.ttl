@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/crs-th(.*)$                           https://raw.githubusercontent.com/CSIRO-enviro-informatics/crs-th/master/crs-th.ttl? [R=302,L]
 RewriteRule ^/def/crs-th(.*).ttl$                       https://raw.githubusercontent.com/CSIRO-enviro-informatics/crs-th/master/crs-th.ttl [R=302,L]
-RewriteRule ^/def/crs-th(.*)$                           https://github.com/CSIRO-enviro-informatics/crs-th [R=302,L]""" ;
+RewriteRule ^/def/crs-th(.*)$                           https://github.com/CSIRO-enviro-informatics/crs-th [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "CRS Thesaurus" ;
     schema:sponsor <https://linked.data.gov.au/org/naa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

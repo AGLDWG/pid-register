@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:location """RewriteCond %{QUERY_STRING} _mediatype=text/turtle
 RewriteRule ^/def/gn($|/.*)             https://raw.githubusercontent.com/Spatial-Information-QLD/geographical-names-model/main/model.ttl [R=302,L]
 RewriteRule ^/def/gn.ttl                https://raw.githubusercontent.com/Spatial-Information-QLD/geographical-names-model/main/model.ttl [R=302,L]
-RewriteRule ^/def/gn($|/.*)             https://spatial-information-qld.github.io/geographical-names-model/model.html [R=302,L]""" ;
+RewriteRule ^/def/gn($|/.*)             https://spatial-information-qld.github.io/geographical-names-model/model.html [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Geographical Names Model" ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

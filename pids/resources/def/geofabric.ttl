@@ -14,7 +14,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/geofabric$                             https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.ttl? [R=302,L]
 RewriteRule ^/def/geofabric.ttl$                        https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.ttl? [R=302,L]
 RewriteRule ^/def/geofabric$                            https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html$1? [R=302,L]
-RewriteRule ^/def/geofabric/(.*)                        https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html\\#$1 [R=302,L,NE]""" ;
+RewriteRule ^/def/geofabric/(.*)                        https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html\\#$1 [R=302,L,NE]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Geofabric Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

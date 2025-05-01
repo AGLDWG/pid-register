@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/spmile($|/.+)$                        https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-physical-measurements/1-0-2023-04-21/resource.ttl?uri=http://anzsoil.org/def/au/spm/spmile$1 [R=302,L]
 RewriteRule ^/def/spmile.ttl$                           https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-physical-measurements/1-0-2023-04-21/resource.ttl?uri=http://anzsoil.org/def/au/spm/spmile [R=302,L]
-RewriteRule ^/def/spmile($|/.+)$                        https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-physical-measurements/1-0-2023-04-21/resource?uri=http://anzsoil.org/def/au/spm/spmile$1 [R=302,L]""" ;
+RewriteRule ^/def/spmile($|/.+)$                        https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-physical-measurements/1-0-2023-04-21/resource?uri=http://anzsoil.org/def/au/spm/spmile$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Soil Physical Measurements" ;
     schema:sponsor <https://linked.data.gov.au/org/daff> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;

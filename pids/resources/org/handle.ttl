@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/org/handle($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/handle$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/org/handle(.*).ttl$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/handle$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/org/handle($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/handle$1" [R=302,NE,L]""" ;
+RewriteRule ^/org/handle($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/handle$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Handle Registry" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

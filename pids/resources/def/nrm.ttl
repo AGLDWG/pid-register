@@ -30,7 +30,7 @@ RewriteCond %{HTTP:Accept} text/n3 [NC]
 RewriteRule ^/def/nrm(.*)$                          https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm$1?format=text/n3 [R=302,L]
 RewriteRule ^/def/nrm(.*).n3$                       https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm$1?format=text/n3 [R=302,L]
 RewriteRule ^/def/nrm$                              https://linkeddata.tern.org.au/prez/dawe-cv/v/ [R=302,L]
-RewriteRule ^/def/nrm(.*)$                          https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm$1 [R=302,L]""" ;
+RewriteRule ^/def/nrm(.*)$                          https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Natural Resource Management Controlled Vocabularies" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;

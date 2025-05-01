@@ -14,7 +14,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/plot($|/.*)$                       https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl? [R=302,L]
 RewriteRule ^/def/plot.ttl$                          https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl? [R=302,L]
-RewriteRule ^/def/plot($|/.*)$                       https://ternaustralia.github.io/ontology_tern-plot/$1 [R=302,L]""" ;
+RewriteRule ^/def/plot($|/.*)$                       https://ternaustralia.github.io/ontology_tern-plot/$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Plot Ontology" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .

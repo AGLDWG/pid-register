@@ -40,7 +40,7 @@ RewriteCond %{QUERY_STRING} ^_format=text/plain$ [OR]
 RewriteCond %{HTTP:Accept} text/plain [NC]
 RewriteRule ^/def/climate-stats-defs-non-rain/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-statistics-definitions-for-daily-elements/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/climate-stats-defs-non-rain$1 [R=302,QSA,L]
 RewriteRule ^/def/climate-stats-defs-non-rain(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-statistics-definitions-for-daily-elements/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/climate-stats-defs-non-rain$1 [R=302,QSA,L]
-RewriteRule ^/def/climate-stats-defs-non-rain/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-statistics-definitions-for-daily-elements/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/climate-stats-defs-non-rain$1 [R=302,QSA,L]""" ;
+RewriteRule ^/def/climate-stats-defs-non-rain/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-statistics-definitions-for-daily-elements/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/climate-stats-defs-non-rain$1 [R=302,QSA,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Climate Statistics Definitions for Daily Elements" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

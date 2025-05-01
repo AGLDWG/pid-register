@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/person/paul.j.box> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
     schema:dateModified "2019-08-23"^^xsd:date ;
-    schema:location "RewriteRule ^/dataset/asgs2016(.*)                        https://linked.data.gov.au/static/broken.html\\?iri=https://linked.data.gov.au/dataset/asgs2016$1 [L]" ;
+    schema:location "RewriteRule ^/dataset/asgs2016(.*)                        https://linked.data.gov.au/static/broken.html\\?iri=https://linked.data.gov.au/dataset/asgs2016$1 [L]"^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "ASGS 2016 Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

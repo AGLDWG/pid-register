@@ -40,7 +40,7 @@ RewriteCond %{QUERY_STRING} ^_format=text/plain$ [OR]
 RewriteCond %{HTTP:Accept} text/plain [NC]
 RewriteRule ^/def/drought-rainfall-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions$1 [R=302,QSA,L]
 RewriteRule ^/def/drought-rainfall-definitions(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions$1 [R=302,QSA,L]
-RewriteRule ^/def/drought-rainfall-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions$1 [R=302,QSA,L]""" ;
+RewriteRule ^/def/drought-rainfall-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions$1 [R=302,QSA,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Drought Rainfall Definitions" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

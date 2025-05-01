@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/person/cjorquera> ;
     schema:dateCreated "2023-02-23"^^xsd:date ;
     schema:dateModified "2024-03-29"^^xsd:date ;
-    schema:location "RewriteRule ^/def/policy/([0-9a-f\\-]{36}) https://apo.org.au/subject/$1 [R=302,L]" ;
+    schema:location "RewriteRule ^/def/policy/([0-9a-f\\-]{36}) https://apo.org.au/subject/$1 [R=302,L]"^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Public Policy Taxonomy" ;
     schema:sponsor <https://linked.data.gov.au/org/ardc> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

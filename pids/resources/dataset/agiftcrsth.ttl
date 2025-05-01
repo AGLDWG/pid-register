@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/agiftcrsth(.*)$                   https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl? [R=302,L]
 RewriteRule ^/dataset/agiftcrsth(.*).ttl$               https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl [R=302,L]
-RewriteRule ^/dataset/agiftcrsth                        https://github.com/CSIRO-enviro-informatics/agiftcrsth-linkset [L,R=302]""" ;
+RewriteRule ^/dataset/agiftcrsth                        https://github.com/CSIRO-enviro-informatics/agiftcrsth-linkset [L,R=302]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "AGIFT / CRS Thesaurus Linkset" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

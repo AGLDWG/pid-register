@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:location """RewriteCond %{QUERY_STRING} _mediatype=text/turtle
 RewriteRule ^/def/cn($|/(.*))                           https://raw.githubusercontent.com/AGLDWG/compound-naming-model/main/model.ttl [R=302,L]
 RewriteRule ^/def/cn.ttl                                https://raw.githubusercontent.com/AGLDWG/compound-naming-model/main/model.ttl [R=302,L]
-RewriteRule ^/def/cn($|/(.*))                           https://agldwg.github.io/compound-naming-model/model.html [R=302,L]""" ;
+RewriteRule ^/def/cn($|/(.*))                           https://agldwg.github.io/compound-naming-model/model.html [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Cadastre Model" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

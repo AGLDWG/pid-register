@@ -21,7 +21,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=application/rdf+xml$ [OR]
 RewriteCond %{HTTP:Accept} application/rdf+xml [NC]
 RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro.au/def/gba$1?_mediatype=rdf [R=302,L]
 RewriteRule ^/def/gba(.*).rdf$                          http://registry.it.csiro.au/def/gba$1?_mediatype=rdf [R=302,L]
-RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro.au/def/gba$1 [R=302,L]""" ;
+RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro.au/def/gba$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Geological and Bioregional Assessments" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

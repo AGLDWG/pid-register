@@ -23,7 +23,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/asgsed3/(.*)/(.*).ttl$            https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
-RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2 [R=302,L]""" ;
+RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "ASGS Edition 3 Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

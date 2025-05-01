@@ -14,7 +14,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/geoadminfeatures($|/.*)               https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttl? [R=302,L]
 RewriteRule ^/def/geoadminfeatures.ttl$                 https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttll [R=302,L]
-RewriteRule ^/def/geoadminfeatures($|/.*)$              https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.html$1 [R=302,L]""" ;
+RewriteRule ^/def/geoadminfeatures($|/.*)$              https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Geo Admin Features Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/nslvoc($|/.*)$                        https://biodiversity.org.au/voc/aunsl.ttl [R=302,L]
 RewriteRule ^/def/nslvoc.ttl$                           https://biodiversity.org.au/voc/aunsl.ttl [R=302,L]
-RewriteRule ^/def/nslvoc($|/.*)$                        https://biodiversity.org.au/voc/aunsl.html [R=302,NE,L]""" ;
+RewriteRule ^/def/nslvoc($|/.*)$                        https://biodiversity.org.au/voc/aunsl.html [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Australian National Species List Vocabulary" ;
     schema:sponsor <https://linked.data.gov.au/org/finance> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;

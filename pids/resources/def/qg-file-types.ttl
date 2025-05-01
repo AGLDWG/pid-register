@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/qg-file-types($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/qg-file-types(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/def/qg-file-types($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types$1" [R=302,NE,L]""" ;
+RewriteRule ^/def/qg-file-types($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Queensland Government File types" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/unstable> ;

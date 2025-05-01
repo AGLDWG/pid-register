@@ -14,7 +14,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/geochem$				                https://kurrawong.github.io/gsq-geochem/model.ttl [R=302,L]
 RewriteRule ^/def/geochem$				                https://kurrawong.github.io/gsq-geochem/spec.html [R=302,L]
 RewriteRule ^/def/geochem/spec$                         https://kurrawong.github.io/gsq-geochem/spec.html [R=302,L]
-RewriteRule ^/def/geochem/overview$                     https://kurrawong.github.io/gsq-geochem/overview.html [R=302,L]""" ;
+RewriteRule ^/def/geochem/overview$                     https://kurrawong.github.io/gsq-geochem/overview.html [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Geochemistry Data Model" ;
     schema:sponsor <https://linked.data.gov.au/org/gssa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;

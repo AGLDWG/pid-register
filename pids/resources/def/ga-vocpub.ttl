@@ -18,7 +18,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule /def/ga-vocpub$                             https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.ttl [R=302,L]
 RewriteRule /def/ga-vocpub.ttl$                         https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.ttl [R=302,L]
-RewriteRule /def/ga-vocpub$				https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.html [R=302,L]""" ;
+RewriteRule /def/ga-vocpub$				https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.html [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "GA VocPub Profile" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

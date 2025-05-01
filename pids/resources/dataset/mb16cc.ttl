@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/mb16cc				    https://raw.githack.com/CSIRO-enviro-informatics/mb16cc-linkset/master/header.ttl [L,R=302]
-RewriteRule ^/dataset/mb16cc				    https://github.com/CSIRO-enviro-informatics/mb16cc-linkset [L,R=302]""" ;
+RewriteRule ^/dataset/mb16cc				    https://github.com/CSIRO-enviro-informatics/mb16cc-linkset [L,R=302]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "ASGS 2016 Mesh Blocks to Geofabric Contracted Catchments Linkset" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/iso19160-1-address-nz-profile(.*)$      https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl? [R=302,L]
 RewriteRule ^/def/iso19160-1-address-nz-profile(.*).ttl$  https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl [R=302,L]
-RewriteRule ^/def/iso19160-1-address-nz-profile(.*)$      https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.html$1 [R=302,L]""" ;
+RewriteRule ^/def/iso19160-1-address-nz-profile(.*)$      https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "ISO19160-1:2015 Address ontology - NZ Profile" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

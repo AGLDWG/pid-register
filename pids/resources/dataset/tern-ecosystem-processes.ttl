@@ -29,7 +29,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=text/n3$ [OR]
 RewriteCond %{HTTP:Accept} text/n3 [NC]
 RewriteRule ^\\/dataset\\/tern-ecosystem-processes(.*)$               https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/tern-ecosystem-processes$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
 RewriteRule ^\\/dataset\\/tern-ecosystem-processes(.*).n3$            https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/tern-ecosystem-processes$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/n3 [R=302,L]
-RewriteRule ^/dataset/tern-ecosystem-processes(.*)$                 https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/tern-ecosystem-processes$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]""" ;
+RewriteRule ^/dataset/tern-ecosystem-processes(.*)$                 https://linkeddata.tern.org.au/viewers/general?uri=https://linked.data.gov.au/dataset/tern-ecosystem-processes$1&sparql_endpoint=https://virtuoso.tern.org.au/sparql [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "TERN Ecosystem Processes" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

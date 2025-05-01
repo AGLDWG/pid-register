@@ -25,7 +25,7 @@ RewriteCond %{HTTP:Accept} application/ld\\+json [NC]
 RewriteRule ^/def/causalnetwork/?$                      https://causalnetworks.azurewebsites.net/def/causalnetwork.jsonld [R=302,QSA,L]
 RewriteRule ^/def/causalnetwork(.jsonld|/.*\\.jsonld)$   https://causalnetworks.azurewebsites.net/def/causalnetwork.jsonld [R=302,QSA,L]
 RewriteRule ^/def/causalnetwork(.json|/.*\\.json)$       https://causalnetworks.azurewebsites.net/def/causalnetwork.json [R=302,QSA,L]
-RewriteRule ^/def/causalnetwork($|/.*)$                 https://causalnetworks.azurewebsites.net/def/causalnetwork$1 [R=302,QSA,L]""" ;
+RewriteRule ^/def/causalnetwork($|/.*)$                 https://causalnetworks.azurewebsites.net/def/causalnetwork$1 [R=302,QSA,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "CSIRO Causal Networks" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

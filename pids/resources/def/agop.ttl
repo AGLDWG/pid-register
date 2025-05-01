@@ -19,7 +19,7 @@ RewriteRule ^/def/agop/validator$		               https://raw.githack.com/AGLDWG
 RewriteRule ^/def/agop/example.valid-1$                https://raw.githack.com/AGLDWG/agop/master/example.valid-1.ttl [R=302,L]
 RewriteRule ^/def/agop/example.valid-2$                https://raw.githack.com/AGLDWG/agop/master/example.valid-2.ttl [R=302,L]
 RewriteRule ^/def/agop/example.invalid-1$              https://raw.githack.com/AGLDWG/agop/master/example.invalid-1.ttl [R=302,L]
-RewriteRule ^/def/agop/example.invalid-2$              https://raw.githack.com/AGLDWG/agop/master/example.invalid-2.ttl [R=302,L]""" ;
+RewriteRule ^/def/agop/example.invalid-2$              https://raw.githack.com/AGLDWG/agop/master/example.invalid-2.ttl [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Australian Government Ontology Profile" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

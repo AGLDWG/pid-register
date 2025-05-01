@@ -21,7 +21,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=application/ld\\+json$ [OR]
 RewriteCond %{HTTP:Accept} application/ld\\+json [NC]
 RewriteRule ^/def/loci                                  https://csiro-enviro-informatics.github.io/loci-ont/loci.jsonld? [R=302,L]
 RewriteRule ^/def/loci(.*).jsonld$                      https://csiro-enviro-informatics.github.io/loci-ont/loci.jsonld [R=302,L]
-RewriteRule ^/def/loci(.*)$                             https://csiro-enviro-informatics.github.io/loci-ont/loci.html$1 [R=302,L]""" ;
+RewriteRule ^/def/loci(.*)$                             https://csiro-enviro-informatics.github.io/loci-ont/loci.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Loc-I Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

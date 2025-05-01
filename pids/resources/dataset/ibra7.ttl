@@ -30,7 +30,7 @@ RewriteCond %{HTTP:Accept} text/n3 [NC]
 RewriteRule ^/dataset/ibra7(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7$1&format=text/n3 [R=302,L]
 RewriteRule ^/dataset/ibra7(.*).n3$                       https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7$1&format=text/n3 [R=302,L]
 RewriteRule ^/dataset/ibra7$                              https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7 [R=302,L]
-RewriteRule ^/dataset/ibra7(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7$1 [R=302,L]""" ;
+RewriteRule ^/dataset/ibra7(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Interim Biogeographic Regionalisation for Australia (IBRA) Codes 7 " ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;

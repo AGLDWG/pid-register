@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/nsw-quality-dimension($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/nsw-quality-dimension$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/nsw-quality-dimension(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/nsw-quality-dimension$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/def/nsw-quality-dimension($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/nsw-quality-dimension$1" [R=302,NE,L]""" ;
+RewriteRule ^/def/nsw-quality-dimension($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/nsw-quality-dimension$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "NSW Government Standard for Data Quality Reporting" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

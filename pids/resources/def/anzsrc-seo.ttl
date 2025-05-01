@@ -16,7 +16,7 @@ RewriteRule ^/def/anzsrc-seo(/2020)?/?$ "https://vocabs.ardc.edu.au/repository/a
 RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP_ACCEPT} text/turtle [NC]
 RewriteRule ^/def/anzsrc-seo/2020/(.+)$ "https://vocabs.ardc.edu.au/repository/api/lda/anzsrc-2020-seo/resource.ttl?uri=https://linked.data.gov.au/def/anzsrc-seo/2020/$1" [R=302,L]
-RewriteRule ^/def/anzsrc-seo/2020/(.+)$ "https://vocabs.ardc.edu.au/repository/api/lda/anzsrc-2020-seo/resource?uri=https://linked.data.gov.au/def/anzsrc-seo/2020/$1" [R=302,NE,L]""" ;
+RewriteRule ^/def/anzsrc-seo/2020/(.+)$ "https://vocabs.ardc.edu.au/repository/api/lda/anzsrc-2020-seo/resource?uri=https://linked.data.gov.au/def/anzsrc-seo/2020/$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "ANZSRC 2020 Socio-Economic Objectives" ;
     schema:sponsor <https://linked.data.gov.au/org/ausbigg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

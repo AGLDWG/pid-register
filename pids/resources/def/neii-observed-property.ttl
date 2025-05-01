@@ -40,7 +40,7 @@ RewriteCond %{QUERY_STRING} ^_format=text/plain$ [OR]
 RewriteCond %{HTTP:Accept} text/plain [NC]
 RewriteRule ^/def/neii-observed-property/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-observed-property/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-observed-property$1 [R=302,QSA,L]
 RewriteRule ^/def/neii-observed-property(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-observed-property/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-observed-property$1 [R=302,QSA,L]
-RewriteRule ^/def/neii-observed-property/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-observed-property/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-observed-property$1 [R=302,QSA,L]""" ;
+RewriteRule ^/def/neii-observed-property/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-observed-property/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-observed-property$1 [R=302,QSA,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "NEII Observed Property" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

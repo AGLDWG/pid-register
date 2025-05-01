@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/asls-location($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-location-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/location$1 [R=302,L]
 RewriteRule ^/def/asls-location.ttl$                    https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-location-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/location [R=302,L]
-RewriteRule ^/def/asls-location($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-location-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/location$1 [R=302,L]""" ;
+RewriteRule ^/def/asls-location($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-location-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/location$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "ASLS Location classifiers" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;

@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/lifecycle(.*)$                 https://agldwg.github.io/lifecycle-model/lifecycle.ttl? [R=302,L]
 RewriteRule ^/def/lifecycle(.*).ttl$             https://agldwg.github.io/lifecycle-model/lifecycle.ttl [R=302,L]
-RewriteRule ^/def/lifecycle(.*)$                 https://agldwg.github.io/lifecycle-model/lifecycle.html$1 [R=302,L]""" ;
+RewriteRule ^/def/lifecycle(.*)$                 https://agldwg.github.io/lifecycle-model/lifecycle.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Cadastre Model" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

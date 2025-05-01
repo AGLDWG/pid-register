@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/su$                                     https://raw.githack.com/surroundaustralia/su-ont/master/su.ttl [R=303,L]
 RewriteRule ^/def/su.ttl$                                 https://raw.githack.com/surroundaustralia/su-ont/master/su.ttl [R=303,L]
-RewriteRule ^/def/su$                                     https://raw.githack.com/surroundaustralia/su-ont/master/su.html [R=303,L]""" ;
+RewriteRule ^/def/su$                                     https://raw.githack.com/surroundaustralia/su-ont/master/su.html [R=303,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Stratigraphic Units Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;

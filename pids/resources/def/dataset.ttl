@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/dataset($|/.*)                        https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl? [R=302,L]
 RewriteRule ^/def/dataset(|/.*).ttl$                    https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl [R=302,L]
-RewriteRule ^/def/dataset($|(/.*))                      https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html$2 [R=302,L]""" ;
+RewriteRule ^/def/dataset($|(/.*))                      https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html$2 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Dataset Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;

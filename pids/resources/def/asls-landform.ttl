@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/asls-landform($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/csiro/landform-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/landform$1 [R=302,L]
 RewriteRule ^/def/asls-landform.ttl$                    https://vocabs.ardc.edu.au/repository/api/lda/csiro/landform-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/landform [R=302,L]
-RewriteRule ^/def/asls-landform($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/csiro/landform-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/landform$1 [R=302,L]""" ;
+RewriteRule ^/def/asls-landform($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/csiro/landform-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/landform$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "The Australian Soil Classification" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
