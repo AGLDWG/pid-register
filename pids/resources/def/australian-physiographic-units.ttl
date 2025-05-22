@@ -1,7 +1,7 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/pid/def/australian-physiographic-units>
+<https://linked.data.gov.au/pid/def-australian-physiographic-units>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2023-09-27"^^xsd:date ;

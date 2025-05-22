@@ -1,7 +1,7 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/pid/def/iso-iec-25012-data-quality-dimension>
+<https://linked.data.gov.au/pid/def-iso-iec-25012-data-quality-dimension>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/daniel.brough> ;
     schema:dateCreated "2021-06-08"^^xsd:date ;

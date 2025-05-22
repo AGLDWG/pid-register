@@ -1,7 +1,7 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/pid/def/building>
+<https://linked.data.gov.au/pid/def-building>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/irina.bastrakova> ;
     schema:dateCreated "2020-11-12"^^xsd:date ;

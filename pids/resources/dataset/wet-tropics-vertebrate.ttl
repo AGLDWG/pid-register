@@ -1,7 +1,7 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/pid/dataset/wet-tropics-vertebrate>
+<https://linked.data.gov.au/pid/dataset-wet-tropics-vertebrate>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/javiersan18> ;
     schema:dateCreated "2023-05-30"^^xsd:date ;

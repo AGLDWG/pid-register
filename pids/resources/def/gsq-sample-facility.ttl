@@ -1,7 +1,7 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/pid/def/gsq-sample-facility>
+<https://linked.data.gov.au/pid/def-gsq-sample-facility>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/david.crosswell> ;
     schema:dateCreated "2020-02-15"^^xsd:date ;

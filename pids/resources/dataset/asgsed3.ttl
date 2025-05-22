@@ -1,7 +1,7 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/pid/dataset/asgsed3>
+<https://linked.data.gov.au/pid/dataset-asgsed3>
     a <https://linked.data.gov.au/def/pid/PID> ;
     schema:creator <https://linked.data.gov.au/person/sally.clement> ;
     schema:dateCreated "2021-04-14"^^xsd:date ;

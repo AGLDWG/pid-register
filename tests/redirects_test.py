@@ -41,8 +41,6 @@ def get_testable_pids():
 
     for iri, redir in sorted(list(g.subject_objects(SDO.location))):
         test_file = iri_2_path(iri)
-        print(iri)
-        print(test_file)
         if test_file.is_file():
             testables[str(iri)] = json.load(open(test_file))
 

@@ -14,9 +14,8 @@ Run `task aup`.
 
 To compare with current PID Proxy redirects, run `{PID-PROX-REPO}/apache/run-tests.py` with the `SERVER_ROOT_URL` variable set to the local Apache location running from Step 2. - likely `http://localhost:8080`.
 
-To run current tests, run `pytest -s`.
+To run current tests, run `python /tests/redirects_test.py`.
 
-
-x. Stop Apache
+4. Stop Apache
 
 Run `task adown`.
