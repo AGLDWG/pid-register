@@ -2,13 +2,13 @@
     {
         "label": "road-geometry-notes HTML",
         "from": "https://linked.data.gov.au/def/road-geometry-notes",
-        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-geometry-notes",
+        "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-geometry-notes",
         "headers": {}
     },
     {
         "label": "road-geometry-notes RDF",
         "from": "https://linked.data.gov.au/def/road-geometry-notes",
-        "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-geometry-notes&_mediatype=text/turtle",
+        "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-geometry-notes&_mediatype=text/turtle",
         "headers": {
             "Accept": "text/turtle"
         }

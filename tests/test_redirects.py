@@ -15,12 +15,13 @@ def make_pid_graph():
 
     for f in sorted(PIDS_DIR.rglob("*.ttl")):
         g += Graph().parse(f)
+        print(len(g))
 
     return g
 
 
 def iri_2_path(iri):
-    fn = str(iri).replace("https://linked.data.gov.au/", "")
+    fn = str(iri).replace("https://linked.data.gov.au/pid/", "")
     fn = fn.replace("https://reference.data.gov.au/", "")
     fn = fn.replace("https://environment.data.gov.au/", "")
     return TEST_PIDS_DIR / f"{fn}.json"
@@ -40,6 +41,8 @@ def get_testable_pids():
 
     for iri, redir in sorted(list(g.subject_objects(SDO.location))):
         test_file = iri_2_path(iri)
+        print(iri)
+        print(test_file)
         if test_file.is_file():
             testables[str(iri)] = json.load(open(test_file))
 

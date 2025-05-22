@@ -8,7 +8,7 @@
     {
         "label": "Ausplots Vocabularies - one vocab TURTLE",
         "from": "https://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f",
-        "to": "https://linkeddata.tern.org.au/viewer/ausplots/id/https://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f?format=text/turtle",
+        "to": "https://linkeddata.tern.org.au/viewer/ausplots/id/http://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f?format=text/turtle",
         "headers": {
             "Accept": "text/turtle"
         }
@@ -16,7 +16,7 @@
     {
         "label": "Ausplots Vocabularies - one vocab HTML",
         "from": "https://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f",
-        "to": "https://linkeddata.tern.org.au/viewer/ausplots/id/https://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f",
+        "to": "https://linkeddata.tern.org.au/viewer/ausplots/id/http://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f",
         "headers": {}
     }
 ]
