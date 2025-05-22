@@ -6,9 +6,5 @@ services:
       - 8080:80
     volumes:
       - ./www:/usr/local/apache2/htdocs/
-      - type: bind
-        source: ./conf/httpd.conf
-        target: /usr/local/apache2/conf/httpd.conf
-      - type: bind
-        source: ./conf/pids.conf
-        target: /usr/local/apache2/conf/pids.conf
+      - ./conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./conf/pids.conf:/usr/local/apache2/conf/pids.conf
