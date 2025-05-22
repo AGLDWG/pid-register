@@ -77,7 +77,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/org/icao> ,
         <https://linked.data.gov.au/org/ics> ,
         <https://linked.data.gov.au/org/icsm> ,
-        <https://linked.data.gov.au/org/icsm-addr> ,
+        <https://linked.data.gov.au/org/icsm-awg> ,
         <https://linked.data.gov.au/org/idn> ,
         <https://linked.data.gov.au/org/igsn> ,
         <https://linked.data.gov.au/org/infrastructure> ,

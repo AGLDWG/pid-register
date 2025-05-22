@@ -2209,7 +2209,7 @@
   },
   {
     "title": "ICSM Addressing Working Group",
-    "field_agldwg_identifier": "/org/icsm-addrwg",
+    "field_agldwg_identifier": "/org/icsm-awg",
     "type": "organisation",
     "uid": "/user/1",
     "created": "2024-09-13",

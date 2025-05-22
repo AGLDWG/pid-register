@@ -424,7 +424,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/pid/org/handle> ,
         <https://linked.data.gov.au/pid/org/icao> ,
         <https://linked.data.gov.au/pid/org/ics> ,
-        <https://linked.data.gov.au/pid/org/icsm-addrwg> ,
+        <https://linked.data.gov.au/pid/org/icsm-awg> ,
         <https://linked.data.gov.au/pid/org/icsm> ,
         <https://linked.data.gov.au/pid/org/idn> ,
         <https://linked.data.gov.au/pid/org/igsn> ,

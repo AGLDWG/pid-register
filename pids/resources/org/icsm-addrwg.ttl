@@ -2,7 +2,7 @@ PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/pid/org/icsm-addrwg>
+<https://linked.data.gov.au/pid/org/icsm-awg>
     a
         dcat:Resource ,
         <https://linked.data.gov.au/def/pid/PID> ;
@@ -11,9 +11,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2024-09-13"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
-RewriteRule ^/org/icsm-addrwg($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm-addrwg$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/org/icsm-addrwg(.*).ttl$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm-addrwg$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/org/icsm-addrwg($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm-addrwg$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
+RewriteRule ^/org/icsm-awg($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm-awg$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/org/icsm-awg(.*).ttl$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm-awg$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/org/icsm-awg($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/org/icsm-awg$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "ICSM Addressing Working Group" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
