@@ -1,11 +1,8 @@
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/org/abares>
-    a
-        dcat:Resource ,
-        schema:Organization ;
+    a schema:Organization ;
     schema:description "The Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES), the science and economics research division of the Department of Agriculture, Fisheries and Forestry." ;
     schema:isPartOf <https://linked.data.gov.au/org/daff> ;
     schema:name "Australian Bureau of Agricultural and Resource Economics and Sciences" ;
