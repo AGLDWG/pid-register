@@ -8,9 +8,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2023-04-26"^^xsd:date ;
     schema:location """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
-RewriteRule ^/def/road-owner($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-owner$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/def/road-owner(.*).ttl$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-owner$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/def/road-owner($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-owner$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
+RewriteRule ^/def/road-owner($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-owner$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/road-owner(.*).ttl$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-owner$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/road-owner($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-owner$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
 .
