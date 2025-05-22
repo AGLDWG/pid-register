@@ -12,10 +12,14 @@ for f in sorted(PIDS_DIR.rglob("*.ttl")):
 
 
 def iri_2_path(iri):
-    fn = str(iri).replace("https://linked.data.gov.au/", "")
+    fn = str(iri).replace("https://linked.data.gov.au/pid/", "")
     fn = fn.replace("https://reference.data.gov.au/", "")
     fn = fn.replace("https://environment.data.gov.au/", "")
-    return TEST_PIDS_DIR / f"{fn}.json"
+    fn = fn.replace("dataset-", "dataset/")
+    fn = fn.replace("def-", "def/")
+    fn = fn.replace("org-", "org/")
+    fn = TEST_PIDS_DIR / f"{fn}.json"
+    return fn
 
 pids = 0
 tests = 0
