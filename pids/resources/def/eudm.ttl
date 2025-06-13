@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2021-03-29"^^xsd:date ;
     schema:name "EUDM Profile of DCAT" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/invalid> ;
+    schema:url "https://linked.data.gov.au/def/eudm"^^xsd:anyURI ;
 .

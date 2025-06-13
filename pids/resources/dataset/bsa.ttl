@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2024-06-19"^^xsd:date ;
     schema:name "The Briscoe-Smith Archive" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/dataset/bsa"^^xsd:anyURI ;
 .

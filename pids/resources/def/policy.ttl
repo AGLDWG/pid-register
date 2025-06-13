@@ -10,4 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Public Policy Taxonomy" ;
     schema:sponsor <https://linked.data.gov.au/org/ardc> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/policy"^^xsd:anyURI ;
 .

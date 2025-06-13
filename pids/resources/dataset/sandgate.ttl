@@ -27,4 +27,5 @@ RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*)$       
     schema:name "Sandgate Demonstration Spatial Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/sandgate"^^xsd:anyURI ;
 .

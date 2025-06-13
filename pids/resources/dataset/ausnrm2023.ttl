@@ -31,4 +31,5 @@ RewriteRule ^/dataset/ausnrm2023(.*)$                          https://linkeddat
     schema:name "Natural Resource Management Regions of Australia 2023 " ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/dataset/ausnrm2023"^^xsd:anyURI ;
 .

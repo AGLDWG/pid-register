@@ -14,4 +14,5 @@ RewriteRule ^/def/addr$         https://icsm-au.github.io/addr-model/model.html 
     schema:name "National Address Model" ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/addr"^^xsd:anyURI ;
 .

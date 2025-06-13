@@ -14,4 +14,5 @@ RewriteRule ^/def/qg-security-classifications($|/.*)$ "https://vocabs.gsq.digita
     schema:name "Queensland Government Information Security Classifications" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/qg-security-classifications"^^xsd:anyURI ;
 .

@@ -51,4 +51,5 @@ RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*)$     htt
     schema:name "FSDF Electrical Infrastructure" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/electrical-infrastructure"^^xsd:anyURI ;
 .

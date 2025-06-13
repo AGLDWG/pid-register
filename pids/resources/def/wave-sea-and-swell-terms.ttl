@@ -41,4 +41,5 @@ RewriteRule ^/def/wave-sea-and-swell-terms/?(|/.+)$		https://vocabs.ardc.edu.au/
     schema:name "Wave, sea and swell terms" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/wave-sea-and-swell-terms"^^xsd:anyURI ;
 .

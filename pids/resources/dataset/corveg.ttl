@@ -30,4 +30,5 @@ RewriteRule ^\\/dataset\\/corveg(.*)$                                 https://li
     schema:name "CORVEG Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/corveg"^^xsd:anyURI ;
 .

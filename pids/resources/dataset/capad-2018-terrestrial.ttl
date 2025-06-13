@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2024-03-29"^^xsd:date ;
     schema:name "CAPAD 2018 - Terrestrial" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/invalid> ;
+    schema:url "https://linked.data.gov.au/dataset/capad-2018-terrestrial"^^xsd:anyURI ;
 .

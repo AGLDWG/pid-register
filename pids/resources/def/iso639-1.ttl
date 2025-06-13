@@ -13,4 +13,5 @@ RewriteRule ^/def/iso639-1($|/.*)$ "https://vocabs.gsq.digital/object?uri=https:
     schema:name "ISO639-1: Codes for the Representation of Names of Languages" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/iso639-1"^^xsd:anyURI ;
 .

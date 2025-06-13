@@ -13,4 +13,5 @@ RewriteRule ^/def/tk-labels(.*).ttl$              https://idn-au.github.io/lc-vo
 RewriteRule ^/def/tk-labels(.*)$                  https://idn-au.github.io/lc-vocs/tk-labels.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/idn> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/tk-labels"^^xsd:anyURI ;
 .

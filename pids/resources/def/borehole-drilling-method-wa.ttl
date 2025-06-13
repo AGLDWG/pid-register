@@ -14,4 +14,5 @@ RewriteRule ^/def/borehole-drilling-method-wa($|/.*) "https://vocabulary.gswa.ku
     schema:name "Borehole drilling method WA" ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/borehole-drilling-method-wa"^^xsd:anyURI ;
 .

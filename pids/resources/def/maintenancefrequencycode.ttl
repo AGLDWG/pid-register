@@ -13,4 +13,5 @@ RewriteRule ^/def/maintenancefrequencycode($|/.*)$ "https://vocabularies.sarig.s
     schema:name "Maintenance Frequency Codes" ;
     schema:sponsor <https://linked.data.gov.au/org/gssa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/maintenancefrequencycode"^^xsd:anyURI ;
 .

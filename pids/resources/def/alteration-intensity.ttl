@@ -14,4 +14,5 @@ RewriteRule ^/def/alteration-intensity($|/.*) "https://vocabulary.gswa.kurrawong
     schema:name "Alteration intensity" ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/alteration-intensity"^^xsd:anyURI ;
 .

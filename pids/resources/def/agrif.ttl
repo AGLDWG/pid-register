@@ -14,4 +14,5 @@ RewriteRule ^/def/agrif(.*)$                            https://raw.githack.com/
     schema:name "AGRIF Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/agrif"^^xsd:anyURI ;
 .

@@ -12,4 +12,5 @@ RewriteRule ^/def/sample-material($|/.*)$ "https://vocabs.gsq.digital/object?voc
 RewriteRule ^/def/sample-material($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=sample-material&uri=https://linked.data.gov.au/def/sample-material$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/sample-material"^^xsd:anyURI ;
 .

@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2023-06-21"^^xsd:date ;
     schema:name "National Roads" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/submitted> ;
+    schema:url "https://linked.data.gov.au/dataset/roads"^^xsd:anyURI ;
 .

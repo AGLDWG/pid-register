@@ -30,4 +30,5 @@ RewriteRule ^/dataset/tern-ecosystem-processes(.*)$                 https://link
     schema:name "TERN Ecosystem Processes" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/tern-ecosystem-processes"^^xsd:anyURI ;
 .

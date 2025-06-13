@@ -17,4 +17,5 @@ RewriteRule ^/def/anzsrc-for/2020/(.+)$ "https://vocabs.ardc.edu.au/repository/a
     schema:name "ANZSRC 2020 Fields of Research" ;
     schema:sponsor <https://linked.data.gov.au/org/ardc> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/anzsrc-for"^^xsd:anyURI ;
 .

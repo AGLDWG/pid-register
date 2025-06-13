@@ -30,4 +30,5 @@ RewriteRule ^/dataset/nsw-fmip(.*)$                                 https://link
     schema:name "New South Wales Forest Monitoring and improvement Program (NSW-FMIP)" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/dataset/nsw-fmip"^^xsd:anyURI ;
 .

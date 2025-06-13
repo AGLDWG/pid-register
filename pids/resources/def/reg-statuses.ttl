@@ -19,4 +19,5 @@ RewriteRule ^/def/reg-statuses/(.+)$                    https://agldwg.github.io
     schema:name "Registry Ontology's Status Vocabulary" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/reg-statuses"^^xsd:anyURI ;
 .

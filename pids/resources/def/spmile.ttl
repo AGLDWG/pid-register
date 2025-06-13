@@ -14,4 +14,5 @@ RewriteRule ^/def/spmile($|/.+)$                        https://vocabs.ardc.edu.
     schema:name "Soil Physical Measurements" ;
     schema:sponsor <https://linked.data.gov.au/org/daff> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/spmile"^^xsd:anyURI ;
 .

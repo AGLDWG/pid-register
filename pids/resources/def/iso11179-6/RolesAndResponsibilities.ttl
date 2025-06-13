@@ -12,4 +12,5 @@ RewriteRule ^/def/iso11179-6/RolesAndResponsibilities($|/.*)$ "https://vocabs.gs
 RewriteRule ^/def/iso11179-6/RolesAndResponsibilities($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=iso11179-6/RolesAndResponsibilities&uri=https://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities"^^xsd:anyURI ;
 .

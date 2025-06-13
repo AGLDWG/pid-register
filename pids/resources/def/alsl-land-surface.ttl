@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2024-03-28"^^xsd:date ;
     schema:name "ASLS Land Surface classifiers" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/alsl-land-surface"^^xsd:anyURI ;
 .

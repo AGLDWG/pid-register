@@ -19,4 +19,5 @@ RewriteRule ^/def/data-roles/(.+)$                       https://agldwg.github.i
     schema:name "Data Roles" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/data-roles"^^xsd:anyURI ;
 .

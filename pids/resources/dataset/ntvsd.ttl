@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2024-04-10"^^xsd:date ;
     schema:name "Northern Territory Vegetation Site Database" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/invalid> ;
+    schema:url "https://linked.data.gov.au/dataset/ntvsd"^^xsd:anyURI ;
 .

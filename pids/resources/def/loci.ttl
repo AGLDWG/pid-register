@@ -22,4 +22,5 @@ RewriteRule ^/def/loci(.*)$                             https://csiro-enviro-inf
     schema:name "Loc-I Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/loci"^^xsd:anyURI ;
 .

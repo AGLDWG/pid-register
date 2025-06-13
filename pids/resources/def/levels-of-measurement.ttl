@@ -14,4 +14,5 @@ RewriteRule ^/def/levels-of-measurement($|/.*)$        https://agldwg.github.io/
     schema:name "Levels of Measurement" ;
     schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/levels-of-measurement"^^xsd:anyURI ;
 .

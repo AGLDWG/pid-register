@@ -13,4 +13,5 @@ RewriteRule ^/def/gswa-supermodel.ttl$ https://raw.githubusercontent.com/Kurrawo
 RewriteRule ^/def/gswa-supermodel$ https://kurrawong.github.io/gswa-supermodel/ [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/gswa-supermodel"^^xsd:anyURI ;
 .

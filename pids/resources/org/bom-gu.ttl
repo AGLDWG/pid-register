@@ -14,4 +14,5 @@ RewriteRule ^/org/bom-gu($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https
     schema:name "BoM Groundwater Unit" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/bom-gu"^^xsd:anyURI ;
 .

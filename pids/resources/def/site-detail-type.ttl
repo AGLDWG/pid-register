@@ -12,4 +12,5 @@ RewriteRule ^/def/site-detail-type($|/.*)$ "https://vocabs.gsq.digital/object?vo
 RewriteRule ^/def/site-detail-type($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=site-detail-type&uri=https://linked.data.gov.au/def/site-detail-type$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/site-detail-type"^^xsd:anyURI ;
 .

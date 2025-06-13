@@ -41,4 +41,5 @@ RewriteRule ^/def/australian-landscape-water-balance/?(|/.+)$		https://vocabs.ar
     schema:name "Australian Landscape Water Balance" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/australian-landscape-water-balance"^^xsd:anyURI ;
 .

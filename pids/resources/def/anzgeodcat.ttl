@@ -22,4 +22,5 @@ RewriteRule ^/def/anzgeodcat/sdo$			https://kurrawong.github.io/anzgeodcat/profi
 RewriteRule ^/def/anzgeodcat/sdo.ttl		https://kurrawong.github.io/anzgeodcat/profile/resources/mappings/sdo.ttl [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/anzgeodcat"^^xsd:anyURI ;
 .

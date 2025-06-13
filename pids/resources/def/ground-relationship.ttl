@@ -13,4 +13,5 @@ RewriteRule ^/def/ground-relationship(.*).ttl$ "https://icsm.information.qld.gov
 RewriteRule ^/def/ground-relationship($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/ground-relationship$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/ground-relationship"^^xsd:anyURI ;
 .

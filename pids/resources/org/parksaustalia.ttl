@@ -14,4 +14,5 @@ RewriteRule ^/org/parksaustalia($|/.*)$ "https://demo.dev.kurrawong.ai/object?ur
     schema:name "Parks Australia" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/parksaustalia"^^xsd:anyURI ;
 .

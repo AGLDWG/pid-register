@@ -27,4 +27,5 @@ RewriteRule ^/def/phs(.*)$				    https://raw.githack.com/AGLDWG/phs-ont/master/
     schema:name "Plant Health Surveillance" ;
     schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/phs"^^xsd:anyURI ;
 .

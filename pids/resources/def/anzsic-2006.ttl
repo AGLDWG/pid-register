@@ -14,4 +14,5 @@ RewriteRule ^/def/anzsic-2006($|/.*)$ "https://vocabs.gsq.digital/object?uri=htt
     schema:name "Industry classifications" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/anzsic-2006"^^xsd:anyURI ;
 .

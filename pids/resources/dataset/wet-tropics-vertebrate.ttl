@@ -30,4 +30,5 @@ RewriteRule ^/dataset/wet-tropics-vertebrate(.*)$                   https://link
     schema:name "Williams Wet Tropics Vertebrate database" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/wet-tropics-vertebrate"^^xsd:anyURI ;
 .

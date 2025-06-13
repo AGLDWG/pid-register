@@ -14,4 +14,5 @@ RewriteRule ^/org/dhs($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://
     schema:name "Department of Human Services" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/dhs"^^xsd:anyURI ;
 .

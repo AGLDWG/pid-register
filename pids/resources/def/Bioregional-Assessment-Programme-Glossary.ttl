@@ -41,4 +41,5 @@ RewriteRule ^/def/Bioregional-Assessment-Programme-Glossary/?(|/.+)$		https://vo
     schema:name "Bioregional Assessment Programme Glossary" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary"^^xsd:anyURI ;
 .

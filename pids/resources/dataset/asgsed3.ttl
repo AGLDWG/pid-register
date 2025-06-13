@@ -24,4 +24,5 @@ RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf
     schema:name "ASGS Edition 3 Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/asgsed3"^^xsd:anyURI ;
 .

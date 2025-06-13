@@ -12,4 +12,5 @@ RewriteRule ^/def/geological-observation-type($|/.*)$ "https://vocabs.gsq.digita
 RewriteRule ^/def/geological-observation-type($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=geological-observation-type&uri=https://linked.data.gov.au/def/geological-observation-type$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/geological-observation-type"^^xsd:anyURI ;
 .

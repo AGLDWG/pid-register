@@ -14,4 +14,5 @@ RewriteRule ^/def/plot.ttl$                          https://ternaustralia.githu
 RewriteRule ^/def/plot($|/.*)$                       https://ternaustralia.github.io/ontology_tern-plot/$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:name "Plot Ontology" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/plot"^^xsd:anyURI ;
 .

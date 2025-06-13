@@ -14,4 +14,5 @@ RewriteRule ^/def/tectonic-unit-type($|/.*) "https://vocabulary.gswa.kurrawong.a
     schema:name "Tectonic unit type" ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/tectonic-unit-type"^^xsd:anyURI ;
 .

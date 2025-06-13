@@ -24,4 +24,5 @@ RewriteRule ^/dataset/geofabric/hydroid/(.*)$ "https://geofabric.linked.fsdf.org
     schema:name "Geofabric Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/geofabric"^^xsd:anyURI ;
 .

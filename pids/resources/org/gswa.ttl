@@ -14,4 +14,5 @@ RewriteRule ^/org/gswa($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https:/
     schema:name "Geological Survey of Western Australia" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/gswa"^^xsd:anyURI ;
 .

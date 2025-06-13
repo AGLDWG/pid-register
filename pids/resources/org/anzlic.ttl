@@ -14,4 +14,5 @@ RewriteRule ^/org/anzlic($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https
     schema:name "ANZLIC – The Spatial  Information Council" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/anzlic"^^xsd:anyURI ;
 .

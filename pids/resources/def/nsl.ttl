@@ -17,4 +17,5 @@ RewriteRule ^/def/nsl/context.json$                     https://kurrawong.github
     schema:name "National Species List Data Model" ;
     schema:sponsor <https://linked.data.gov.au/org/dcceew> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/nsl"^^xsd:anyURI ;
 .

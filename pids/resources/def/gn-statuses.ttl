@@ -13,4 +13,5 @@ RewriteRule ^/def/gn-statuses(.*).ttl$ "https://icsm.information.qld.gov.au/obje
 RewriteRule ^/def/gn-statuses($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/gn-statuses$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/deprecated> ;
+    schema:url "https://linked.data.gov.au/def/gn-statuses"^^xsd:anyURI ;
 .

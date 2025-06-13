@@ -14,4 +14,5 @@ RewriteRule ^/def/qg-agent($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=q
     schema:name "Queensland Government Agencies" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/qg-agent"^^xsd:anyURI ;
 .

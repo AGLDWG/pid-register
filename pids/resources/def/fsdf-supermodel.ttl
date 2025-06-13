@@ -10,4 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:location "RewriteRule /def/fsdf-supermodel(.*)            https://geoscienceaustralia.github.io/fsdf-supermodel/supermodel.html$1 [R=302,L]"^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/fsdf-supermodel"^^xsd:anyURI ;
 .

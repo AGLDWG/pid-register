@@ -13,4 +13,5 @@ RewriteRule ^/def/idn-role-codes(.*).ttl$              https://idn-au.github.io/
 RewriteRule ^/def/idn-role-codes(.*)$                  https://idn-au.github.io/idn-role-codes-voc/idn-role-codes.html$1 [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/idn> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/idn-role-codes"^^xsd:anyURI ;
 .

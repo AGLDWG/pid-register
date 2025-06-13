@@ -41,4 +41,5 @@ RewriteRule ^/def/australian-water-assessment-landscape-model/?(|/.+)$		https://
     schema:name "Australian Water Assessment Landscape Model" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/australian-water-assessment-landscape-model"^^xsd:anyURI ;
 .

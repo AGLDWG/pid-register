@@ -24,4 +24,5 @@ RewriteRule ^/dataset/qldgeofeatures/(.*)$                  https://gsq.cat/qldg
     schema:name "Queensland Geological Features Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/qldgeofeatures"^^xsd:anyURI ;
 .

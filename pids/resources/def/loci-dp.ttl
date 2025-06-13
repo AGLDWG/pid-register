@@ -19,4 +19,5 @@ RewriteRule ^/def/loci-dp/repo				https://github.com/surroundaustralia/loci-data
     schema:name "Loc-I Data Profile" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/loci-dp"^^xsd:anyURI ;
 .

@@ -15,4 +15,5 @@ RewriteRule ^/dataset/causalnetwork($|/.*)$             https://causalnetworks.a
     schema:name "CSIRO Causal Networks" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/causalnetwork"^^xsd:anyURI ;
 .

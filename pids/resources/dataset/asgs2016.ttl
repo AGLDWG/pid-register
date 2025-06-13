@@ -10,4 +10,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "ASGS 2016 Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/abs> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/asgs2016"^^xsd:anyURI ;
 .

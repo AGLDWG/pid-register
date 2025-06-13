@@ -14,4 +14,5 @@ RewriteRule ^/dataset/agiftcrsth                        https://github.com/CSIRO
     schema:name "AGIFT / CRS Thesaurus Linkset" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/agiftcrsth"^^xsd:anyURI ;
 .

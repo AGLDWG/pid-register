@@ -14,4 +14,5 @@ RewriteRule ^/def/crs-th(.*)$                           https://github.com/CSIRO
     schema:name "CRS Thesaurus" ;
     schema:sponsor <https://linked.data.gov.au/org/naa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/crs-th"^^xsd:anyURI ;
 .

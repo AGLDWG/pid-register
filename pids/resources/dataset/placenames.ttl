@@ -24,4 +24,5 @@ RewriteRule ^/dataset/placenames/place/(.*)		"https://linked.fsdf.org.au/dataset
     schema:name "Place Names dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/placenames"^^xsd:anyURI ;
 .

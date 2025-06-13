@@ -41,4 +41,5 @@ RewriteRule ^/def/cloud-cover-observation-measurements/?(|/.+)$		https://vocabs.
     schema:name "Cloud Cover Observation Measurements" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/cloud-cover-observation-measurements"^^xsd:anyURI ;
 .

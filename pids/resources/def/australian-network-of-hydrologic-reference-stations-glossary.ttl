@@ -41,4 +41,5 @@ RewriteRule ^/def/australian-network-of-hydrologic-reference-stations-glossary/?
     schema:name "Australian Network of Hydrologic Reference Stations glossary" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/australian-network-of-hydrologic-reference-stations-glossary"^^xsd:anyURI ;
 .

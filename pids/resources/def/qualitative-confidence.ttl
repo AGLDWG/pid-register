@@ -14,4 +14,5 @@ RewriteRule ^/def/qualitative-confidence($|/.*)$ "https://vocabs.gsq.digital/obj
     schema:name "Qualitative Confidence" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/qualitative-confidence"^^xsd:anyURI ;
 .

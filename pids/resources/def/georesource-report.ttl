@@ -13,4 +13,5 @@ RewriteRule ^/def/georesource-report($|/.*)$ "https://vocabs.gsq.digital/object?
     schema:name "Georesource Report Types" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/georesource-report"^^xsd:anyURI ;
 .

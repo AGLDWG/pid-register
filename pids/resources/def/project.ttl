@@ -16,4 +16,5 @@ RewriteRule ^/def/project(.*)$                          https://dr-shorthair.git
     schema:name "Project ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/project"^^xsd:anyURI ;
 .

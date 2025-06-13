@@ -17,4 +17,5 @@ RewriteRule ^/def/anzsrc-seo/2020/(.+)$ "https://vocabs.ardc.edu.au/repository/a
     schema:name "ANZSRC 2020 Socio-Economic Objectives" ;
     schema:sponsor <https://linked.data.gov.au/org/ausbigg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/anzsrc-seo"^^xsd:anyURI ;
 .

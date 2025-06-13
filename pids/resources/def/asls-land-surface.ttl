@@ -14,4 +14,5 @@ RewriteRule ^/def/asls-land-surface($|/.+)$             https://vocabs.ardc.edu.
     schema:name "The Australian Soil Classification" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/asls-land-surface"^^xsd:anyURI ;
 .

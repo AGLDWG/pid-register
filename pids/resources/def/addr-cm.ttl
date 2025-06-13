@@ -9,4 +9,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:location "RewriteRule ^/def/addr-cm$      https://icsm-au.github.io/addr-creation-maintenance/doc.html [R=302,L]"^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/addr-cm"^^xsd:anyURI ;
 .

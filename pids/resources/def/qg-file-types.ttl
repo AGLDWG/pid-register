@@ -14,4 +14,5 @@ RewriteRule ^/def/qg-file-types($|/.*)$ "https://vocabs.gsq.digital/object?uri=h
     schema:name "Queensland Government File types" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/unstable> ;
+    schema:url "https://linked.data.gov.au/def/qg-file-types"^^xsd:anyURI ;
 .

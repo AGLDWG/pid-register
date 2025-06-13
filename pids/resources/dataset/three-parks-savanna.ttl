@@ -30,4 +30,5 @@ RewriteRule ^/dataset/three-parks-savanna(.*)$                      https://link
     schema:name "Three Parks Savanna Fire-effects Plot Network" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/three-parks-savanna"^^xsd:anyURI ;
 .

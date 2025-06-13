@@ -14,4 +14,5 @@ RewriteRule ^/def/geological-feature-type($|/.*) "https://vocabulary.gswa.kurraw
     schema:name "Geological feature type" ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/geological-feature-type"^^xsd:anyURI ;
 .

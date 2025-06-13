@@ -41,4 +41,5 @@ RewriteRule ^/def/neii-sampling-regime/?(|/.+)$		https://vocabs.ardc.edu.au/repo
     schema:name "NEII Sampling Regime" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/neii-sampling-regime"^^xsd:anyURI ;
 .

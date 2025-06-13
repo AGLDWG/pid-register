@@ -41,4 +41,5 @@ RewriteRule ^/def/groundwater-dependent-ecosystems-atlas/?(|/.+)$		https://vocab
     schema:name "Groundwater Dependent Ecosystems Atlas" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/groundwater-dependent-ecosystems-atlas"^^xsd:anyURI ;
 .

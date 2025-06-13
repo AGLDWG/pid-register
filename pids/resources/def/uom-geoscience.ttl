@@ -14,4 +14,5 @@ RewriteRule ^/def/uom-geoscience($|/.*) "https://vocabulary.gswa.kurrawong.ai/ob
     schema:name "Geoscience units of measurement" ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/uom-geoscience"^^xsd:anyURI ;
 .

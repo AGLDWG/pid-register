@@ -13,4 +13,5 @@ RewriteRule ^/def/road-operational-statuses(.*).ttl$ "https://icsm.information.q
 RewriteRule ^/def/road-operational-statuses($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-operational-statuses$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/road-operational-statuses"^^xsd:anyURI ;
 .

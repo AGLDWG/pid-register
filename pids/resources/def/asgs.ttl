@@ -48,4 +48,5 @@ RewriteRule ^/def/asgs/id(.*)$                          https://raw.githack.com/
     schema:name "ASGS Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/asgs"^^xsd:anyURI ;
 .

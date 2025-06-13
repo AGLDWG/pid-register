@@ -13,4 +13,5 @@ RewriteRule ^/def/addr-classes(.*).ttl$ "https://icsm.information.qld.gov.au/obj
 RewriteRule ^/def/addr-classes($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-classes$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/addr-classes"^^xsd:anyURI ;
 .

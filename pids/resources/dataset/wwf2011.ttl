@@ -31,4 +31,5 @@ RewriteRule ^/dataset/wwf2011(.*)$                          https://linkeddata.t
     schema:name " WWF (World Wildlife Fund) terrestrial ecoregions 2011 " ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/dataset/wwf2011"^^xsd:anyURI ;
 .

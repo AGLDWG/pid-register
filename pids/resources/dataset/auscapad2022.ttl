@@ -31,4 +31,5 @@ RewriteRule ^/dataset/auscapad2022(.*)$                          https://linkedd
     schema:name "CAPAD 2022 - Terrestrial" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/dataset/auscapad2022"^^xsd:anyURI ;
 .

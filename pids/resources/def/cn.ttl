@@ -13,4 +13,5 @@ RewriteRule ^/def/cn($|/(.*))                           https://agldwg.github.io
     schema:name "Cadastre Model" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/cn"^^xsd:anyURI ;
 .

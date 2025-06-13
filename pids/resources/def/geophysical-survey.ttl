@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2019-12-05"^^xsd:date ;
     schema:name "Geophysical Survey" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/invalid> ;
+    schema:url "https://linked.data.gov.au/def/geophysical-survey"^^xsd:anyURI ;
 .

@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2020-03-04"^^xsd:date ;
     schema:name "Local Government Areas of Australia" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/submitted> ;
+    schema:url "https://linked.data.gov.au/dataset/local-gov-areas-2011"^^xsd:anyURI ;
 .

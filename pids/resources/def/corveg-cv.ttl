@@ -31,4 +31,5 @@ RewriteRule ^/def/corveg-cv(.*)$                          https://linkeddata.ter
     schema:name "CORVEG vocabulary" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/corveg-cv"^^xsd:anyURI ;
 .

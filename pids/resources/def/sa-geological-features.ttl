@@ -13,4 +13,5 @@ RewriteRule ^/def/sa-geological-features($|/.*)$ "https://vocabularies.sarig.sa.
     schema:name "SA Geological Features" ;
     schema:sponsor <https://linked.data.gov.au/org/gssa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/sa-geological-features"^^xsd:anyURI ;
 .

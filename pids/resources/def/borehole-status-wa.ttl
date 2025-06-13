@@ -14,4 +14,5 @@ RewriteRule ^/def/borehole-status-wa($|/.*) "https://vocabulary.gswa.kurrawong.a
     schema:name "Borehole status" ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/borehole-status-wa"^^xsd:anyURI ;
 .

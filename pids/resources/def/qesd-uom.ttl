@@ -13,4 +13,5 @@ RewriteRule ^/def/qesd-uom($|/.*)$ "https://vocabs.gsq.digital/object?uri=https:
     schema:name "Queensland Environmental Science Data Profile of QUDT Units" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/qesd-uom"^^xsd:anyURI ;
 .

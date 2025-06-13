@@ -14,4 +14,5 @@ RewriteRule ^/def/geological-properties($|/.*)$ "https://vocabs.gsq.digital/obje
     schema:name "Geological properties" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/geological-properties"^^xsd:anyURI ;
 .

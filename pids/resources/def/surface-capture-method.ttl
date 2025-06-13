@@ -13,4 +13,5 @@ RewriteRule ^/def/surface-capture-method(.*).ttl$ "https://vocabs.gsq.digital/ob
 RewriteRule ^/def/surface-capture-method($|/.*)$ "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/surface-capture-method$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/idn> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/surface-capture-method"^^xsd:anyURI ;
 .

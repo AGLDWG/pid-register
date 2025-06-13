@@ -41,4 +41,5 @@ RewriteRule ^/def/rainfall-definitions/?(|/.+)$		https://vocabs.ardc.edu.au/repo
     schema:name "Rainfall definitions" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/rainfall-definitions"^^xsd:anyURI ;
 .

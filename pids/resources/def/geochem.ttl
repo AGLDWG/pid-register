@@ -15,4 +15,5 @@ RewriteRule ^/def/geochem/overview$                     https://kurrawong.github
     schema:name "Geochemistry Data Model" ;
     schema:sponsor <https://linked.data.gov.au/org/gssa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/geochem"^^xsd:anyURI ;
 .

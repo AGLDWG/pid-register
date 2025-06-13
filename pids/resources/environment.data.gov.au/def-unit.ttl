@@ -8,4 +8,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2025-04-09"^^xsd:date ;
     schema:name "units of measure" ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/deprecated> ;
+    schema:url "https://environment.data.gov.au/def/unit"^^xsd:anyURI ;
 .

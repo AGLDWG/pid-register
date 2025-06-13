@@ -49,4 +49,5 @@ RewriteRule ^/dataset/gnaf/(addressSite|locality|streetLocality)/(.+)$ "https://
     schema:name "GNAF Current Dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/gnaf"^^xsd:anyURI ;
 .

@@ -14,4 +14,5 @@ RewriteRule ^/def/gn($|/.*)             https://spatial-information-qld.github.i
     schema:name "Geographical Names Model" ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/gn"^^xsd:anyURI ;
 .

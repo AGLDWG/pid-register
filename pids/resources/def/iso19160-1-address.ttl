@@ -15,4 +15,5 @@ RewriteRule ^/def/iso19160-1-address(.*)$                 https://raw.githack.co
     schema:name "ISO19160-1:2015 Address ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/iso19160-1-address"^^xsd:anyURI ;
 .

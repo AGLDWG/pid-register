@@ -14,4 +14,5 @@ RewriteRule ^/org/abs-coatsis($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=
     schema:name "ABS Centre of Aboriginal and Torres Strait Islander Statistics" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/abs-coatsis"^^xsd:anyURI ;
 .

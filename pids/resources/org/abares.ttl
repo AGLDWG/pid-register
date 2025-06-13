@@ -14,4 +14,5 @@ RewriteRule ^/org/xabares($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=http
     schema:name "Australian Bureau of Agricultural and Resource Economics and Sciences" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/abares"^^xsd:anyURI ;
 .

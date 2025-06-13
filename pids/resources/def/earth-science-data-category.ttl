@@ -13,4 +13,5 @@ RewriteRule ^/def/earth-science-data-category($|/.*)$ "https://vocabs.gsq.digita
     schema:name "Earth Science Data Category" ;
     schema:sponsor <https://linked.data.gov.au/org/gsq> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/earth-science-data-category"^^xsd:anyURI ;
 .

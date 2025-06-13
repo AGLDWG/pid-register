@@ -41,4 +41,5 @@ RewriteRule ^/def/definitions-for-9am-and-3pm-climate-statistics/?(|/.+)$		https
     schema:name "Definitions for 9am and 3pm Climate Statistics" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics"^^xsd:anyURI ;
 .

@@ -41,4 +41,5 @@ RewriteRule ^/def/water-regulations-2008-water-information-terms/?(|/.+)$		https
     schema:name "Water Regulations 2008 water information terms" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms"^^xsd:anyURI ;
 .

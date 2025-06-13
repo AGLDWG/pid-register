@@ -14,4 +14,5 @@ RewriteRule ^/def/sample-nomenclature-publication-status($|/.*) "https://vocabul
     schema:name "Sample/specimen nomenclature and publication status" ;
     schema:sponsor <https://linked.data.gov.au/org/gswa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/sample-nomenclature-publication-status"^^xsd:anyURI ;
 .

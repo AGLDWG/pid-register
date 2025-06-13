@@ -41,4 +41,5 @@ RewriteRule ^/def/water-market-reports/?(|/.+)$		https://vocabs.ardc.edu.au/repo
     schema:name "Water Market Reports glossary" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/water-market-reports"^^xsd:anyURI ;
 .

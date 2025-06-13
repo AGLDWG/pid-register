@@ -20,4 +20,5 @@ RewriteRule ^/def/agop/example.invalid-2$              https://raw.githack.com/A
     schema:name "Australian Government Ontology Profile" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/agop"^^xsd:anyURI ;
 .

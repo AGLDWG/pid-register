@@ -30,4 +30,5 @@ RewriteRule ^/dataset/ausplots(.*)$                          https://linkeddata.
     schema:name "AusPlots" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/ausplots"^^xsd:anyURI ;
 .

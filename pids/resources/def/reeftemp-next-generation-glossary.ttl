@@ -41,4 +41,5 @@ RewriteRule ^/def/reeftemp-next-generation-glossary/?(|/.+)$		https://vocabs.ard
     schema:name "ReefTemp Next Generation Glossary" ;
     schema:sponsor <https://linked.data.gov.au/org/neii> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/reeftemp-next-generation-glossary"^^xsd:anyURI ;
 .

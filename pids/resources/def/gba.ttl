@@ -22,4 +22,5 @@ RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro
     schema:name "Geological and Bioregional Assessments" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/gba"^^xsd:anyURI ;
 .

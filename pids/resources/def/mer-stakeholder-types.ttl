@@ -13,4 +13,5 @@ RewriteRule ^/def/mer-stakeholder-types($|/.*)$ "https://vocabularies.sarig.sa.g
     schema:name "MER Stakeholder Types" ;
     schema:sponsor <https://linked.data.gov.au/org/gssa> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/def/mer-stakeholder-types"^^xsd:anyURI ;
 .

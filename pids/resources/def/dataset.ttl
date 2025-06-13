@@ -14,4 +14,5 @@ RewriteRule ^/def/dataset($|(/.*))                      https://raw.githack.com/
     schema:name "Dataset Ontology" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/dataset"^^xsd:anyURI ;
 .

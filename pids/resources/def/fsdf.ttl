@@ -32,4 +32,5 @@ RewriteRule ^/def/fsdf$                                  https://raw.githack.com
     schema:name "Foundational Spatial Data Framework (FSDF) Ontology and Vocabularies" ;
     schema:sponsor <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/fsdf"^^xsd:anyURI ;
 .

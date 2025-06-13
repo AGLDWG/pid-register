@@ -18,4 +18,5 @@ RewriteRule /def/fsdf-backbone/repository$                      https://github.c
 RewriteRule /def/fsdf-backbone/example-sandgate$                https://geoscienceaustralia.github.io/fsdf-supermodel/backbone-model-example-sandgate.ttl [R=302,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/fsdf-backbone"^^xsd:anyURI ;
 .

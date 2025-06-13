@@ -18,4 +18,5 @@ RewriteRule ^/dataset/auspix/(.*) "https://fsdf.org.au/dataset/auspix/collection
     schema:name "AusPIX dataset" ;
     schema:sponsor <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/auspix"^^xsd:anyURI ;
 .

@@ -12,5 +12,5 @@ RewriteRule ^/def/depth-reference($|/.*)$ "https://raw.githack.com/AGLDWG/energy
 RewriteRule ^/def/depth-reference($|/.*)$ "https://raw.githack.com/AGLDWG/energy-dataset/master/energy.html$1" [R=302,NE,L]"""^^<https://linked.data.gov.au/def/pid/apacheRedirect> ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/energy"^^xsd:anyURI ;
 .
-

@@ -14,4 +14,5 @@ RewriteRule ^/org/tc211($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https:
     schema:name "ISO's Technical Committee 211" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/tc211"^^xsd:anyURI ;
 .

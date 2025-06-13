@@ -13,4 +13,5 @@ RewriteRule ^/dataset/addrcatch				  https://github.com/CSIRO-enviro-informatics
     schema:name "GNAF Current Addresses to Geofabric Contracted Catchments Linkset" ;
     schema:sponsor <https://linked.data.gov.au/org/csiro> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/dataset/addrcatch"^^xsd:anyURI ;
 .

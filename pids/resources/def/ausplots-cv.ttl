@@ -31,4 +31,5 @@ RewriteRule ^/def/ausplots-cv(.*)$                          https://linkeddata.t
     schema:name "TERN AusPlots Vocabulary" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/def/ausplots-cv"^^xsd:anyURI ;
 .

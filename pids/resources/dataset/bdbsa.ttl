@@ -30,4 +30,5 @@ RewriteRule ^/dataset/bdbsa(.*)$                                    https://link
     schema:name "Biological Databases of South Australia (BDBSA)" ;
     schema:sponsor <https://linked.data.gov.au/org/tern> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/accepted> ;
+    schema:url "https://linked.data.gov.au/dataset/bdbsa"^^xsd:anyURI ;
 .

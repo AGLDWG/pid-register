@@ -14,4 +14,5 @@ RewriteRule ^/org/iso($|/.*)$ "https://demo.dev.kurrawong.ai/object?uri=https://
     schema:name "International Organization for Standardization" ;
     schema:sponsor <https://linked.data.gov.au/org/agldwg> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/stable> ;
+    schema:url "https://linked.data.gov.au/org/iso"^^xsd:anyURI ;
 .
