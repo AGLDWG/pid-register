@@ -1,0 +1,10 @@
+<https://linked.data.gov.au/org/swmc> 
+a sdo:Organization ;
+sdo:name "Skills and Workforce Ministerial Council"@en ;
+sdo:alternateName "SWMC" ;
+sdo:url "https://www.directory.gov.au/portfolios/employment-and-workplace-relations/department-employment-and-workplace-relations/skills-and-workforce-ministerial-council"^^xsd:anyURI ;
+dcat:qualifiedRelation ;
+[a dcat:Relationship ;
+dcat:hadRole aarr:memberOf ;
+sdo:agent <https://linked.data.gov.au/org/dewr>
+] .
