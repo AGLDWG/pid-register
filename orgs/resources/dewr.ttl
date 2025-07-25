@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            sdo:agent <https://linked.data.gov.au/org/au>
+            schema:agent <https://linked.data.gov.au/org/au>
         ] ;
     schema:description "DEWR fosters a productive and competitive labour market through policies and programs that assist job seekers into work, including secure work, and meet employer and industry needs; promotes growth in economic productivity and social wellbeing through access to quality skills and training; and facilitates jobs growth, including secure work, through policies and programs that promote fair, productive and safe workplaces" ;
     schema:name "Department of Employment and Workplace Relations"@en ;
