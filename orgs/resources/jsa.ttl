@@ -3,14 +3,14 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix id: <http://id.loc.gov/vocabulary/identifiers/> .
 @prefix schema: <https://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> ,
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://linked.data.gov.au/org/jsa>
     a schema:Organization ;
     dcat:qualifiedRelation [
         a dcat:Relationship ;
             dcat:hadRole aarr:partOf ;
-            schema:agent <https://linked.data.gov.au/org/dewr> .
+            schema:agent <https://linked.data.gov.au/org/dewr> 
         ] ;
     schema:description "Jobs and Skills Australia was established in 2022 under the Jobs and Skills Australia Act 2022." ;
     schema:name "Department of Employment and Workplace Relations"@en ;
