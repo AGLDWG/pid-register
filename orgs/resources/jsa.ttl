@@ -13,9 +13,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:agent <https://linked.data.gov.au/org/dewr> 
         ] ;
     schema:description "Jobs and Skills Australia was established in 2022 under the Jobs and Skills Australia Act 2022." ;
-    schema:name "Department of Employment and Workplace Relations"@en ;
-    schema:alternateName "DEWR" ;
-    schema:identifier "https://ror.org/02wa0fq92"^^id:ror , "96584957427"^^id:ausbn ;
+    schema:name "Jobs and Skills Australia"@en ;
+    schema:alternateName "JSA" ;
     schema:url "https://www.jobsandskills.gov.au"^^xsd:anyURI ;
     dcterms:isRequiredBy "https://www.legislation.gov.au/C2022A00051"^^xsd:anyURI 
 .
