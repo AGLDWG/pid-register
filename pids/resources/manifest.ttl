@@ -3,37 +3,35 @@ PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
 PREFIX pid: <https://linked.data.gov.au/def/pid/>
 PREFIX prez: <https://prez.dev/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX schema: <https://schema.org/>
 
-[]
-    a prez:Manifest ;
-    prof:hasResource
+[]    a prez:Manifest ;
+    prof:hasResource 
+        [
+            dcterms:conformsTo "validator-pid.ttl" ;
+            prof:hasArtifact "def/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType pid:PID ;
+            schema:name "Def PID Data" ;
+        ] ,
         [
             prof:hasArtifact "catalogue.ttl" ;
             prof:hasRole mrr:CatalogueData ;
             schema:description "The definition of, and metadata for, the catalogue object" ;
-            schema:name "Catalogue Definition"
+            schema:name "Catalogue Definition" ;
         ] ,
         [
-            prof:hasArtifact "dataset/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-            schema:name "Dataset PID Data" ;
             dcterms:conformsTo "validator-pid.ttl" ;
-            schema:additionalType pid:PID ;
-        ] ,
-        [
-            prof:hasArtifact "def/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-            schema:name "Def PID Data" ;
-            dcterms:conformsTo "validator-pid.ttl" ;
-            schema:additionalType pid:PID ;
-        ] ,
-        [
             prof:hasArtifact "org/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:name "Organisation PID Data" ;
-            dcterms:conformsTo "validator-pid.ttl" ;
             schema:additionalType pid:PID ;
+            schema:name "Organisation PID Data" ;
+        ] ,
+        [
+            dcterms:conformsTo "validator-pid.ttl" ;
+            prof:hasArtifact "dataset/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType pid:PID ;
+            schema:name "Dataset PID Data" ;
         ] ;
 .

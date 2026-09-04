@@ -6,8 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/person/derek.hoy> ;
     schema:dateCreated "2020-02-15"^^xsd:date ;
     schema:dateModified "2020-02-15"^^xsd:date ;
-    schema:location
-        """RewriteCond %{QUERY_STRING} _profile=alt
+    schema:location """RewriteCond %{QUERY_STRING} _profile=alt
 RewriteCond %{QUERY_STRING} _mediatype=text/turtle
 RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/profiles.ttl? [R=302,L]
 RewriteCond %{QUERY_STRING} _profile=http://www.w3.org/ns/dx/conneg/altr

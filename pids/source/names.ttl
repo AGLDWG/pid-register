@@ -308,8 +308,9 @@ PREFIX schema: <https://schema.org/>
 
 <https://linked.data.gov.au/def/addr-part-types>
     a pid:PID ;
-    schema:name "Address Part Types" ;
-    schema:name "" ;
+    schema:name
+        "" ,
+        "Address Part Types" ;
 .
 
 <https://linked.data.gov.au/def/address-alias-type>
