@@ -46,6 +46,19 @@ For all matters relating to this repository and the registry that it supports, p
 
 Many of the operational tasks required to maintain the PID Register are coded into Docker and Python scripts that can be run via the "Task" task runner / build tool.
 
+Python and its dependencies are managed with [uv](https://docs.astral.sh/uv/). After cloning the repository, install the locked dependencies with:
+
+```bash
+uv sync
+```
+
+Run Python commands through uv so they use the managed environment, for example:
+
+```bash
+uv run python scripts/rdf2conf.py
+uv run pytest
+```
+
 All the tasks available are listed in Taskfile.yml, e.g. `rdf2conf`, `aup` & `adown`.
 
 They are run simply by typing `task aup` etc. on the (Linux-like) command line.
