@@ -1,0 +1,128 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <https://schema.org/>
+
+dcterms:conformsTo
+    schema:name "Conforms To" ;
+.
+
+dcterms:hasPart
+    schema:name "Has Part" ;
+.
+
+rdf:type
+    schema:name "type" ;
+.
+
+dcat:Catalog
+    schema:name "Catalog" ;
+.
+
+prof:hasArtifact
+    schema:name "has artifact" ;
+.
+
+prof:hasResource
+    schema:name "has resource" ;
+.
+
+prof:hasRole
+    schema:name "has role" ;
+.
+
+<https://linked.data.gov.au/org/agldwg>
+    schema:name "Australian Government Linked Data Working Group" ;
+.
+
+<https://linked.data.gov.au/org/ausbigg>
+    schema:name "Australian Biodiversity Information Governance Group" ;
+.
+
+<https://linked.data.gov.au/org/dcceew>
+    schema:name
+        "Department of Climate Change, Energy, the Environment and Water" ,
+        "Department of Climate Change, energy, the Environment and Water" ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    schema:name "Geoscience Australia" ;
+.
+
+<https://linked.data.gov.au/org/icsm>
+    schema:name "Intergovernmental Committee on Surveying & Mapping" ;
+.
+
+<https://linked.data.gov.au/org/idn>
+    schema:name "Indigenous Data Network" ;
+.
+
+<https://linked.data.gov.au/org/qsi>
+    schema:name "Spatial Information Queensland" ;
+.
+
+<https://linked.data.gov.au/org/tern>
+    schema:name "Terrestrial Ecosystem Research Network" ;
+.
+
+<https://prez.dev/Manifest>
+    schema:name "Manifest" ;
+.
+
+schema:additionalType
+    schema:name "additional type" ;
+.
+
+schema:backstory
+    schema:name "backstory" ;
+.
+
+schema:codeRepository
+    schema:name "code repository" ;
+.
+
+schema:creator
+    schema:name "creator" ;
+.
+
+schema:dateCreated
+    schema:name "date created" ;
+.
+
+schema:dateIssued
+    schema:name "date issued" ;
+.
+
+schema:dateModified
+    schema:name "date modified" ;
+.
+
+schema:description
+    schema:name "description" ;
+.
+
+schema:location
+    schema:name "location" ;
+.
+
+schema:name
+    schema:name "name" ;
+.
+
+schema:publisher
+    schema:name "publisher" ;
+.
+
+schema:sponsor
+    schema:name "sponsor" ;
+.
+
+schema:status
+    schema:name "status" ;
+.
+
+schema:url
+    schema:name "url" ;
+.
+

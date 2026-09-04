@@ -16,17 +16,24 @@ PREFIX schema: <https://schema.org/>
             schema:name "Catalogue Definition"
         ] ,
         [
-            prof:hasArtifact "resources/*.ttl" ;
+            prof:hasArtifact "dataset/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:description "The individual resources - one per RDF (Turtle) file - in the resources/ folder and subfolders of it" ;
-            schema:name "Resource Data" ;
+            schema:name "Dataset PID Data" ;
             dcterms:conformsTo "validator-pid.ttl" ;
             schema:additionalType pid:PID ;
         ] ,
         [
-            prof:hasArtifact "labels.ttl" ;
-            prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
-            schema:description "An RDF file containing all the labels for ontology elements - predicates & classes - in this catalogue" ;
-            schema:name "Ontology Labels" ;
+            prof:hasArtifact "def/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:name "Def PID Data" ;
+            dcterms:conformsTo "validator-pid.ttl" ;
+            schema:additionalType pid:PID ;
+        ] ,
+        [
+            prof:hasArtifact "org/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:name "Organisation PID Data" ;
+            dcterms:conformsTo "validator-pid.ttl" ;
+            schema:additionalType pid:PID ;
         ] ;
 .
