@@ -9,6 +9,21 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/alteration-form($|/.*)$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/alteration-form.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/alteration-form($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form$1" [R=302,NE,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/alteration-form" ;
+            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form&_mediatype=text/turtle" ;
+            schema:name "alteration-form RDF" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/alteration-form" ;
+            pid:headers "{}" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form" ;
+            schema:name "alteration-form HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2024-12-03"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

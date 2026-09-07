@@ -9,6 +9,21 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/metamorphic-thermal-regime($|/.*)$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/metamorphic-thermal-regime.ttl$ "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/metamorphic-thermal-regime($|/.*) "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime$1" [R=302,NE,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/metamorphic-thermal-regime" ;
+            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime&_mediatype=text/turtle" ;
+            schema:name "metamorphic-thermal-regime RDF" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/metamorphic-thermal-regime" ;
+            pid:headers "{}" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime" ;
+            schema:name "Metamorphic Thermal Regime vocab HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2023-11-02"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

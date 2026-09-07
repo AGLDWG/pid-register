@@ -10,6 +10,35 @@ RewriteRule ^/def/geochem$				                https://kurrawong.github.io/gsq-ge
 RewriteRule ^/def/geochem$				                https://kurrawong.github.io/gsq-geochem/spec.html [R=302,L]
 RewriteRule ^/def/geochem/spec$                         https://kurrawong.github.io/gsq-geochem/spec.html [R=302,L]
 RewriteRule ^/def/geochem/overview$                     https://kurrawong.github.io/gsq-geochem/overview.html [R=302,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/geochem" ;
+            pid:headers "{}" ;
+            pid:to "https://kurrawong.github.io/gsq-geochem/spec.html" ;
+            schema:name "Geochemistry Spec HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/geochem/overview" ;
+            pid:headers "{}" ;
+            pid:to "https://kurrawong.github.io/gsq-geochem/overview.html" ;
+            schema:name "Geochemistry Spec HTML #2" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/geochem" ;
+            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:to "https://kurrawong.github.io/gsq-geochem/model.ttl" ;
+            schema:name "Geochemistry Model RDF" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/geochem/spec" ;
+            pid:headers "{}" ;
+            pid:to "https://kurrawong.github.io/gsq-geochem/spec.html" ;
+            schema:name "Geochemistry Overview HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/Steven.Bowden> ;
     schema:dateCreated "2023-11-02"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

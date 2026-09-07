@@ -8,6 +8,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/mer-stakeholder-types($|/.*)$ "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types$1&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/mer-stakeholder-types($|/.*)$ "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types$1" [R=302,NE,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/mer-stakeholder-types" ;
+            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types&_mediatype=text/turtle" ;
+            schema:name "mer-stakeholder-types RDF" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/mer-stakeholder-types" ;
+            pid:headers "{}" ;
+            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types" ;
+            schema:name "mer-stakeholder-types HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/alex.zou> ;
     schema:dateCreated "2024-09-10"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

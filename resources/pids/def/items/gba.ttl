@@ -17,6 +17,49 @@ RewriteCond %{HTTP:Accept} application/rdf+xml [NC]
 RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro.au/def/gba$1?_mediatype=rdf [R=302,L]
 RewriteRule ^/def/gba(.*).rdf$                          http://registry.it.csiro.au/def/gba$1?_mediatype=rdf [R=302,L]
 RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro.au/def/gba$1 [R=302,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/gba/glossary/abandonment?_mediatype=text/turtle" ;
+            pid:headers "{}" ;
+            pid:to "http://registry.it.csiro.au/def/gba/glossary/abandonment?_mediatype=ttl" ;
+            schema:name "GeoBioregional Assessments Definitions Turtle, QSA" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/gba" ;
+            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:to "http://registry.it.csiro.au/def/gba?_mediatype=ttl" ;
+            schema:name "GeoBioregional Assessments Definitions Turtle, conneg" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/gba?_mediatype=text/turtle" ;
+            pid:headers "{}" ;
+            pid:to "http://registry.it.csiro.au/def/gba?_mediatype=ttl" ;
+            schema:name "GeoBioregional Assessments Definitions JSON-LD, QSA" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/gba" ;
+            pid:headers "{}" ;
+            pid:to "http://registry.it.csiro.au/def/gba" ;
+            schema:name "GeoBioregional Assessments Definitions HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/gba.ttl" ;
+            pid:headers "{}" ;
+            pid:to "http://registry.it.csiro.au/def/gba?_mediatype=ttl" ;
+            schema:name "GeoBioregional Assessments Definitions Turtle, QSA" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/gba/glossary/abandonment" ;
+            pid:headers "{}" ;
+            pid:to "http://registry.it.csiro.au/def/gba/glossary/abandonment" ;
+            schema:name "GeoBioregional Assessments Definitions glossary instance HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/sally.tetreault-campbell> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

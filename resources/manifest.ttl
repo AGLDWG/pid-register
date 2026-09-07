@@ -7,8 +7,32 @@ PREFIX schema: <https://schema.org/>
 []    a prez:Manifest ;
     prof:hasResource
         [
-            prof:hasArtifact "models/_cat.ttl" ;
+            dcterms:conformsTo "validators/items/org.ttl" ;
+            prof:hasArtifact "orgs/items/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:additionalType schema:Organization ;
+        ] ,
+        [
+            dcterms:conformsTo "validators/items/pid.ttl" ;
+            prof:hasArtifact "pids/env/items/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "validators/items/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "pids/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
+        ] ,
+        [
+            prof:hasArtifact "pids/org/_cat.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
+        ] ,
+        [
+            dcterms:conformsTo "validators/items/pid.ttl" ;
+            prof:hasArtifact "pids/org/items/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
         ] ,
         [
             dcterms:conformsTo <https://linked.data.gov.au/def/ontpub/validator> ;
@@ -16,21 +40,7 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
-            prof:hasArtifact "orgs/_cat.ttl" ;
-            prof:hasRole mrr:CatalogueData ;
-        ] ,
-        [
-            dcterms:conformsTo "validators/items/org.ttl" ;
-            prof:hasArtifact "orgs/items/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-            schema:additionalType schema:Organization ;
-        ] ,
-        [
-            prof:hasArtifact "pids/_cat.ttl" ;
-            prof:hasRole mrr:CatalogueData ;
-        ] ,
-        [
-            prof:hasArtifact "pids/dataset/_cat.ttl" ;
+            prof:hasArtifact "validators/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
         ] ,
         [
@@ -48,30 +58,19 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
+            prof:hasArtifact "orgs/_cat.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
+        ] ,
+        [
             prof:hasArtifact "pids/env/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
         ] ,
         [
-            dcterms:conformsTo "validators/items/pid.ttl" ;
-            prof:hasArtifact "pids/env/items/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-        ] ,
-        [
-            prof:hasArtifact "pids/org/_cat.ttl" ;
+            prof:hasArtifact "pids/dataset/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
         ] ,
         [
-            dcterms:conformsTo "validators/items/pid.ttl" ;
-            prof:hasArtifact "pids/org/items/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
-        ] ,
-        [
-            prof:hasArtifact "validators/_cat.ttl" ;
+            prof:hasArtifact "models/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
-        ] ,
-        [
-            # dcterms:conformsTo <https://linked.data.gov.au/def/valpub/validator> ;
-            prof:hasArtifact "validators/items/*.ttl" ;
-            prof:hasRole mrr:ResourceData ;
         ] ;
 .

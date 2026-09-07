@@ -10,7 +10,7 @@ sg:
 
 :org-req-01
     a sh:NodeShape ;
-    sh:property 
+    sh:property
         [
             sh:maxCount 1 ;
             sh:message "An Organisation may be indicated as being part of at most one larger organisation by having an isPartOf predicate and if it does, isPartOf must indicate an IRI" ;

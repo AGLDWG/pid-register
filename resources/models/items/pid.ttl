@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a rdfs:Datatype ;
             owl:onDatatype xsd:anyURI ;
             owl:withRestrictions (
-                
+
                 [
                     xsd:pattern "^https://linked\\.data\\.gov\\.au/(?:(?:dataset|def|org|pid)/[A-Za-z0-9-]+|[A-Za-z0-9-]+/)(?:[#/]?[A-Za-z0-9/-]*[A-Za-z0-9-])?$" ;
                 ]
@@ -25,6 +25,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:example "https://linked.data.gov.au/def/pid"^^:agldwgPid ;
     schema:description "An HTTPS IRI in the linked.data.gov.au PID namespace whose path follows the AGLDWG PID IRI Guidelines." ;
     schema:name "AGLDWG PID IRI" ;
+.
+
+:from
+    a owl:DatatypeProperty ;
+    rdfs:domain :RedirectTest ;
+    rdfs:isDefinedBy ont: ;
+    schema:name "from" ;
+.
+
+:headers
+    a owl:DatatypeProperty ;
+    rdfs:domain :RedirectTest ;
+    rdfs:isDefinedBy ont: ;
+    schema:name "headers" ;
 .
 
 :redirectRules
@@ -45,24 +59,24 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "redirect rules" ;
 .
 
-:1
-    schema:name "1" ;
+:redirectTest
+    a owl:ObjectProperty ;
+    rdfs:domain :Pid ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:range :RedirectTest ;
+    schema:description "Associates a PID with a test of its redirect behaviour." ;
+    schema:name "redirect test" ;
 .
 
-:Pid
-    a owl:Class ;
+:to
+    a owl:DatatypeProperty ;
+    rdfs:domain :RedirectTest ;
     rdfs:isDefinedBy ont: ;
-    rdfs:subClassOf
-        [
-            a owl:Restriction ;
-            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-            owl:onClass lifecycle:LifecycleStage ;
-            owl:onProperty lifecycle:hasLifecycleStage ;
-        ] ;
-    skos:example "<https://linked.data.gov.au/pid/def/example> a <https://linked.data.gov.au/def/pid/Pid> ." ;
-    skos:historyNote "Defined for the Linked Data PID Register." ;
-    schema:description "A persistent identifier managed by the Australian Government Linked Data Working Group." ;
-    schema:name "Persistent Identifier (PID)" ;
+    schema:name "to" ;
+.
+
+:1
+    schema:name "1" ;
 .
 
 :apacheRedirectRules
@@ -91,10 +105,33 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "NGINX redirect rules" ;
 .
 
+:Pid
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    rdfs:subClassOf
+        [
+            a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass lifecycle:LifecycleStage ;
+            owl:onProperty lifecycle:hasLifecycleStage ;
+        ] ;
+    skos:example "<https://linked.data.gov.au/pid/def/example> a <https://linked.data.gov.au/def/pid/Pid> ." ;
+    skos:historyNote "Defined for the Linked Data PID Register." ;
+    schema:description "A persistent identifier managed by the Australian Government Linked Data Working Group." ;
+    schema:name "Persistent Identifier (PID)" ;
+.
+
 <https://linked.data.gov.au/org/agldwg>
     a schema:Organization ;
     schema:name "Australian Government Linked Data Working Group" ;
     schema:url "https://www.linked.data.gov.au"^^xsd:anyURI ;
+.
+
+:RedirectTest
+    a owl:Class ;
+    rdfs:isDefinedBy ont: ;
+    schema:description "An expected redirect, including its source, destination and request headers." ;
+    schema:name "Redirect Test" ;
 .
 
 ont:

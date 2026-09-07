@@ -21,6 +21,42 @@ RewriteRule ^/def/causalnetwork/?$                      https://causalnetworks.a
 RewriteRule ^/def/causalnetwork(.jsonld|/.*\\.jsonld)$   https://causalnetworks.azurewebsites.net/def/causalnetwork.jsonld [R=302,QSA,L]
 RewriteRule ^/def/causalnetwork(.json|/.*\\.json)$       https://causalnetworks.azurewebsites.net/def/causalnetwork.json [R=302,QSA,L]
 RewriteRule ^/def/causalnetwork($|/.*)$                 https://causalnetworks.azurewebsites.net/def/causalnetwork$1 [R=302,QSA,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/causalnetwork" ;
+            pid:headers "{}" ;
+            pid:to "https://causalnetworks.azurewebsites.net/def/causalnetwork" ;
+            schema:name "CSIRO Causal Network Ontology (no headers), no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/causalnetwork.ttl" ;
+            pid:headers "{}" ;
+            pid:to "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl" ;
+            schema:name "CSIRO Causal Network Ontology (TTL ext)" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/causalnetwork" ;
+            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:to "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl" ;
+            schema:name "CSIRO Causal Network Ontology (TTL header), no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/causalnetwork/" ;
+            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:to "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl" ;
+            schema:name "CSIRO Causal Network Ontology (TTL header), final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/causalnetwork/" ;
+            pid:headers "{}" ;
+            pid:to "https://causalnetworks.azurewebsites.net/def/causalnetwork/" ;
+            schema:name "CSIRO Causal Network Ontology (no headers), final slash" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-02-16"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;
