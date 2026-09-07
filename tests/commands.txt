@@ -1,5 +1,0 @@
-docker exec -it redirector apachectl -D DUMP_INCLUDES
-
-docker exec -it redirector ls /usr/local/apache2/conf/
-
-docker exec -it redirector tail /usr/local/apache2/conf/pids.conf
