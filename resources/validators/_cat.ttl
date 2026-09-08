@@ -12,7 +12,7 @@ reg:
     schema:hasPart
         <https://linked.data.gov.au/def/agldwg-org> ,
         <https://linked.data.gov.au/def/pid/shapes> ;
-    schema:name "linked.data.gov.au Validators Register" ;
+    schema:name "Validators Register" ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
     schema:version "1" ;
 .

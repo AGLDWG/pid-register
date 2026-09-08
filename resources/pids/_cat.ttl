@@ -14,7 +14,7 @@ reg:
         <https://linked.data.gov.au/reg/pids/defs> ,
         <https://linked.data.gov.au/reg/pids/envs> ,
         <https://linked.data.gov.au/reg/pids/orgs> ;
-    schema:name "linked.data.gov.au PIDs" ;
+    schema:name "PIDs top-level Register" ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
     schema:version "1" ;
 .

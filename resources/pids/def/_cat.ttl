@@ -310,7 +310,7 @@ reg:
         :water-market-reports ,
         :water-regulations-2008-water-information-terms ,
         :wave-sea-and-swell-terms ;
-    schema:name "linked.data.gov.au Definitional Item PIDs" ;
+    schema:name "Definitional Item PIDs" ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
     schema:version "1" ;
 .

@@ -107,7 +107,7 @@ reg:
         :unsw ,
         :uom ,
         :uts ;
-    schema:name "linked.data.gov.au Organisation PIDs" ;
+    schema:name "Organisation PIDs" ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
     schema:version "1" ;
 .

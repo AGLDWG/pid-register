@@ -1714,7 +1714,7 @@ reg:
         :western-shield ,
         :wmbaustralia ,
         :wwf-australia ;
-    schema:name "linked.data.gov.au Organisations Register" ;
+    schema:name "Organisations Register" ;
     schema:publisher :agldwg ;
     schema:version "1" ;
 .

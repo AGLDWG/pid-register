@@ -1,5 +1,6 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
+PREFIX pid: <https://linked.data.gov.au/def/pid/>
 PREFIX prez: <https://prez.dev/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX schema: <https://schema.org/>
@@ -16,6 +17,7 @@ PREFIX schema: <https://schema.org/>
             dcterms:conformsTo "validators/items/pid.ttl" ;
             prof:hasArtifact "pids/env/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
+            schema:additionalType pid:Pid ;
         ] ,
         [
             prof:hasArtifact "validators/items/*.ttl" ;
@@ -33,6 +35,7 @@ PREFIX schema: <https://schema.org/>
             dcterms:conformsTo "validators/items/pid.ttl" ;
             prof:hasArtifact "pids/org/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
+            schema:additionalType pid:Pid ;
         ] ,
         [
             prof:hasArtifact "models/items/*.ttl" ;
@@ -46,6 +49,7 @@ PREFIX schema: <https://schema.org/>
             dcterms:conformsTo "validators/items/pid.ttl" ;
             prof:hasArtifact "pids/dataset/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
+            schema:additionalType pid:Pid ;
         ] ,
         [
             prof:hasArtifact "pids/def/_cat.ttl" ;
@@ -55,6 +59,7 @@ PREFIX schema: <https://schema.org/>
             dcterms:conformsTo "validators/items/pid.ttl" ;
             prof:hasArtifact "pids/def/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
+            schema:additionalType pid:Pid ;
         ] ,
         [
             prof:hasArtifact "orgs/_cat.ttl" ;

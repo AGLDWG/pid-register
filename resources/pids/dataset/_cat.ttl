@@ -55,7 +55,7 @@ reg:
         :wet-tropics-vertebrate ,
         :wwf-terr-ecoregions ,
         :wwf2011 ;
-    schema:name "linked.data.gov.au Dataset PIDs" ;
+    schema:name "Dataset PIDs" ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
     schema:version "1" ;
 .
