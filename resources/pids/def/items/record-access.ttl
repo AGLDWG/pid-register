@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/record-access($|/.*)$ "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/record-access$1&_profile=prez:OGCItemProfile&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/record-access(.*).ttl$ "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/record-access$1&_profile=prez:OGCItemProfile&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/record-access($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/record-access$1" [R=302,NE,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/record-access" ;

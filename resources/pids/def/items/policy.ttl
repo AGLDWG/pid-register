@@ -5,7 +5,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/pid/def/policy>
     a pid:Pid ;
     pid:redirectRules "RewriteRule ^/def/policy/([0-9a-f\\-]{36}) https://apo.org.au/subject/$1 [R=302,L]"^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/policy/00000000-0000-0000-0000-000000000000" ;

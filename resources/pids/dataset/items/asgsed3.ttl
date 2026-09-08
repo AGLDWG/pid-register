@@ -19,7 +19,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/asgsed3/(.*)/(.*).ttl$            https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/asgsed3/(.*)/(.*)$                https://asgs.linked.fsdf.org.au/dataset/asgsed3/collections/$1/items/$2 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/asgsed3" ;

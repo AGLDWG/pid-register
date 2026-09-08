@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/addrmb16				  https://raw.githack.com/CSIRO-enviro-informatics/addrmb16-linkset/master/header.ttl [L,R=302]
 RewriteRule ^/dataset/addrmb16				  https://github.com/CSIRO-enviro-informatics/addrmb16-linkset [L,R=302]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/addrmb16" ;

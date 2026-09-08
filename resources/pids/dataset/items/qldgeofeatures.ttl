@@ -19,7 +19,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/qldgeofeatures/(.*)$                  https://gsq.cat/qldgeofeatures/feature/$1?_mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/qldgeofeatures/(.*).ttl$              https://gsq.cat/qldgeofeatures/feature/$1?_mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/qldgeofeatures/(.*)$                  https://gsq.cat/qldgeofeatures/feature/$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/qldgeofeatures" ;

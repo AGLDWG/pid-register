@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/agiftcrsth(.*)$                   https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl? [R=302,L]
 RewriteRule ^/dataset/agiftcrsth(.*).ttl$               https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl [R=302,L]
 RewriteRule ^/dataset/agiftcrsth                        https://github.com/CSIRO-enviro-informatics/agiftcrsth-linkset [L,R=302]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/agiftcrsth" ;

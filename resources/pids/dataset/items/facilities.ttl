@@ -45,7 +45,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/facilities/medical/(.*)$                      https://linked.fsdf.org.au/dataset/facilities/collections/medfacil/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/facilities/medical/(.*).ttl$                  https://linked.fsdf.org.au/dataset/facilities/collections/medfacil/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/facilities/medical/(.*)$                      https://linked.fsdf.org.au/dataset/facilities/collections/medfacil/items/$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/facilities" ;

@@ -14,7 +14,7 @@ RewriteRule /def/fsdf-backbone/validator$                       https://geoscien
 RewriteRule /def/fsdf-backbone/validator-compounded$            https://geoscienceaustralia.github.io/fsdf-supermodel/backbone-model-validator-compounded.ttl [R=302,L]
 RewriteRule /def/fsdf-backbone/repository$                      https://github.com/geoscienceaustralia/fsdf-supermodel [R=302,L]
 RewriteRule /def/fsdf-backbone/example-sandgate$                https://geoscienceaustralia.github.io/fsdf-supermodel/backbone-model-example-sandgate.ttl [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/fsdf-backbone" ;

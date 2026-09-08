@@ -39,7 +39,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/gnaf/(addressSite|locality|streetLocality)/(.+)$ "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/$1/items/$2?_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/dataset/gnaf/(addressSite|locality|streetLocality)/(.+).ttl$ "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/$1/items/$2?_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/dataset/gnaf/(addressSite|locality|streetLocality)/(.+)$ "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/$1/items/$2" [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/gnaf/address/" ;

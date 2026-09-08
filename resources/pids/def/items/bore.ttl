@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/bore$                         https://kurrawong.github.io/bore-model/model.ttl [R=302,L]
 RewriteRule ^/def/bore.ttl$                     https://kurrawong.github.io/bore-model/model.ttl [R=302,L]
 RewriteRule ^/def/bore$                         https://kurrawong.github.io/bore-model/model.html [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/bore" ;

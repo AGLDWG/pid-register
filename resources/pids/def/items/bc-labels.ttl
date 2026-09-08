@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/bc-labels(.*)$                  https://idn-au.github.io/lc-vocs/bc-labels.ttl [R=302,L]
 RewriteRule ^/def/bc-labels(.*).ttl$              https://idn-au.github.io/lc-vocs/bc-labels.ttl [R=302,L]
 RewriteRule ^/def/bc-labels(.*)$                  https://idn-au.github.io/lc-vocs/bc-labels.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/bc-labels" ;

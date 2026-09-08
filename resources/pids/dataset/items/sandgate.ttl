@@ -21,7 +21,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*)$                    https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*).ttl$                https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*)$                    https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/sandgate" ;

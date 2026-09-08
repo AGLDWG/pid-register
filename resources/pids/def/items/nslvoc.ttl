@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/nslvoc($|/.*)$                        https://biodiversity.org.au/voc/aunsl.ttl [R=302,L]
 RewriteRule ^/def/nslvoc.ttl$                           https://biodiversity.org.au/voc/aunsl.ttl [R=302,L]
 RewriteRule ^/def/nslvoc($|/.*)$                        https://biodiversity.org.au/voc/aunsl.html [R=302,NE,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/nslvoc" ;

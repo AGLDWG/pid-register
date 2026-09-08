@@ -33,7 +33,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/abis/bdr$                             https://ausbigg.github.io/abis/bdr.ttl [R=302,L]
 RewriteRule ^/def/abis/bdr.ttl$                         https://ausbigg.github.io/abis/bdr.ttl [R=302,L]
 RewriteRule ^/def/abis/bdr                              https://ausbigg.github.io/abis/specification.html#profile-bdr  [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/abis" ;

@@ -70,7 +70,7 @@ RewriteRule ^/def/geofeatures.ttl(.*)$                  https://raw.githack.com/
 RewriteMap lc int:tolower
 RewriteRule ^/def/geofeatures/(.*)$                     https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html#${lc:$1} [R=302,L,NE]
 RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geofeatures" ;

@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/auspix(.*)$                             https://geoscienceaustralia.github.io/AusPIX-DGGS-ontology/auspix.ttl? [R=302,L]
 RewriteRule ^/def/auspix(.*).ttl$                         https://geoscienceaustralia.github.io/AusPIX-DGGS-ontology/auspix.ttl [R=302,L]
 RewriteRule ^/def/auspix(.*)$                             https://geoscienceaustralia.github.io/AusPIX-DGGS-ontology/auspix.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/auspix" ;

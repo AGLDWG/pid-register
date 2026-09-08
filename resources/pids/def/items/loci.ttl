@@ -17,7 +17,7 @@ RewriteCond %{HTTP:Accept} application/ld\\+json [NC]
 RewriteRule ^/def/loci($|/.+)$                          https://csiro-enviro-informatics.github.io/loci-ont/loci.jsonld? [R=302,L]
 RewriteRule ^/def/loci(.*).jsonld$                      https://csiro-enviro-informatics.github.io/loci-ont/loci.jsonld [R=302,L]
 RewriteRule ^/def/loci($|/.+)$                          https://csiro-enviro-informatics.github.io/loci-ont/loci.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/loci" ;

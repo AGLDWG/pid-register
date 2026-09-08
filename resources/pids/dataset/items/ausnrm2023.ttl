@@ -26,7 +26,7 @@ RewriteRule ^/dataset/ausnrm2023(.*)$                          https://linkeddat
 RewriteRule ^/dataset/ausnrm2023(.*).n3$                       https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023$1&format=text/n3 [R=302,L]
 RewriteRule ^/dataset/ausnrm2023$                              https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023 [R=302,L]
 RewriteRule ^/dataset/ausnrm2023(.*)$                          https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/ausnrm2023" ;

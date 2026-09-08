@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/scm-swcm-1992($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource.ttl?uri=http://anzsoil.org/def/au/scm/swcm-1992$1 [R=302,L]
 RewriteRule ^/def/scm-swcm-1992.ttl$                    https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource.ttl?uri=http://anzsoil.org/def/au/scm/swcm-1992 [R=302,L]
 RewriteRule ^/def/scm-swcm-1992($|/.+)$                 https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource?uri=http://anzsoil.org/def/au/scm/swcm-1992$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/scm-swcm-1992/01A1" ;

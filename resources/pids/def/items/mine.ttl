@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/mine$                         https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/components/mine.ttl [R=302,L]
 RewriteRule ^/def/mine.ttl$                     https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/components/mine.ttl [R=302,L]
 RewriteRule ^/def/mine$                         https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/components/mine/ [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mine" ;

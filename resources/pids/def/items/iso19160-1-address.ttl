@@ -10,13 +10,20 @@ RewriteRule ^/def/iso19160-1-address(?:$|#(.*)$)          https://raw.githack.co
 RewriteRule ^/def/iso19160-1-address.ttl$                 https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl [R=302,L]
 RewriteRule ^/def/iso19160-1-address/Address/code/(.*)$   https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/codelist.ttl? [R=302,L]
 RewriteRule ^/def/iso19160-1-address(?:$|#(.*)$)$         https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/iso19160-1-address.ttl" ;
             pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl" ;
             schema:name "ISO19160 Ontology, RDF (turtle) via file ext." ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/iso19160-1-address#Address.addressComponent" ;
+            pid:headers "" ;
+            pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html" ;
+            schema:name "ISO19160 Ontology element, HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
@@ -38,13 +45,6 @@ RewriteRule ^/def/iso19160-1-address(?:$|#(.*)$)$         https://raw.githack.co
             pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html" ;
             schema:name "ISO19160 Ontology, HTML" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/iso19160-1-address#Address.addressComponent" ;
-            pid:headers "" ;
-            pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html" ;
-            schema:name "ISO19160 Ontology element, HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;

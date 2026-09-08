@@ -11,7 +11,7 @@ RewriteRule ^/def/placenames.ttl$                       https://geoscienceaustra
 RewriteRule ^/def/placenames/?$                         https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.html [R=302,L]
 RewriteMap tolower int:tolower
 RewriteRule ^/def/placenames/(.*)$                      https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.html\\#${tolower:$1} [R=302,L,NE]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/placenames?_mediatype=text/turtle" ;

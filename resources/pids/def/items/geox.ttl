@@ -17,7 +17,7 @@ RewriteCond %{HTTP:Accept} application/ld\\+json [NC]
 RewriteRule ^/def/geox                                  https://csiro-enviro-informatics.github.io/geosparql-ext-ont/geox.jsonld? [R=302,L]
 RewriteRule ^/def/geox(.*).jsonld$                      https://csiro-enviro-informatics.github.io/geosparql-ext-ont/geox.jsonld [R=302,L]
 RewriteRule ^/def/geox(.*)$                             https://csiro-enviro-informatics.github.io/geosparql-ext-ont/geox.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geox" ;

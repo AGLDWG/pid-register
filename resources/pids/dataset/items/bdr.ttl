@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/bdr$ "https://resources-bdr-dev-prez-0zlag.azurewebsites.net/catalogues?_profile=prfl:mem&_mediatype=text/anot+turtle" [R=307,QSA,L]
 RewriteRule ^/dataset/bdr.ttl$ "https://resources-bdr-dev-prez-0zlag.azurewebsites.net/catalogues?_profile=prfl:mem&_mediatype=text/anot+turtle" [R=307,QSA,L]
 RewriteRule ^/dataset/bdr$ https://resources.dev.bdr.gov.au/catalogues [R=307,QSA,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/bdr" ;

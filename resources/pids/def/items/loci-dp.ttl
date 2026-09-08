@@ -13,7 +13,7 @@ RewriteRule ^/def/loci-dp/spec$                         https://dcceew-bdr.githu
 RewriteRule ^/def/loci-dp/validator$		            https://dcceew-bdr.github.io/loci-data-profile/validator.ttl [R=302,L]
 RewriteRule ^/def/loci-dp/example/(.*)$                 https://github.com/dcceew-bdr/loci-data-profile/tree/main/tests/data [R=302,L]
 RewriteRule ^/def/loci-dp/repo				            https://github.com/dcceew-bdr/loci-data-profile [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/loci-dp" ;

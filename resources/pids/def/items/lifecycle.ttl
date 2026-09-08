@@ -10,7 +10,7 @@ RewriteRule ^/def/lifecycle$         https://agldwg.github.io/lifecycle-model/mo
 RewriteRule ^/def/lifecycle$         https://agldwg.github.io/lifecycle-model/model.html [R=302,L]
 RewriteRule ^/def/lifecycle.ttl$     https://agldwg.github.io/lifecycle-model/model.ttl [R=302,L]
 RewriteRule ^/def/lifecycle($|/.*)$  https://agldwg.github.io/lifecycle-model/model.ttl [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/lifecycle/LifecycleStage" ;

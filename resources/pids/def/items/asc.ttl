@@ -15,7 +15,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/asc/(.+)$                             https://vocabs.ardc.edu.au/repository/api/lda/csiro/australian-soil-classification/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asc/$1 [R=302,L]
 RewriteRule ^/def/asc/(.+).ttl$                         https://vocabs.ardc.edu.au/repository/api/lda/csiro/australian-soil-classification/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asc/$1 [R=302,L]
 RewriteRule ^/def/asc/(.+)$                             https://vocabs.ardc.edu.au/repository/api/lda/csiro/australian-soil-classification/3ed/resource?uri=http://anzsoil.org/def/au/asc/$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/asc/A-horizons" ;

@@ -15,7 +15,7 @@ RewriteRule ^/def/agop/example.valid-1$                https://raw.githack.com/A
 RewriteRule ^/def/agop/example.valid-2$                https://raw.githack.com/AGLDWG/agop/master/example.valid-2.ttl [R=302,L]
 RewriteRule ^/def/agop/example.invalid-1$              https://raw.githack.com/AGLDWG/agop/master/example.invalid-1.ttl [R=302,L]
 RewriteRule ^/def/agop/example.invalid-2$              https://raw.githack.com/AGLDWG/agop/master/example.invalid-2.ttl [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/agop" ;

@@ -5,7 +5,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/pid/dataset/asgs2016>
     a pid:Pid ;
     pid:redirectRules "RewriteRule ^/dataset/asgs2016(.*)                        https://linked.data.gov.au/static/broken.html\\?iri=https://linked.data.gov.au/dataset/asgs2016$1 [L]"^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/asgs2016.ttl" ;

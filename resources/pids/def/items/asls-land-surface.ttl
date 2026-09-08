@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/asls-land-surface($|/.+)$             https://vocabs.ardc.edu.au/repository/api/lda/csiro/land-surface-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/land-surface$1 [R=302,L]
 RewriteRule ^/def/asls-land-surface.ttl$                https://vocabs.ardc.edu.au/repository/api/lda/csiro/land-surface-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/land-surface [R=302,L]
 RewriteRule ^/def/asls-land-surface($|/.+)$             https://vocabs.ardc.edu.au/repository/api/lda/csiro/land-surface-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/land-surface$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/asls-land-surface/01A1" ;

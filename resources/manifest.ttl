@@ -5,7 +5,7 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX schema: <https://schema.org/>
 
 []    a prez:Manifest ;
-    prof:hasResource
+    prof:hasResource 
         [
             dcterms:conformsTo "validators/items/org.ttl" ;
             prof:hasArtifact "orgs/items/*.ttl" ;
@@ -35,7 +35,6 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:ResourceData ;
         ] ,
         [
-            dcterms:conformsTo <https://linked.data.gov.au/def/ontpub/validator> ;
             prof:hasArtifact "models/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
         ] ,

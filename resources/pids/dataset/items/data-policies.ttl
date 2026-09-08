@@ -19,7 +19,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/data-policies/(.*)/(.*)$          http://licences.csiro.au/$1/?uri=http://linked.data.gov.au$0&_mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/data-policies/(.*)/(.*).ttl$      http://licences.csiro.au/$1/?uri=http://linked.data.gov.au/dataset/data-policies/$1/$2&_mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/data-policies/(.*)/(.*)           http://licences.csiro.au/$1/?uri=http://linked.data.gov.au$0 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/data-policies.ttl" ;

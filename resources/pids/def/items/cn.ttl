@@ -10,7 +10,7 @@ RewriteRule ^/def/cn$         https://agldwg.github.io/compound-naming-model/mod
 RewriteRule ^/def/cn$         https://agldwg.github.io/compound-naming-model/model.html [R=302,L]
 RewriteRule ^/def/cn.ttl$     https://agldwg.github.io/compound-naming-model/model.ttl [R=302,L]
 RewriteRule ^/def/cn($|/.*)$  https://agldwg.github.io/compound-naming-model/model.ttl [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/cn/" ;

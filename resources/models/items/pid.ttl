@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a rdfs:Datatype ;
             owl:onDatatype xsd:anyURI ;
             owl:withRestrictions (
-
+                
                 [
                     xsd:pattern "^https://linked\\.data\\.gov\\.au/(?:(?:dataset|def|org|pid)/[A-Za-z0-9-]+|[A-Za-z0-9-]+/)(?:[#/]?[A-Za-z0-9/-]*[A-Za-z0-9-])?$" ;
                 ]

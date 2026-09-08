@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteRule ^/def/gn($|/.*)             https://raw.githubusercontent.com/Spatial-Information-QLD/geographical-names-model/main/model.ttl [R=302,L]
 RewriteRule ^/def/gn.ttl                https://raw.githubusercontent.com/Spatial-Information-QLD/geographical-names-model/main/model.ttl [R=302,L]
 RewriteRule ^/def/gn($|/.*)             https://spatial-information-qld.github.io/geographical-names-model/model.html [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gn" ;

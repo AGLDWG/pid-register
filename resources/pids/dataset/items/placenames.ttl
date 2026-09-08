@@ -19,7 +19,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/placenames/place/(.*)		"https://linked.fsdf.org.au/dataset/placenames/collections/places/items/$1?_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/dataset/placenames/place/(.*).ttl		"https://linked.fsdf.org.au/dataset/placenames/collections/places/items/$1?_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/dataset/placenames/place/(.*)		"https://linked.fsdf.org.au/dataset/placenames/collections/places/items/$1" [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/placenames" ;

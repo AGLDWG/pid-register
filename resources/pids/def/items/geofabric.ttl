@@ -10,7 +10,7 @@ RewriteRule ^/def/geofabric$                             https://csiro-enviro-in
 RewriteRule ^/def/geofabric.ttl$                        https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.ttl? [R=302,L]
 RewriteRule ^/def/geofabric$                            https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html$1? [R=302,L]
 RewriteRule ^/def/geofabric/(.*)                        https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html\\#$1 [R=302,L,NE]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geofabric.ttl" ;

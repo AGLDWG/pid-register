@@ -26,7 +26,7 @@ RewriteRule ^/def/nrm(.*)$                          https://linkeddata.tern.org.
 RewriteRule ^/def/nrm(.*).n3$                       https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm$1?format=text/n3 [R=302,L]
 RewriteRule ^/def/nrm$                              https://linkeddata.tern.org.au/prez/dawe-cv/v/ [R=302,L]
 RewriteRule ^/def/nrm(.*)$                          https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/nrm" ;

@@ -38,7 +38,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/addrcatch				  https://raw.githack.com/CSIRO-enviro-informatics/addrcatch-linkset/master/header.ttl [L,R=302]
 RewriteRule ^/dataset/addrcatch				  https://github.com/CSIRO-enviro-informatics/addrcatch-linkset [L,R=302]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc" ;

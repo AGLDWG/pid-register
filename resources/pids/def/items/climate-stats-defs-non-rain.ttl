@@ -36,7 +36,7 @@ RewriteCond %{HTTP:Accept} text/plain [NC]
 RewriteRule ^/def/climate-stats-defs-non-rain/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-statistics-definitions-for-daily-elements/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/climate-stats-defs-non-rain$1 [R=302,QSA,L]
 RewriteRule ^/def/climate-stats-defs-non-rain(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-statistics-definitions-for-daily-elements/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/climate-stats-defs-non-rain$1 [R=302,QSA,L]
 RewriteRule ^/def/climate-stats-defs-non-rain/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/neii/climate-statistics-definitions-for-daily-elements/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/climate-stats-defs-non-rain$1 [R=302,QSA,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/climate-stats-defs-non-rain/Date" ;

@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/care(.*)$                  https://idn-au.github.io/care-voc/care.ttl [R=302,L]
 RewriteRule ^/def/care(.*).ttl$              https://idn-au.github.io/care-voc/care.ttl [R=302,L]
 RewriteRule ^/def/care(.*)$                  https://idn-au.github.io/care-voc/care.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/care" ;

@@ -10,7 +10,7 @@ RewriteRule ^/def/geochem$				                https://kurrawong.github.io/gsq-ge
 RewriteRule ^/def/geochem$				                https://kurrawong.github.io/gsq-geochem/spec.html [R=302,L]
 RewriteRule ^/def/geochem/spec$                         https://kurrawong.github.io/gsq-geochem/spec.html [R=302,L]
 RewriteRule ^/def/geochem/overview$                     https://kurrawong.github.io/gsq-geochem/overview.html [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geochem/overview" ;

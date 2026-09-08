@@ -11,7 +11,7 @@ RewriteRule ^/dataset/energy.ttl$		                https://raw.githack.com/AGLDW
 RewriteRule ^/dataset/energy$                           https://raw.githack.com/AGLDWG/energy-dataset/master/energy.html [R=302,L]
 RewriteRule ^/dataset/energy/$                          https://near.csiro.au/assets/ [R=302,L]
 RewriteRule ^/dataset/energy/(.*)$                      https://near.csiro.au/assets/$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/energy/14260415-31db-4abf-bfc9-b5d113367b61" ;

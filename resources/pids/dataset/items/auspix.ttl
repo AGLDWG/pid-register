@@ -13,7 +13,7 @@ RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/auspix/(.*) "https://fsdf.org.au/dataset/auspix/collections/auspix/items/$1?_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/dataset/auspix/(.*) "https://fsdf.org.au/dataset/auspix/collections/auspix/items/$1" [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/auspix" ;

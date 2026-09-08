@@ -5,7 +5,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/pid/def/fsdf-supermodel>
     a pid:Pid ;
     pid:redirectRules "RewriteRule /def/fsdf-supermodel(.*)            https://geoscienceaustralia.github.io/fsdf-supermodel/supermodel.html$1 [R=302,L]"^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/fsdf-supermodel" ;

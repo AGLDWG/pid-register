@@ -10,7 +10,7 @@ RewriteRule ^/def/addr$         https://icsm-au.github.io/addr-model/model.ttl [
 RewriteRule ^/def/addr$         https://icsm-au.github.io/addr-model/model.html [R=302,L]
 RewriteRule ^/def/addr.ttl$     https://icsm-au.github.io/addr-model/model.ttl [R=302,L]
 RewriteRule ^/def/addr($|/.*)$  https://icsm-au.github.io/addr-model/model.ttl [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/addr/Address" ;

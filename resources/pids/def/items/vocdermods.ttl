@@ -14,7 +14,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/vocdermods/(.+)$                       https://agldwg.github.io/vocdermods/$1.ttl? [R=302,L]
 RewriteRule ^/def/vocdermods/(.+).ttl$                   https://agldwg.github.io/vocdermods/$1.ttl? [R=302,L]
 RewriteRule ^/def/vocdermods/(.+)$                       https://agldwg.github.io/vocdermods/$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/vocdermods/direct" ;

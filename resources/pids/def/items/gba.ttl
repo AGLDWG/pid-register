@@ -17,7 +17,7 @@ RewriteCond %{HTTP:Accept} application/rdf+xml [NC]
 RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro.au/def/gba$1?_mediatype=rdf [R=302,L]
 RewriteRule ^/def/gba(.*).rdf$                          http://registry.it.csiro.au/def/gba$1?_mediatype=rdf [R=302,L]
 RewriteRule ^/def/gba(.*)$                              http://registry.it.csiro.au/def/gba$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gba" ;

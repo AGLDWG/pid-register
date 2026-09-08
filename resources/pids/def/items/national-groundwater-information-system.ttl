@@ -36,7 +36,7 @@ RewriteCond %{HTTP:Accept} text/plain [NC]
 RewriteRule ^/def/national-groundwater-information-system/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/bom/national-groundwater-information-system/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/national-groundwater-information-system$1 [R=302,QSA,L]
 RewriteRule ^/def/national-groundwater-information-system(|/.+)\\.html$		https://vocabs.ardc.edu.au/repository/api/lda/bom/national-groundwater-information-system/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/national-groundwater-information-system$1 [R=302,QSA,L]
 RewriteRule ^/def/national-groundwater-information-system/?(|/.+)$		https://vocabs.ardc.edu.au/repository/api/lda/bom/national-groundwater-information-system/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/national-groundwater-information-system$1 [R=302,QSA,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/national-groundwater-information-system.html" ;

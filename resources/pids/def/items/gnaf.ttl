@@ -9,7 +9,7 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/def/gnaf(.*)$                             https://agldwg.github.io/gnaf-ont/gnaf.ttl? [R=302,L]
 RewriteRule ^/def/gnaf(.*).ttl$                         https://agldwg.github.io/gnaf-ont/gnaf.ttl [R=302,L]
 RewriteRule ^/def/gnaf(.*)$                             https://agldwg.github.io/gnaf-ont/gnaf.html$1 [R=302,L]"""^^pid:apacheRedirectRules ;
-    pid:redirectTest
+    pid:redirectTest 
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gnaf?_mediatype=text/turtle" ;
