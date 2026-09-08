@@ -12,14 +12,14 @@ RewriteRule ^/def/maintenancefrequencycode($|/.*)$ "https://vocabularies.sarig.s
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/maintenancefrequencycode" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/maintenancefrequencycode&_mediatype=text/turtle" ;
             schema:name "maintenancefrequencycode RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/maintenancefrequencycode" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/maintenancefrequencycode" ;
             schema:name "maintenancefrequencycode HTML" ;
         ] ;

@@ -13,23 +13,23 @@ RewriteRule ^/def/sample-nomenclature-publication-status($|/.*) "https://vocabul
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/sample-nomenclature-publication-status" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status" ;
             schema:name "sample-nomenclature-publication-status HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/sample-nomenclature-publication-status/type-specimen-meteorite" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status/type-specimen-meteorite" ;
-            schema:name "sample-nomenclature-publication-status Concept HTML" ;
+            pid:from "https://linked.data.gov.au/def/sample-nomenclature-publication-status" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status&_mediatype=text/turtle" ;
+            schema:name "sample-nomenclature-publication-status RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/sample-nomenclature-publication-status" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status&_mediatype=text/turtle" ;
-            schema:name "sample-nomenclature-publication-status RDF" ;
+            pid:from "https://linked.data.gov.au/def/sample-nomenclature-publication-status/type-specimen-meteorite" ;
+            pid:headers "" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status/type-specimen-meteorite" ;
+            schema:name "sample-nomenclature-publication-status Concept HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2024-12-10"^^xsd:date ;

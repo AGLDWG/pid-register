@@ -18,23 +18,23 @@ RewriteRule ^/def/prof-roles/(.+)$                       https://agldwg.github.i
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/prof-roles" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "" ;
+            pid:to "https://agldwg.github.io/prof-roles/" ;
+            schema:name "AGLDWG PROF Roles Vocabulary HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/prof-roles" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://agldwg.github.io/prof-roles/vocabulary.ttl" ;
             schema:name "AGLDWG PROF Roles vocabulary RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/prof-roles/constraints" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://agldwg.github.io/prof-roles/constraints" ;
             schema:name "AGLDWG PROF Roles HTML - one Concept" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/prof-roles" ;
-            pid:headers "{}" ;
-            pid:to "https://agldwg.github.io/prof-roles/" ;
-            schema:name "AGLDWG PROF Roles Vocabulary HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2021-11-26"^^xsd:date ;

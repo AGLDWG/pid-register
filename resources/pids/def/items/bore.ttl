@@ -13,14 +13,14 @@ RewriteRule ^/def/bore$                         https://kurrawong.github.io/bore
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/bore" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://kurrawong.github.io/bore-model/model.ttl" ;
             schema:name "bore RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/bore" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://kurrawong.github.io/bore-model/model.html" ;
             schema:name "bore HTML" ;
         ] ;

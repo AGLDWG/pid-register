@@ -39,234 +39,234 @@ RewriteRule ^/def/australian-hydrological-geospatial-fabric/?(|/.+)$		https://vo
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, HTML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Turtle headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, HTML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, RDF headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, JSON ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, JSON headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, XML headers, no ext, no slash" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Plain Text headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, Turtle headers, no ext" ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, XML headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.rdf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Plain Text headers, no ext, no slash" ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, Plain Text headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, RDF headers, no ext" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, Turtle headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, RDF headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, Turtle ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.rdf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, Plain Text headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, XML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, JSON headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, JSON headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, HTML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Plain Text headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, RDF headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Turtle headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, JSON ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
+            pid:headers "'Accept': 'application/xml'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, XML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Plain Text headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, JSON headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Turtle headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, RDF headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, HTML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, JSON headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
             schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, HTML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, XML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
-            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, no ext" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, HTML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, Turtle headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric/AHGF" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric concept entry, no headers, HTML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/australian-hydrological-geospatial-fabric-geofabri/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/australian-hydrological-geospatial-fabric" ;
+            schema:name "NEII vocabulary australian-hydrological-geospatial-fabric, HTML headers, no ext, no slash" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

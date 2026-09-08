@@ -13,14 +13,14 @@ RewriteRule ^/def/crs-th(.*)$                           https://github.com/CSIRO
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/crs-th" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://raw.githubusercontent.com/CSIRO-enviro-informatics/crs-th/master/crs-th.ttl" ;
             schema:name "Vocab RDF (turtle)" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/crs-th" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://github.com/CSIRO-enviro-informatics/crs-th" ;
             schema:name "Vocab HTML" ;
         ] ;

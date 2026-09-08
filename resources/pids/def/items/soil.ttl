@@ -13,14 +13,14 @@ RewriteRule ^\\/def\\/soil($|\\#.+$)                       https://raw.githack.c
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/soil" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/rdf/domain.ttl" ;
             schema:name "Soil Ontology - RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/soil" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/ANZSoilData/def-au-domain/main/doc/domain.html" ;
             schema:name "Soil Ontology - HTML" ;
         ] ;

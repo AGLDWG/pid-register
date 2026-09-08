@@ -13,14 +13,14 @@ RewriteRule ^/def/earthsci-for($|/.*) "https://vocabulary.gswa.kurrawong.ai/obje
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/earthsci-for" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/earthsci-for&_mediatype=text/turtle" ;
             schema:name "Earth Science FoR RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/earthsci-for" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/earthsci-for" ;
             schema:name "Earth Science FoR HTML" ;
         ] ;

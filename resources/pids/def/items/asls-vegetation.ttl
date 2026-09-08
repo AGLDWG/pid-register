@@ -12,24 +12,24 @@ RewriteRule ^/def/asls-vegetation($|/.+)$              https://vocabs.ardc.edu.a
     pid:redirectTest
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/asls-vegetation" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/vegetation" ;
+            schema:name "ASLS Vegetation classifiers - HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/asls-vegetation/condition" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/vegetation/condition" ;
             schema:name "ASLS Vegetation classifiers - one Concept HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/asls-vegetation" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/vegetation" ;
             schema:name "ASLS Vegetation classifiers - RDF" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/asls-vegetation" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/vegetation" ;
-            schema:name "ASLS Vegetation classifiers - HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/mr.wong> ;
     schema:dateCreated "2024-11-15"^^xsd:date ;

@@ -39,234 +39,234 @@ RewriteRule ^/def/drought-rainfall-definitions/?(|/.+)$		https://vocabs.ardc.edu
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.xml" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, XML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, JSON headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, HTML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, XML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, JSON ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, Plain Text headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, RDF headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.xml" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, XML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, JSON ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            pid:headers "{'Accept': 'text/html'}" ;
+            pid:headers "'Accept': 'text/html'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
             schema:name "NEII vocabulary drought-rainfall-definitions, HTML headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, RDF headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
             schema:name "NEII vocabulary drought-rainfall-definitions, Turtle headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.text" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, Plain Text ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.html" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
             schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, XML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
+            pid:headers "'Accept': 'text/plain'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
             schema:name "NEII vocabulary drought-rainfall-definitions, Plain Text headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, JSON headers, no ext, no slash" ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, XML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, Turtle ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
+            pid:headers "'Accept': 'text/plain'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
             schema:name "NEII vocabulary drought-rainfall-definitions concept entry, Plain Text headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
             schema:name "NEII vocabulary drought-rainfall-definitions concept entry, JSON headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, XML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions, HTML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, Turtle headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
             schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, Turtle headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, HTML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.rdf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
             schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
             schema:name "NEII vocabulary drought-rainfall-definitions, Turtle headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, XML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, RDF headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, XML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, RDF headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, Plain Text headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, JSON headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.xml" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, XML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, JSON headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, HTML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
-            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, RDF headers, no ext" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, HTML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions/Average.xml" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/drought-rainfall-definitions/Average" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions concept entry, no headers, XML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/drought-rainfall-definitions.text" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/drought-rainfall-definitions/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/drought-rainfall-definitions" ;
+            schema:name "NEII vocabulary drought-rainfall-definitions, no headers, Plain Text ext" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

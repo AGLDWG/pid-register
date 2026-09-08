@@ -13,14 +13,14 @@ RewriteRule ^/def/gswa-rock-classification-scheme($|/.*) "https://vocabulary.gsw
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gswa-rock-classification-scheme" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-rock-classification-scheme&_mediatype=text/turtle" ;
             schema:name "gswa-rock-classification-scheme RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gswa-rock-classification-scheme" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-rock-classification-scheme" ;
             schema:name "gswa-rock-classification-scheme HTML" ;
         ] ;

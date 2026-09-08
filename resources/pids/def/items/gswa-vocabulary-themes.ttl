@@ -13,14 +13,14 @@ RewriteRule ^/def/gswa-vocabulary-themes($|/.*) "https://vocabulary.gswa.kurrawo
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gswa-vocabulary-themes" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-vocabulary-themes&_mediatype=text/turtle" ;
             schema:name "gswa-vocabulary-themes RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gswa-vocabulary-themes" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-vocabulary-themes" ;
             schema:name "gswa-vocabulary-themes HTML" ;
         ] ;

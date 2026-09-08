@@ -12,14 +12,14 @@ RewriteRule ^/def/mer-stakeholder-types($|/.*)$ "https://vocabularies.sarig.sa.g
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-stakeholder-types" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types&_mediatype=text/turtle" ;
             schema:name "mer-stakeholder-types RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-stakeholder-types" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types" ;
             schema:name "mer-stakeholder-types HTML" ;
         ] ;

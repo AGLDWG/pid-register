@@ -14,30 +14,30 @@ RewriteRule ^/def/geofabric/(.*)                        https://csiro-enviro-inf
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geofabric.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.ttl" ;
             schema:name "Geofabric Ontology, RDF (turtle) via file ext." ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/geofabric" ;
-            pid:headers "{}" ;
-            pid:to "https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html" ;
-            schema:name "Geofabric Ontology, HTML" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geofabric?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.ttl" ;
             schema:name "Geofabric Ontology, RDF (turtle) via QSA" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geofabric" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.ttl" ;
             schema:name "Geofabric Ontology, RDF (turtle) via conneg" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/geofabric" ;
+            pid:headers "" ;
+            pid:to "https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html" ;
+            schema:name "Geofabric Ontology, HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/simon.cox> ;
     schema:dateCreated "2019-08-13"^^xsd:date ;

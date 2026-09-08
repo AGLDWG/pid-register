@@ -39,234 +39,234 @@ RewriteRule ^/def/Bioregional-Assessment-Programme-Glossary/?(|/.+)$		https://vo
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, RDF headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Plain Text headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Turtle headers, no ext, remove final slash" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, Plain Text headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.html" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, RDF headers, no ext, no slash" ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, XML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Turtle headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, HTML headers, no ext" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, XML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, Turtle ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, Plain Text headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, XML headers, no ext, no slash" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, HTML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, JSON headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, JSON headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process.json" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, XML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, XML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, RDF headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, JSON ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, JSON headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, HTML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, no ext, no slash" ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process.html" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, HTML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Plain Text headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            pid:headers "{'Accept': 'text/html'}" ;
+            pid:headers "'Accept': 'text/html'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, HTML headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, Turtle headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Turtle headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, Turtle ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process.rdf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
             schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, Turtle headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Turtle headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, RDF headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            pid:headers "'Accept': 'text/plain'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
-            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Plain Text headers, no ext, remove final slash" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, Plain Text headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, RDF headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, no headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary, XML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/bioregional-assessment-programme-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/Bioregional-Assessment-Programme-Glossary/BA-metadata-quality-assurance-process" ;
+            schema:name "NEII vocabulary Bioregional-Assessment-Programme-Glossary concept entry, no headers, no ext" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

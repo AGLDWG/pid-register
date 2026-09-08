@@ -13,30 +13,30 @@ RewriteRule ^/def/crs(.*)$                              https://raw.githack.com/
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/crs.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl" ;
             schema:name "ASGS Ontology, RDF (turtle) via file ext." ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/crs" ;
-            pid:headers "{}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl" ;
+            schema:name "ASGS Ontology, RDF (turtle) via conneg" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/crs" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/html/crs.html" ;
             schema:name "ASGS Ontology, HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/crs?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl" ;
             schema:name "ASGS Ontology, RDF (turtle) via QSA" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/crs" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl" ;
-            schema:name "ASGS Ontology, RDF (turtle) via conneg" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/tatiana.antsoupova> ;
     schema:dateCreated "2019-08-13"^^xsd:date ;

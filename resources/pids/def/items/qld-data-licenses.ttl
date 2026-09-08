@@ -13,14 +13,14 @@ RewriteRule ^/def/qld-data-licenses($|/.*)$ "https://vocabs.gsq.digital/object?v
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qld-data-licenses" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.gsq.digital/object?vocab_id=qld-data-licenses&uri=https://linked.data.gov.au/def/qld-data-licenses&_mediatype=text/turtle" ;
             schema:name "qld-data-licenses RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qld-data-licenses" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.gsq.digital/object?vocab_id=qld-data-licenses&uri=https://linked.data.gov.au/def/qld-data-licenses" ;
             schema:name "qld-data-licenses HTML" ;
         ] ;

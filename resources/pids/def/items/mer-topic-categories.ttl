@@ -12,14 +12,14 @@ RewriteRule ^/def/mer-topic-categories($|/.*)$ "https://vocabularies.sarig.sa.go
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-topic-categories" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-topic-categories&_mediatype=text/turtle" ;
             schema:name "mer-topic-categories RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-topic-categories" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-topic-categories" ;
             schema:name "mer-topic-categories HTML" ;
         ] ;

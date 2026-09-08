@@ -14,17 +14,17 @@ RewriteRule ^/dataset/energy/(.*)$                      https://near.csiro.au/as
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/energy/" ;
-            pid:headers "{}" ;
-            pid:to "https://near.csiro.au/assets/" ;
-            schema:name "NEAR Dataset Register, HTML" ;
+            pid:from "https://linked.data.gov.au/dataset/energy/14260415-31db-4abf-bfc9-b5d113367b61" ;
+            pid:headers "" ;
+            pid:to "https://near.csiro.au/assets/14260415-31db-4abf-bfc9-b5d113367b61" ;
+            schema:name "NEAR Dataset 367b61, HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/energy/14260415-31db-4abf-bfc9-b5d113367b61" ;
-            pid:headers "{}" ;
-            pid:to "https://near.csiro.au/assets/14260415-31db-4abf-bfc9-b5d113367b61" ;
-            schema:name "NEAR Dataset 367b61, HTML" ;
+            pid:from "https://linked.data.gov.au/dataset/energy/" ;
+            pid:headers "" ;
+            pid:to "https://near.csiro.au/assets/" ;
+            schema:name "NEAR Dataset Register, HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/stephen.lindsay> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;

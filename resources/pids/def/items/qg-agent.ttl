@@ -13,14 +13,14 @@ RewriteRule ^/def/qg-agent($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=q
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qg-agent" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.gsq.digital/object?vocab_id=qg-agent&uri=https://linked.data.gov.au/def/qg-agent&_mediatype=text/turtle" ;
             schema:name "qg-agent RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qg-agent" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.gsq.digital/object?vocab_id=qg-agent&uri=https://linked.data.gov.au/def/qg-agent" ;
             schema:name "qg-agent HTML" ;
         ] ;

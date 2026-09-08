@@ -40,233 +40,233 @@ RewriteRule ^/def/water-regulations-2008-water-information-terms/?(|/.+)$		https
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, JSON ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, JSON headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, HTML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, XML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, RDF headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
             schema:name "NEII vocabulary water-regulations-2008-water-information-terms, JSON headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, Turtle ext" ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Plain Text headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.html" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
             schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, XML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.text" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, Plain Text ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Turtle headers, no ext, no slash" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, RDF headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
             schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Plain Text headers, no ext, no slash" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Turtle headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, RDF headers, no ext, remove final slash" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, XML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, Plain Text headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
             schema:name "NEII vocabulary water-regulations-2008-water-information-terms, JSON headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, HTML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, Turtle headers, no ext" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Plain Text headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
             schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.json" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
             schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            pid:headers "{'Accept': 'text/html'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, Turtle headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, HTML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.xml" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, XML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Turtle headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, XML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, HTML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, JSON headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.text" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, Plain Text ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            pid:headers "'Accept': 'text/html'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
             schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, HTML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, Plain Text headers, no ext" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, XML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.xml" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, XML ext" ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, RDF headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, RDF headers, no ext, no slash" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, no headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Plain Text headers, no ext, remove final slash" ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, HTML headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, XML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms, Turtle headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
-            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, RDF ext" ;
+            pid:from "https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-regulations-2008-water-information-terms/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/Australian-water-access-entitlement" ;
+            schema:name "NEII vocabulary water-regulations-2008-water-information-terms concept entry, no headers, Turtle ext" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

@@ -39,234 +39,234 @@ RewriteRule ^/def/definitions-for-9am-and-3pm-climate-statistics/?(|/.+)$		https
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, Plain Text headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, XML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, XML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, RDF headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, Turtle headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, RDF headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics.json" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, Plain Text headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.rdf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, XML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, RDF headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, Turtle headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics.rdf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, Turtle ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
+            pid:headers "'Accept': 'text/html'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, HTML headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, HTML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, JSON headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.json" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, Plain Text headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, HTML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, Turtle headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, HTML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, JSON headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.html" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, HTML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
             schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, JSON headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.text" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, Plain Text headers, no ext" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.text" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
-            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, Plain Text ext" ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, RDF headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, XML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, XML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, Plain Text headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics concept entry, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, RDF headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, XML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, Turtle headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, Plain Text headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/definitions-for-9am-and-3pm-climate-statistics/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics" ;
+            schema:name "NEII vocabulary definitions-for-9am-and-3pm-climate-statistics, no headers, HTML ext" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

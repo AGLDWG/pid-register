@@ -13,16 +13,16 @@ RewriteRule ^/def/physiographic-unit-types($|/.*) "https://vocabulary.gswa.kurra
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/physiographic-unit-types" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/physiographic-unit-types" ;
-            schema:name "physiographic-unit-types HTML" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/physiographic-unit-types&_mediatype=text/turtle" ;
+            schema:name "physiographic-unit-types RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/physiographic-unit-types" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/physiographic-unit-types&_mediatype=text/turtle" ;
-            schema:name "physiographic-unit-types RDF" ;
+            pid:headers "" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/physiographic-unit-types" ;
+            schema:name "physiographic-unit-types HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2023-09-21"^^xsd:date ;

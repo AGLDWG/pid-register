@@ -4,7 +4,26 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/pid/dataset/bdr>
     a pid:Pid ;
-    pid:redirectRules "RewriteRule ^/dataset/bdr($|/.*?$)                      https://linked.bdr.gov.au/dataset/bdr$1?_host=linked.data.gov.au [R=307,QSA,L]"^^pid:apacheRedirectRules ;
+    pid:redirectRules """RewriteCond %{QUERY_STRING} ^_format=text/turtle$ [OR]
+RewriteCond %{HTTP:Accept} text/turtle [NC]
+RewriteRule ^/dataset/bdr$ "https://resources-bdr-dev-prez-0zlag.azurewebsites.net/catalogues?_profile=prfl:mem&_mediatype=text/anot+turtle" [R=307,QSA,L]
+RewriteRule ^/dataset/bdr.ttl$ "https://resources-bdr-dev-prez-0zlag.azurewebsites.net/catalogues?_profile=prfl:mem&_mediatype=text/anot+turtle" [R=307,QSA,L]
+RewriteRule ^/dataset/bdr$ https://resources.dev.bdr.gov.au/catalogues [R=307,QSA,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/bdr" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://resources-bdr-dev-prez-0zlag.azurewebsites.net/catalogues?_profile=prfl:mem&_mediatype=text/anot+turtle" ;
+            schema:name "BDR Dataset RDF (TTL header)" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/bdr" ;
+            pid:headers "" ;
+            pid:to "https://resources.dev.bdr.gov.au/catalogues" ;
+            schema:name "BDR Dataset HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/kevin.thiele> ;
     schema:dateCreated "2022-01-18"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

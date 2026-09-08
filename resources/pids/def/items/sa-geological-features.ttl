@@ -12,14 +12,14 @@ RewriteRule ^/def/sa-geological-features($|/.*)$ "https://vocabularies.sarig.sa.
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/sa-geological-features" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-geological-features&_mediatype=text/turtle" ;
             schema:name "sa-geological-features RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/sa-geological-features" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-geological-features" ;
             schema:name "sa-geological-features HTML" ;
         ] ;

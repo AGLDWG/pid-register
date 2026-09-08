@@ -13,28 +13,28 @@ RewriteRule ^/def/dataset($|(/.*))                      https://raw.githack.com/
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/dataset" ;
-            pid:headers "{}" ;
-            pid:to "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html" ;
-            schema:name "Datatype Ontology, HTML" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/dataset" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl" ;
             schema:name "Dataset Ontology, RDF (turtle) via conneg" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/dataset.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl" ;
             schema:name "Dataset Ontology, RDF (turtle) via file ext." ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/dataset" ;
+            pid:headers "" ;
+            pid:to "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html" ;
+            schema:name "Datatype Ontology, HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/dataset?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl" ;
             schema:name "Dataset Ontology, RDF (turtle) via QSA" ;
         ] ;

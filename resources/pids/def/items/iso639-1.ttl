@@ -12,16 +12,16 @@ RewriteRule ^/def/iso639-1($|/.*)$ "https://vocabs.gsq.digital/object?uri=https:
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/iso639-1" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1" ;
-            schema:name "iso639-1 HTML" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1&_mediatype=text/turtle" ;
+            schema:name "iso639-1 RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/iso639-1" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1&_mediatype=text/turtle" ;
-            schema:name "iso639-1 RDF" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1" ;
+            schema:name "iso639-1 HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/daniel.brough> ;
     schema:dateCreated "2021-06-08"^^xsd:date ;

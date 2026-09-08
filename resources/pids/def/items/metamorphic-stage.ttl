@@ -13,14 +13,14 @@ RewriteRule ^/def/metamorphic-stage($|/.*) "https://vocabulary.gswa.kurrawong.ai
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/metamorphic-stage" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage&_mediatype=text/turtle" ;
             schema:name "metamorphic-stage RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/metamorphic-stage" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage" ;
             schema:name "Metamorphic Stage vocab HTML" ;
         ] ;

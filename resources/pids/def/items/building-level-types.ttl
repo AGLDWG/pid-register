@@ -6,9 +6,24 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a pid:Pid ;
     pid:redirectRules """RewriteCond %{QUERY_STRING} ^_mediatype=text/turtle$ [OR]
 RewriteCond %{HTTP:Accept} text/turtle [NC]
-RewriteRule ^/def/building-level-types($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types$1&_mediatype=text/turtle" [R=302,L]
-RewriteRule ^/def/building-level-types(.*).ttl$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types$1&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/building-level-types($|/.*)$ "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types$1&_profile=prez:OGCItemProfile&_mediatype=text/turtle" [R=302,L]
+RewriteRule ^/def/building-level-types(.*).ttl$ "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types$1&_profile=prez:OGCItemProfile&_mediatype=text/turtle" [R=302,L]
 RewriteRule ^/def/building-level-types($|/.*)$ "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types$1" [R=302,NE,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/building-level-types" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle" ;
+            schema:name "building-level-types RDF" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/building-level-types" ;
+            pid:headers "" ;
+            pid:to "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types" ;
+            schema:name "building-level-types HTML" ;
+        ] ;
     schema:backstory "2025-05 NJC: changed from level-types to building-level-types for QSI" ;
     schema:creator <https://linked.data.gov.au/person/anne.goldsack> ;
     schema:dateCreated "2024-06-15"^^xsd:date ;

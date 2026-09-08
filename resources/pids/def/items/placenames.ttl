@@ -14,31 +14,31 @@ RewriteRule ^/def/placenames/(.*)$                      https://geoscienceaustra
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/placenames.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl" ;
-            schema:name "Place Names Ontology, RDF (turtle) via file ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/placenames" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl" ;
-            schema:name "Place Names Ontology, RDF (turtle) via conneg" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/placenames?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl" ;
             schema:name "Place Names Ontology, RDF (turtle) via QSA" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/placenames" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.html" ;
             schema:name "Place Names Ontology" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/placenames.ttl" ;
+            pid:headers "" ;
+            pid:to "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl" ;
+            schema:name "Place Names Ontology, RDF (turtle) via file ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/placenames" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl" ;
+            schema:name "Place Names Ontology, RDF (turtle) via conneg" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/irina.bastrakova> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;

@@ -17,24 +17,24 @@ RewriteRule ^/def/data-roles/(.+)$                       https://agldwg.github.i
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/data-roles" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://agldwg.github.io/data-roles/vocabulary.ttl" ;
-            schema:name "AGLDWG Data Roles vocabulary RDF" ;
+            pid:from "https://linked.data.gov.au/def/data-roles/author" ;
+            pid:headers "" ;
+            pid:to "https://agldwg.github.io/data-roles/author" ;
+            schema:name "AGLDWG Data Roles HTML - one Concept" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/data-roles" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://agldwg.github.io/data-roles/" ;
             schema:name "AGLDWG Data Roles Vocabulary HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/data-roles/author" ;
-            pid:headers "{}" ;
-            pid:to "https://agldwg.github.io/data-roles/author" ;
-            schema:name "AGLDWG Data Roles HTML - one Concept" ;
+            pid:from "https://linked.data.gov.au/def/data-roles" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://agldwg.github.io/data-roles/vocabulary.ttl" ;
+            schema:name "AGLDWG Data Roles vocabulary RDF" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2024-02-28"^^xsd:date ;

@@ -12,16 +12,16 @@ RewriteRule ^/def/qld-obsprop($|/.*)$ "https://vocabs.gsq.digital/object?uri=htt
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qld-obsprop" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qld-obsprop" ;
-            schema:name "qld-obsprop HTML" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qld-obsprop&_mediatype=text/turtle" ;
+            schema:name "qld-obsprop RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qld-obsprop" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qld-obsprop&_mediatype=text/turtle" ;
-            schema:name "qld-obsprop RDF" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qld-obsprop" ;
+            schema:name "qld-obsprop HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/daniel.brough> ;
     schema:dateCreated "2021-06-28"^^xsd:date ;

@@ -8,87 +8,87 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl" ;
-            schema:name "ASGS 2011 Dataset, an Address RDF (turtle) via file ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011" ;
-            schema:name "ASGS 2011 Dataset, RDF (turtle) via conneg" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/asgs2011/address/" ;
-            pid:headers "{}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/" ;
-            schema:name "ASGS 2011 Dataset, Address Register HTML" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
-            schema:name "ASGS 2011 Dataset, an Address RDF (turtle) via conneg" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/" ;
-            schema:name "ASGS 2011 Dataset, Address Register RDF (turtle) via QSA" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011.ttl" ;
-            schema:name "ASGS 2011 Dataset, RDF (turtle) via file ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
-            pid:headers "{}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
-            schema:name "ASGS 2011 Dataset, an Address HTML" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
-            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011" ;
-            schema:name "ASGS 2011 Dataset, RDF (turtle) via QSA" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/" ;
             schema:name "ASGS 2011 Dataset, Address Register RDF (turtle) via conneg" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
             schema:name "ASGS 2011 Dataset, an Address RDF (turtle) via QSA" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/asgs2011" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011" ;
             schema:name "ASGS 2011 Dataset, HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/dataset/asgs2011/address/index.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/index.ttl" ;
             schema:name "ASGS 2011 Dataset, Address Register RDF (turtle) via file ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl" ;
+            pid:headers "" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl" ;
+            schema:name "ASGS 2011 Dataset, an Address RDF (turtle) via file ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
+            schema:name "ASGS 2011 Dataset, an Address RDF (turtle) via conneg" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/" ;
+            pid:headers "" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/" ;
+            schema:name "ASGS 2011 Dataset, Address Register HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011" ;
+            schema:name "ASGS 2011 Dataset, RDF (turtle) via conneg" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/?_mediatype=text/turtle" ;
+            pid:headers "" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/" ;
+            schema:name "ASGS 2011 Dataset, Address Register RDF (turtle) via QSA" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011.ttl" ;
+            pid:headers "" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011.ttl" ;
+            schema:name "ASGS 2011 Dataset, RDF (turtle) via file ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
+            pid:headers "" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933" ;
+            schema:name "ASGS 2011 Dataset, an Address HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/asgs2011?_mediatype=text/turtle" ;
+            pid:headers "" ;
+            pid:to "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011" ;
+            schema:name "ASGS 2011 Dataset, RDF (turtle) via QSA" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/paul.j.box> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;

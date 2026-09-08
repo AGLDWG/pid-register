@@ -13,14 +13,14 @@ RewriteRule ^/def/qg-file-types($|/.*)$ "https://vocabs.gsq.digital/object?uri=h
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qg-file-types" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types&_mediatype=text/turtle" ;
             schema:name "qg-file-types RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qg-file-types" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types" ;
             schema:name "qg-file-types HTML" ;
         ] ;

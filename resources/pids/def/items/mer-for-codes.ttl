@@ -12,16 +12,16 @@ RewriteRule ^/def/mer-for-codes($|/.*)$ "https://vocabularies.sarig.sa.gov.au/ob
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-for-codes" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-for-codes" ;
-            schema:name "mer-for-codes HTML" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-for-codes&_mediatype=text/turtle" ;
+            schema:name "mer-for-codes RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-for-codes" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-for-codes&_mediatype=text/turtle" ;
-            schema:name "mer-for-codes RDF" ;
+            pid:headers "" ;
+            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-for-codes" ;
+            schema:name "mer-for-codes HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/alex.zou> ;
     schema:dateCreated "2024-09-10"^^xsd:date ;

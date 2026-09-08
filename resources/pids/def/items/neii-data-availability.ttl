@@ -39,234 +39,234 @@ RewriteRule ^/def/neii-data-availability/?(|/.+)$		https://vocabs.ardc.edu.au/re
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability.text" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, no headers, Plain Text ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, Turtle headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, JSON headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, Plain Text headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            schema:name "NEII vocabulary neii-data-availability concept entry, Turtle headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, XML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, no headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            schema:name "NEII vocabulary neii-data-availability concept entry, JSON headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, JSON headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-data-availability" ;
             schema:name "NEII vocabulary neii-data-availability, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, RDF headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            schema:name "NEII vocabulary neii-data-availability concept entry, HTML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
             schema:name "NEII vocabulary neii-data-availability concept entry, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online.json" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
             schema:name "NEII vocabulary neii-data-availability concept entry, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
             schema:name "NEII vocabulary neii-data-availability concept entry, no headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, HTML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, RDF headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, no headers, JSON ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            schema:name "NEII vocabulary neii-data-availability concept entry, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, HTML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
+            pid:headers "'Accept': 'text/plain'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
             schema:name "NEII vocabulary neii-data-availability concept entry, Plain Text headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            schema:name "NEII vocabulary neii-data-availability concept entry, RDF headers, no ext" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            schema:name "NEII vocabulary neii-data-availability concept entry, HTML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, Turtle headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
+            pid:headers "'Accept': 'application/xml'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-data-availability" ;
             schema:name "NEII vocabulary neii-data-availability, XML headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability" ;
-            schema:name "NEII vocabulary neii-data-availability, Plain Text headers, no ext, no slash" ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, HTML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            schema:name "NEII vocabulary neii-data-availability concept entry, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            schema:name "NEII vocabulary neii-data-availability concept entry, XML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online.rdf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
             schema:name "NEII vocabulary neii-data-availability concept entry, no headers, RDF ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online.html" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
             schema:name "NEII vocabulary neii-data-availability concept entry, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
             schema:name "NEII vocabulary neii-data-availability concept entry, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability.html" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability" ;
             schema:name "NEII vocabulary neii-data-availability, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, Turtle headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, Plain Text headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, RDF headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, XML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, JSON headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, Plain Text headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, HTML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, RDF headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability.text" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, no headers, Plain Text ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, Turtle headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, no headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
-            schema:name "NEII vocabulary neii-data-availability concept entry, XML headers, no ext" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            schema:name "NEII vocabulary neii-data-availability concept entry, Turtle headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            schema:name "NEII vocabulary neii-data-availability concept entry, JSON headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-data-availability/available-online" ;
+            schema:name "NEII vocabulary neii-data-availability concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-data-availability/" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-data-availability/version-3-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-data-availability" ;
+            schema:name "NEII vocabulary neii-data-availability, JSON headers, no ext, remove final slash" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

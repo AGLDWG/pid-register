@@ -12,6 +12,21 @@ RewriteRule ^/def/nsl$                                  https://kurrawong.github
 
 RewriteRule ^/def/nsl/validator$                        https://kurrawong.github.io/nsl-model/validator.ttl [R=302,L]
 RewriteRule ^/def/nsl/context.json$                     https://kurrawong.github.io/nsl-model/context.json [R=302,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/nsl" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://kurrawong.github.io/nsl-model/profile.ttl" ;
+            schema:name "nsl RDF (Turtle)" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/nsl" ;
+            pid:headers "" ;
+            pid:to "https://kurrawong.github.io/nsl-model/spec.html" ;
+            schema:name "nsl HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/endymion.cooper> ;
     schema:dateCreated "2024-01-13"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

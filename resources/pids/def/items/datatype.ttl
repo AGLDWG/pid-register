@@ -12,31 +12,31 @@ RewriteRule ^/def/datatype(.*)$                         https://raw.githack.com/
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/datatype.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl" ;
-            schema:name "Datatype Ontology, RDF (turtle) via file ext." ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/datatype" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl" ;
-            schema:name "Datatype Ontology, RDF (turtle) via conneg" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/datatype?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl" ;
             schema:name "Datatype Ontology, RDF (turtle) via QSA" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/datatype" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/datatype-ont/master/html/datatype.html" ;
             schema:name "Datatype Ontology, HTML" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/datatype.ttl" ;
+            pid:headers "" ;
+            pid:to "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl" ;
+            schema:name "Datatype Ontology, RDF (turtle) via file ext." ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/datatype" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl" ;
+            schema:name "Datatype Ontology, RDF (turtle) via conneg" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/simon.cox> ;
     schema:dateCreated "2019-06-11"^^xsd:date ;

@@ -13,14 +13,14 @@ RewriteRule ^/def/dmirs-offices($|/.*) "https://vocabulary.gswa.kurrawong.ai/obj
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/dmirs-offices" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/dmirs-offices&_mediatype=text/turtle" ;
             schema:name "dmirs-offices RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/dmirs-offices" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/dmirs-offices" ;
             schema:name "dmirs-offices HTML" ;
         ] ;

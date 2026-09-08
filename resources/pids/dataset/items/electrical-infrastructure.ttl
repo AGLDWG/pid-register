@@ -45,6 +45,21 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*)$     https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*).ttl$ https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL/items/$1?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/electrical-infrastructure/transmission-lines/(.*)$     https://linked.fsdf.org.au/dataset/electrical-infrastructure/collections/TL/items/$1 [R=302,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/electrical-infrastructure" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://linked.fsdf.org.au/dataset/electrical-infrastructure?_profile=dcat&_mediatype=text/turtle" ;
+            schema:name "electrical-infrastructure RDF (Turtle)" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/electrical-infrastructure" ;
+            pid:headers "" ;
+            pid:to "https://linked.fsdf.org.au/dataset/electrical-infrastructure" ;
+            schema:name "electrical-infrastructure HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/irina.bastrakova> ;
     schema:dateCreated "2022"^^xsd:gYear ;
     schema:dateIssued "2022"^^xsd:gYear ;

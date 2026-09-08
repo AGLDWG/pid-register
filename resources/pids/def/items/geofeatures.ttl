@@ -74,15 +74,15 @@ RewriteRule ^/def/geofeatures(.*)$                      https://raw.githack.com/
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geofeatures" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures&_mediatype=text/turtle" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.ttl" ;
             schema:name "geofeatures RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/geofeatures" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures" ;
+            pid:headers "" ;
+            pid:to "https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html" ;
             schema:name "geofeatures HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/derek.hoy> ;

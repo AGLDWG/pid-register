@@ -47,30 +47,30 @@ RewriteRule ^/def/asgs/id(.*)$                          https://raw.githack.com/
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/asgs.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl" ;
             schema:name "ASGS Ontology, RDF (turtle) via file ext." ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/asgs" ;
-            pid:headers "{}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl" ;
+            schema:name "ASGS Ontology, RDF (turtle) via conneg" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/asgs" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.html" ;
             schema:name "ASGS Ontology, HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/asgs?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl" ;
             schema:name "ASGS Ontology, RDF (turtle) via QSA" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/asgs" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl" ;
-            schema:name "ASGS Ontology, RDF (turtle) via conneg" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/laurent.lefort> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;

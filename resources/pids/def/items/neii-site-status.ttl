@@ -39,234 +39,234 @@ RewriteRule ^/def/neii-site-status/?(|/.+)$		https://vocabs.ardc.edu.au/reposito
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, JSON headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, Turtle headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active.xml" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, no headers, XML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, RDF headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active.text" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, no headers, Plain Text ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, Plain Text headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, no headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, JSON headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, Plain Text headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, Turtle headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, JSON headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status.text" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, no headers, Plain Text ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, Turtle headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
+            pid:headers "'Accept': 'application/xml'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status" ;
             schema:name "NEII vocabulary neii-site-status, XML headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, HTML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
-            schema:name "NEII vocabulary neii-site-status concept entry, XML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status" ;
             schema:name "NEII vocabulary neii-site-status, RDF headers, no ext, remove final slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, JSON headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status" ;
             schema:name "NEII vocabulary neii-site-status, RDF headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, Turtle headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status.text" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, no headers, Plain Text ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, XML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, Turtle headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, XML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, Plain Text headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, no headers, HTML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, HTML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status.xml" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status" ;
             schema:name "NEII vocabulary neii-site-status, no headers, XML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status" ;
-            pid:headers "{'Accept': 'text/html'}" ;
+            pid:headers "'Accept': 'text/html'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status" ;
             schema:name "NEII vocabulary neii-site-status, HTML headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, XML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, Plain Text headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
             schema:name "NEII vocabulary neii-site-status concept entry, no headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status/active.json" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
             schema:name "NEII vocabulary neii-site-status concept entry, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
-            pid:headers "{'Accept': 'text/html'}" ;
+            pid:headers "'Accept': 'text/html'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
             schema:name "NEII vocabulary neii-site-status concept entry, HTML headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/neii-site-status.json" ;
-            pid:headers "{}" ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status" ;
-            schema:name "NEII vocabulary neii-site-status, no headers, JSON ext" ;
+            schema:name "NEII vocabulary neii-site-status, JSON headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, Plain Text headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, Turtle headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active.xml" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, no headers, XML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active.text" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, no headers, Plain Text ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, Plain Text headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/neii-site-status" ;
+            schema:name "NEII vocabulary neii-site-status, no headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, no headers, HTML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/neii-site-status/active" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/neii-site-status/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/neii-site-status/active" ;
+            schema:name "NEII vocabulary neii-site-status concept entry, JSON headers, no ext" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

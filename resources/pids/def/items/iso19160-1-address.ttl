@@ -14,30 +14,30 @@ RewriteRule ^/def/iso19160-1-address(.*)$                 https://raw.githack.co
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/iso19160-1-address.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl" ;
             schema:name "ISO19160 Ontology, RDF (turtle) via file ext." ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/iso19160-1-address" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl" ;
+            schema:name "ISO19160 Ontology, RDF (turtle) via conneg" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/iso19160-1-address?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl" ;
             schema:name "ISO19160 Ontology, RDF (turtle) via QSA" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/iso19160-1-address" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html" ;
             schema:name "ISO19160 Ontology, HTML" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/iso19160-1-address" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl" ;
-            schema:name "ISO19160 Ontology, RDF (turtle) via conneg" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;

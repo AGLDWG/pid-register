@@ -8,6 +8,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/addrmb16				  https://raw.githack.com/CSIRO-enviro-informatics/addrmb16-linkset/master/header.ttl [L,R=302]
 RewriteRule ^/dataset/addrmb16				  https://github.com/CSIRO-enviro-informatics/addrmb16-linkset [L,R=302]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/addrmb16" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://raw.githack.com/CSIRO-enviro-informatics/addrmb16-linkset/master/header.ttl" ;
+            schema:name "addrmb16 RDF (Turtle)" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/addrmb16" ;
+            pid:headers "" ;
+            pid:to "https://github.com/CSIRO-enviro-informatics/addrmb16-linkset" ;
+            schema:name "addrmb16 HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/paul.j.box> ;
     schema:dateCreated "2021-04-15"^^xsd:date ;
     schema:dateModified "2026-09-07"^^xsd:date ;

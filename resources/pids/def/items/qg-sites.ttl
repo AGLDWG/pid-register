@@ -13,16 +13,16 @@ RewriteRule ^/def/qg-sites($|/.*)$ "https://vocabs.gsq.digital/object?vocab_id=q
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qg-sites" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites" ;
-            schema:name "qg-sites HTML" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites&_mediatype=text/turtle" ;
+            schema:name "qg-sites RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qg-sites" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites&_mediatype=text/turtle" ;
-            schema:name "qg-sites RDF" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites" ;
+            schema:name "qg-sites HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ScottLutwycheDES> ;
     schema:dateCreated "2021-01-27"^^xsd:date ;

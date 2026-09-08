@@ -1,0 +1,42 @@
+version: "3"
+
+vars:
+  SOURCE_TYPE: '{{default "local" .SOURCE_TYPE}}'
+  SOURCE: '{{default "resources/pids" .SOURCE}}'
+  SPARQL_USERNAME: '{{default "" .SPARQL_USERNAME}}'
+  SPARQL_PASSWORD: '{{default "" .SPARQL_PASSWORD}}'
+
+tasks:
+  build-redirects:
+    desc: Build sponsor-specific Apache configurations from local RDF or an authenticated SPARQL endpoint
+    silent: true
+    env:
+      SPARQL_USERNAME: "{{.SPARQL_USERNAME}}"
+      SPARQL_PASSWORD: "{{.SPARQL_PASSWORD}}"
+    cmds:
+      - >-
+        uv run python scripts/build_redirects.py
+        --source-type {{.SOURCE_TYPE | shellQuote}}
+        --source {{.SOURCE | shellQuote}}
+
+  test-redirects:
+    desc: Build and test every RDF redirect test against a minimal Apache Docker container
+    deps: [build-redirects]
+    env:
+      SOURCE_TYPE: "{{.SOURCE_TYPE}}"
+      SOURCE: "{{.SOURCE}}"
+      SPARQL_USERNAME: "{{.SPARQL_USERNAME}}"
+      SPARQL_PASSWORD: "{{.SPARQL_PASSWORD}}"
+    cmd: uv run pytest -v scripts/test_redirects.py
+
+  test-one:
+    desc: Build redirects and test one PID identified by its RDF file path or PID instance IRI
+    deps: [build-redirects]
+    requires:
+      vars: [PID]
+    env:
+      SOURCE_TYPE: "{{.SOURCE_TYPE}}"
+      SOURCE: "{{.SOURCE}}"
+      SPARQL_USERNAME: "{{.SPARQL_USERNAME}}"
+      SPARQL_PASSWORD: "{{.SPARQL_PASSWORD}}"
+    cmd: uv run pytest -v scripts/test_redirects.py --pid {{.PID | shellQuote}}

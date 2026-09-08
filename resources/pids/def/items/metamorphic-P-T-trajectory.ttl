@@ -13,14 +13,14 @@ RewriteRule ^/def/metamorphic-P-T-trajectory($|/.*) "https://vocabulary.gswa.kur
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/metamorphic-P-T-trajectory" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-P-T-trajectory&_mediatype=text/turtle" ;
             schema:name "metamorphic-P-T-trajectory RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/metamorphic-P-T-trajectory" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-P-T-trajectory" ;
             schema:name "Metamorphic P-T Trajectory vocab HTML" ;
         ] ;

@@ -21,6 +21,21 @@ RewriteCond %{HTTP:Accept} text/turtle [NC]
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*)$                    https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*).ttl$                https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2?_profile=geo&mediatype=text/turtle [R=302,L]
 RewriteRule ^/dataset/sandgate/(catchments|facilities|floods|roads)/(.*)$                    https://linked.fsdf.org.au/dataset/sandgate/collections/$1/items/$2 [R=302,L]"""^^pid:apacheRedirectRules ;
+    pid:redirectTest
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/sandgate" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://linked.fsdf.org.au/dataset/sandgate?_profile=dcat&_mediatype=text/turtle" ;
+            schema:name "sandgate RDF (Turtle)" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/dataset/sandgate" ;
+            pid:headers "" ;
+            pid:to "https://linked.fsdf.org.au/dataset/sandgate" ;
+            schema:name "sandgate HTML" ;
+        ] ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2022"^^xsd:gYear ;
     schema:dateIssued "2022"^^xsd:gYear ;

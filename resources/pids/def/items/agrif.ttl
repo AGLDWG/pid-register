@@ -12,31 +12,31 @@ RewriteRule ^/def/agrif(.*)$                            https://raw.githack.com/
     pid:redirectTest
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/agrif?_mediatype=text/turtle" ;
+            pid:headers "" ;
+            pid:to "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl" ;
+            schema:name "AGRIF Ontology, RDF (turtle) via QSA" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/agrif.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl" ;
             schema:name "AGRIF Ontology, RDF (turtle) via file ext." ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/agrif" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl" ;
             schema:name "AGRIF Ontology, HTRDF (turtle) via conneg" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/agrif" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://raw.githack.com/agldwg/agrif-ont/master/agrif.html" ;
             schema:name "AGRIF Ontology, HTML" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/agrif?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
-            pid:to "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl" ;
-            schema:name "AGRIF Ontology, RDF (turtle) via QSA" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/john.machin> ;
     schema:dateCreated "2019-08-13"^^xsd:date ;

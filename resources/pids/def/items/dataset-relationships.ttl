@@ -12,14 +12,14 @@ RewriteRule ^/def/dataset-relationships($|/.*)$ "https://vocabs.gsq.digital/obje
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/dataset-relationships" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/dataset-relationships&_mediatype=text/turtle" ;
             schema:name "dataset-relationships RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/dataset-relationships" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/dataset-relationships" ;
             schema:name "dataset-relationships HTML" ;
         ] ;

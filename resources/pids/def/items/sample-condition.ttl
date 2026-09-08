@@ -13,23 +13,23 @@ RewriteRule ^/def/sample-condition($|/.*) "https://vocabulary.gswa.kurrawong.ai/
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/sample-condition" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition" ;
             schema:name "sample-condition HTML" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/sample-condition/fair" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition/fair" ;
-            schema:name "sample-condition Concept HTML" ;
+            pid:from "https://linked.data.gov.au/def/sample-condition" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition&_mediatype=text/turtle" ;
+            schema:name "sample-condition RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/sample-condition" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition&_mediatype=text/turtle" ;
-            schema:name "sample-condition RDF" ;
+            pid:from "https://linked.data.gov.au/def/sample-condition/fair" ;
+            pid:headers "" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition/fair" ;
+            schema:name "sample-condition Concept HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2024-12-10"^^xsd:date ;

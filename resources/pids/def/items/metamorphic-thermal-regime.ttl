@@ -13,14 +13,14 @@ RewriteRule ^/def/metamorphic-thermal-regime($|/.*) "https://vocabulary.gswa.kur
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/metamorphic-thermal-regime" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime&_mediatype=text/turtle" ;
             schema:name "metamorphic-thermal-regime RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/metamorphic-thermal-regime" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime" ;
             schema:name "Metamorphic Thermal Regime vocab HTML" ;
         ] ;

@@ -39,234 +39,234 @@ RewriteRule ^/def/water-market-reports/?(|/.+)$		https://vocabs.ardc.edu.au/repo
     pid:redirectTest
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, no headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, Plain Text headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, HTML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, HTML headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, Plain Text headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, Turtle headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, Turtle headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, JSON headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, Turtle headers, no ext, no slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, XML headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports.ttl" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, no headers, Turtle ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.text" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, no headers, Plain Text ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, XML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, RDF headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
             schema:name "NEII vocabulary water-market-reports concept entry, no headers, Turtle ext" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, no headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            pid:headers "{'Accept': 'text/html'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, HTML headers, no ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.rdf" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, no headers, RDF ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports" ;
-            pid:headers "{'Accept': 'text/plain'}" ;
+            pid:headers "'Accept': 'text/plain'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports" ;
             schema:name "NEII vocabulary water-market-reports, Plain Text headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
-            pid:headers "{'Accept': 'application/json'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, JSON headers, no ext, remove final slash" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.xml" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, no headers, XML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.html" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, no headers, HTML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports.xml" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, no headers, XML ext" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports.json" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, no headers, JSON ext" ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, no headers, no ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports" ;
-            pid:headers "{'Accept': 'application/xml'}" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, RDF headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports" ;
+            pid:headers "'Accept': 'application/xml'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports" ;
             schema:name "NEII vocabulary water-market-reports, XML headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/water-market-reports" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, no headers, no ext, no slash" ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.rdf" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, no headers, RDF ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, JSON headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, HTML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.xml" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, no headers, XML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, RDF headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, no headers, HTML ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports" ;
-            pid:headers "{'Accept': 'application/json'}" ;
+            pid:headers "'Accept': 'application/json'" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports" ;
             schema:name "NEII vocabulary water-market-reports, JSON headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports" ;
-            schema:name "NEII vocabulary water-market-reports, RDF headers, no ext, no slash" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, no headers, no ext, no slash" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports.text" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports" ;
             schema:name "NEII vocabulary water-market-reports, no headers, Plain Text ext" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.json" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
             schema:name "NEII vocabulary water-market-reports concept entry, no headers, JSON ext" ;
         ] ,
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
+            pid:headers "'Accept': 'application/rdf+xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, RDF headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            pid:headers "{'Accept': 'application/rdf+xml'}" ;
-            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.rdf?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
-            schema:name "NEII vocabulary water-market-reports concept entry, RDF headers, no ext" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, XML headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, Plain Text headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
+            pid:headers "'Accept': 'text/plain'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, Plain Text headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, no headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
+            pid:headers "'Accept': 'application/xml'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, XML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports.xml" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.xml?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, no headers, XML ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports.json" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, no headers, JSON ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, HTML headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports" ;
+            pid:headers "'Accept': 'text/html'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, HTML headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            pid:headers "'Accept': 'application/json'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.json?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, JSON headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, Turtle headers, no ext, remove final slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, Turtle headers, no ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, Turtle headers, no ext, no slash" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports.ttl" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.ttl?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, no headers, Turtle ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports/IIO.text" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.text?uri=https://linked.data.gov.au/def/water-market-reports/IIO" ;
+            schema:name "NEII vocabulary water-market-reports concept entry, no headers, Plain Text ext" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/water-market-reports.html" ;
+            pid:headers "" ;
+            pid:to "https://vocabs.ardc.edu.au/repository/api/lda/neii/water-market-reports-glossary/version-2-0-agldwg-pid/resource.html?uri=https://linked.data.gov.au/def/water-market-reports" ;
+            schema:name "NEII vocabulary water-market-reports, no headers, HTML ext" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/ashley.sommer> ;
     schema:dateCreated "2024-04-18"^^xsd:date ;

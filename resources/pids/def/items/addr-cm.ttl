@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/addr-cm" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://icsm-au.github.io/addr-creation-maintenance/doc.html" ;
             schema:name "Address Creation & Maintenance Specification HTML" ;
         ] ;

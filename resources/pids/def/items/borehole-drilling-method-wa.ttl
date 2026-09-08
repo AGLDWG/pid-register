@@ -13,14 +13,14 @@ RewriteRule ^/def/borehole-drilling-method-wa($|/.*) "https://vocabulary.gswa.ku
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/borehole-drilling-method-wa" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-wa&_mediatype=text/turtle" ;
             schema:name "borehole-drilling-method-wa RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/borehole-drilling-method-wa" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-wa" ;
             schema:name "borehole-drilling-method-wa HTML" ;
         ] ;

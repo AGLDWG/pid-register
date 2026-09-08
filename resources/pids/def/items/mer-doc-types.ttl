@@ -12,16 +12,16 @@ RewriteRule ^/def/mer-doc-types($|/.*)$ "https://vocabularies.sarig.sa.gov.au/ob
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-doc-types" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-doc-types" ;
-            schema:name "mer-doc-types HTML" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-doc-types&_mediatype=text/turtle" ;
+            schema:name "mer-doc-types RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/mer-doc-types" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-doc-types&_mediatype=text/turtle" ;
-            schema:name "mer-doc-types RDF" ;
+            pid:headers "" ;
+            pid:to "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-doc-types" ;
+            schema:name "mer-doc-types HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/alex.zou> ;
     schema:dateCreated "2024-09-10"^^xsd:date ;

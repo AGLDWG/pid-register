@@ -12,14 +12,14 @@ RewriteRule ^/def/qesd-qkd($|/.*)$ "https://vocabs.gsq.digital/object?uri=https:
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qesd-qkd" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qesd-qkd&_mediatype=text/turtle" ;
             schema:name "qesd-qkd RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/qesd-qkd" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qesd-qkd" ;
             schema:name "qesd-qkd HTML" ;
         ] ;

@@ -13,16 +13,16 @@ RewriteRule ^/def/wa-mineral-fields-and-districts($|/.*) "https://vocabulary.gsw
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/wa-mineral-fields-and-districts" ;
-            pid:headers "{}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts" ;
-            schema:name "wa-mineral-fields-and-districts HTML" ;
+            pid:headers "'Accept': 'text/turtle'" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts&_mediatype=text/turtle" ;
+            schema:name "wa-mineral-fields-and-districts RDF" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/wa-mineral-fields-and-districts" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
-            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts&_mediatype=text/turtle" ;
-            schema:name "wa-mineral-fields-and-districts RDF" ;
+            pid:headers "" ;
+            pid:to "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts" ;
+            schema:name "wa-mineral-fields-and-districts HTML" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/chee.ng> ;
     schema:dateCreated "2023-09-21"^^xsd:date ;

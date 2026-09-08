@@ -12,31 +12,31 @@ RewriteRule ^/def/gnaf(.*)$                             https://agldwg.github.io
     pid:redirectTest
         [
             a pid:RedirectTest ;
+            pid:from "https://linked.data.gov.au/def/gnaf?_mediatype=text/turtle" ;
+            pid:headers "" ;
+            pid:to "https://agldwg.github.io/gnaf-ont/gnaf.ttl" ;
+            schema:name "G-NAF Ontology, RDF (turtle) via QSA" ;
+        ] ,
+        [
+            a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gnaf.ttl" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://agldwg.github.io/gnaf-ont/gnaf.ttl" ;
             schema:name "G-NAF Ontology, RDF (turtle) via file ext." ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gnaf" ;
-            pid:headers "{'Accept': 'text/turtle'}" ;
+            pid:headers "'Accept': 'text/turtle'" ;
             pid:to "https://agldwg.github.io/gnaf-ont/gnaf.ttl" ;
             schema:name "G-NAF Ontology, RDF (turtle) via conneg" ;
         ] ,
         [
             a pid:RedirectTest ;
             pid:from "https://linked.data.gov.au/def/gnaf" ;
-            pid:headers "{}" ;
+            pid:headers "" ;
             pid:to "https://agldwg.github.io/gnaf-ont/gnaf.html" ;
             schema:name "G-NAF Ontology" ;
-        ] ,
-        [
-            a pid:RedirectTest ;
-            pid:from "https://linked.data.gov.au/def/gnaf?_mediatype=text/turtle" ;
-            pid:headers "{}" ;
-            pid:to "https://agldwg.github.io/gnaf-ont/gnaf.ttl" ;
-            schema:name "G-NAF Ontology, RDF (turtle) via QSA" ;
         ] ;
     schema:creator <https://linked.data.gov.au/person/nicholas.car> ;
     schema:dateCreated "2019-04-15"^^xsd:date ;
