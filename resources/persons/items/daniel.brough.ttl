@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:daniel.brough
+    a schema:Person ;
+    schema:name "Daniel Brough" ;
+    schema:email "daniel.brough@gov.au" ;
+.

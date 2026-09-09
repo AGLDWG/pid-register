@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:david.crosswell
+    a schema:Person ;
+    schema:name "David Crosswell" ;
+    schema:email "david.crosswell@gov.au" ;
+.

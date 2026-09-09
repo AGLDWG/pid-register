@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:cjorquera
+    a schema:Person ;
+    schema:name "Cjorquera" ;
+    schema:email "cjorquera@gov.au" ;
+.

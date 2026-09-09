@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:john.machin
+    a schema:Person ;
+    schema:name "John Machin" ;
+    schema:email "john.machin@gov.au" ;
+.

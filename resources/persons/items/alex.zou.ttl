@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:alex.zou
+    a schema:Person ;
+    schema:name "Alex Zou" ;
+    schema:email "alex.zou@gov.au" ;
+.

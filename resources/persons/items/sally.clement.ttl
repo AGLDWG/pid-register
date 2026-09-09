@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:sally.clement
+    a schema:Person ;
+    schema:name "Sally Clement" ;
+    schema:email "sally.clement@gov.au" ;
+.

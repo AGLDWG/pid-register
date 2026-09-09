@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:endymion.cooper
+    a schema:Person ;
+    schema:name "Endymion Cooper" ;
+    schema:email "endymion.cooper@gov.au" ;
+.

@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:irina.bastrakova
+    a schema:Person ;
+    schema:name "Irina Bastrakova" ;
+    schema:email "irina.bastrakova@gov.au" ;
+.

@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:tatiana.antsoupova
+    a schema:Person ;
+    schema:name "Tatiana Antsoupova" ;
+    schema:email "tatiana.antsoupova@gov.au" ;
+.

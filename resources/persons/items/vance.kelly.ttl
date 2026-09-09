@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:vance.kelly
+    a schema:Person ;
+    schema:name "Vance Kelly" ;
+    schema:email "vance.kelly@gov.au" ;
+.

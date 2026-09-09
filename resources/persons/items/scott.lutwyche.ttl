@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:scott.lutwyche
+    a schema:Person ;
+    schema:name "Scott Lutwyche" ;
+    schema:email "scott.lutwyche@gov.au" ;
+.

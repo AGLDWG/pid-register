@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:anne.goldsack
+    a schema:Person ;
+    schema:name "Anne Goldsack" ;
+    schema:email "anne.goldsack@gov.au" ;
+.

@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:chee.ng
+    a schema:Person ;
+    schema:name "Chee Ng" ;
+    schema:email "chee.ng@gov.au" ;
+.

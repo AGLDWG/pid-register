@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:william.francis
+    a schema:Person ;
+    schema:name "William Francis" ;
+    schema:email "william.francis@gov.au" ;
+.

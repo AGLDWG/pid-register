@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:derek.hoy
+    a schema:Person ;
+    schema:name "Derek Hoy" ;
+    schema:email "derek.hoy@gov.au" ;
+.

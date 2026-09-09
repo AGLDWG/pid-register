@@ -1,0 +1,8 @@
+PREFIX pers: <https://linked.data.gov.au/person/>
+PREFIX schema: <https://schema.org/>
+
+pers:garry.thomson
+    a schema:Person ;
+    schema:name "Garry Thomson" ;
+    schema:email "garry.thomson@gov.au" ;
+.
